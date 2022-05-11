@@ -13,6 +13,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 from pathlib import Path
 from decouple import config
 from django import conf
+import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -55,10 +56,13 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'Ledingo_challenge.urls'
 
+TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
+print(TEMPLATES_DIR)
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [TEMPLATES_DIR,],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -95,6 +99,10 @@ DATABASES = {
     }
 }
 
+# REDIS CONFIG
+REDIS_HOST = 'localhost'
+REDIS_PORT = 6379
+
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
 
@@ -113,6 +121,14 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+
+# Celery Broker - Redis  
+CELERY_BROKER_URL = 'redis://localhost:6379'  
+CELERY_RESULT_BACKEND = 'redis://localhost:6379'  
+CELERY_ACCEPT_CONTENT = ['application/json']  
+CELERY_TASK_SERIALIZER = 'json'  
+CELERY_RESULT_SERIALIZER = 'json'  
+CELERY_TIMEZONE = "Africa/Nairobi"
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lendigo Challenge - Search</title>
+    </head>
+    <body>
+        <form method="GET" action = "{% url 'search-items' %}">
+
+            {% csrf_token %}
+            <center>
+                <input type="search">
+                <button type="submit">Search</button>
+            </center>
+        </form>
+        {% block content %}
+
+        {% endblock %}
+    </body>
+</html>
