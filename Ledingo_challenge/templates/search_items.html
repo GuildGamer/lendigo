@@ -1,9 +1,36 @@
 {% extends './base.html' %}
 
 {% block content %}
-<center>
-    <h1>
-        Search results...
-    </h1>
-</center>
+
+    {% if searched %}
+    <center>
+        <h3>
+            Search results...
+        </h3>
+    </center>
+        <br/>
+        {% for item in items %}
+        <div style="text-align: center;
+        background-color: #e6f7ee;
+        box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        border-radius: 5px;
+        margin: 20px;
+        padding: 15px 15px;
+        color: #2d3092;"   
+        >
+        ID: {{item.id}}<br/>
+        TYPE: {{item.type}}<br/>
+        PARENTS: {% for parent in item.parents %}parent<br/>{% endfor %}
+
+        <br/>
+        </div>
+        {% endfor %}
+
+    {% else %}
+    <center>
+        <h3>Hey! You forgot to search for an item...</h3>
+    </center>
+    {% endif %}
+
 {% endblock %}

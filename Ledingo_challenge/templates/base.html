@@ -4,16 +4,24 @@
         <title>Lendigo Challenge - Search</title>
     </head>
     <body>
-        <form method="GET" action = "{% url 'search-items' %}">
+        <form method="POST" action = "{% url 'search-items' %}">
 
             {% csrf_token %}
             <center>
-                <input type="search">
+                <input type="search" name="searched">
                 <button type="submit">Search</button>
             </center>
         </form>
+        <div 
+        style="display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 55%;
+        max-width: 500px;"
+        >
         {% block content %}
 
         {% endblock %}
+        </div>
     </body>
 </html>
