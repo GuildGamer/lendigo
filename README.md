@@ -1,4 +1,4 @@
-__LENDIGO__ 
+__**LENDIGO!**__
 
 **TO START SERVER:**
 chmod a+x start.sh
