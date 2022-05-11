@@ -1,5 +1,9 @@
 __**LENDIGO!**__
 
+*Lendigo backend api for*:
+- retrieving the most recent news using [HackerNews](https://news.ycombinator.com/) API
+
+
 **TO START SERVER:**
 chmod a+x start.sh
 bash start.sh
