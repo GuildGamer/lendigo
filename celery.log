@@ -2163,3 +2163,323 @@ TypeError: unsupported operand type(s) for -: 'int' and 'NoneType'
 [2022-05-11 18:30:15,242: INFO/ForkPoolWorker-7] Task request_item[dd032dda-a839-48af-9770-e2e4cfe62aa8] succeeded in 1.3540815550004481s: None
 [2022-05-11 18:30:15,254: WARNING/ForkPoolWorker-8] {'id': [ErrorDetail(string='item with this id already exists.', code='unique')]}
 [2022-05-11 18:30:15,255: INFO/ForkPoolWorker-8] Task request_item[43d28089-1765-4cee-9ad3-a49612798e04] succeeded in 1.3404195669972978s: None
+[2022-05-11 20:50:10,738: INFO/MainProcess] Connected to redis://localhost:6379//
+[2022-05-11 20:50:10,741: INFO/MainProcess] mingle: searching for neighbors
+[2022-05-11 20:50:11,750: INFO/MainProcess] mingle: all alone
+[2022-05-11 20:50:11,769: WARNING/MainProcess] /home/steven/Ledingo_challenge/lvenv/lib/python3.10/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2022-05-11 20:50:11,769: INFO/MainProcess] celery@steven-Latitude-E6430 ready.
+[2022-05-11 20:50:11,817: INFO/MainProcess] Task update[2f686b30-1845-43c1-9646-2a988fe0975e] received
+[2022-05-11 20:50:11,819: WARNING/ForkPoolWorker-7] INITIAL 100
+[2022-05-11 20:50:13,556: WARNING/ForkPoolWorker-7] 31345590
+[2022-05-11 20:50:13,567: INFO/MainProcess] Task request_item[1416473b-3cf8-478c-91f2-9e7a3408a269] received
+[2022-05-11 20:50:13,569: INFO/MainProcess] Task request_item[ef4a502a-94df-4c92-9b1f-b4394259bbb9] received
+[2022-05-11 20:50:13,570: INFO/MainProcess] Task request_item[5ef964e5-76f2-4a0a-a7c2-c154a1ac3ec9] received
+[2022-05-11 20:50:13,573: INFO/MainProcess] Task request_item[b20a43de-f5c9-4153-963a-af55bb31210c] received
+[2022-05-11 20:50:13,575: INFO/MainProcess] Task request_item[1de0a77a-cc5f-4131-9355-9d150cc2fa44] received
+[2022-05-11 20:50:13,578: INFO/MainProcess] Task request_item[e62664e3-bd1d-4d04-9302-46550afa3273] received
+[2022-05-11 20:50:13,579: INFO/MainProcess] Task request_item[5a426f9a-f481-47d6-87e5-b178a83211e0] received
+[2022-05-11 20:50:13,581: INFO/MainProcess] Task request_item[e73c150d-d163-4f56-898e-7bd1f4f7f34c] received
+[2022-05-11 20:50:13,582: INFO/MainProcess] Task request_item[c847015e-b258-47c0-ba9b-12eb4eafb663] received
+[2022-05-11 20:50:13,585: INFO/MainProcess] Task request_item[81946ead-e6e6-463e-99fd-d00716edcd23] received
+[2022-05-11 20:50:13,586: INFO/MainProcess] Task request_item[70015e51-fab8-4b4d-ae43-7c1e7121ba4d] received
+[2022-05-11 20:50:13,588: INFO/MainProcess] Task request_item[1f7e7588-6300-4da6-9aec-0453666efd92] received
+[2022-05-11 20:50:13,588: INFO/MainProcess] Task request_item[7a5216c6-e41e-4de1-a4ce-3b2dbd10c08b] received
+[2022-05-11 20:50:13,589: INFO/MainProcess] Task request_item[b8454314-7df4-45d0-9058-fab9b05d88ec] received
+[2022-05-11 20:50:13,590: INFO/MainProcess] Task request_item[ff391dc2-a5fd-4ecf-940e-2b1c61130718] received
+[2022-05-11 20:50:13,591: INFO/MainProcess] Task request_item[4b9efb33-70d3-467c-bf49-2047adfbb92c] received
+[2022-05-11 20:50:13,592: INFO/MainProcess] Task request_item[bfedb4c3-372c-40fa-b7f5-f1d8943662ae] received
+[2022-05-11 20:50:13,593: INFO/MainProcess] Task request_item[6ff340da-943a-464a-96e5-e90c242322ba] received
+[2022-05-11 20:50:13,594: INFO/MainProcess] Task request_item[2adfd408-cacb-493d-8b96-d9a4411d032f] received
+[2022-05-11 20:50:13,595: INFO/MainProcess] Task request_item[e07ba6ed-acd2-479d-94f6-5b557547566f] received
+[2022-05-11 20:50:13,595: INFO/MainProcess] Task request_item[45141d51-4eea-475b-9e68-424e6301a718] received
+[2022-05-11 20:50:13,596: INFO/MainProcess] Task request_item[0f034eb5-4cae-4aa3-99f0-ea653a72c2ea] received
+[2022-05-11 20:50:13,597: INFO/MainProcess] Task request_item[5be47045-c7b8-4f95-886c-9b2d9f7709f6] received
+[2022-05-11 20:50:13,598: INFO/MainProcess] Task request_item[0ac60d23-c642-466a-b905-eba94c17339c] received
+[2022-05-11 20:50:13,599: INFO/MainProcess] Task request_item[a33ff4e0-ed14-4e8a-ab47-ff8f06663d71] received
+[2022-05-11 20:50:13,599: INFO/MainProcess] Task request_item[aed990b5-7a92-4cfc-84bc-dda183553d77] received
+[2022-05-11 20:50:13,600: INFO/MainProcess] Task request_item[2c431f07-69a3-491a-aaac-7515946a5e7e] received
+[2022-05-11 20:50:13,601: INFO/MainProcess] Task request_item[ec397a1e-00ac-442f-a1ca-1ee9ed7375d0] received
+[2022-05-11 20:50:13,602: INFO/MainProcess] Task request_item[f4470e51-09fa-4bff-b8c4-891e603f7973] received
+[2022-05-11 20:50:13,603: INFO/MainProcess] Task request_item[00f729b8-bf16-487d-9111-0e6109d9ab0f] received
+[2022-05-11 20:50:13,603: INFO/MainProcess] Task request_item[25669324-a902-47c5-990e-09d61f38237f] received
+[2022-05-11 20:50:13,604: INFO/MainProcess] Task request_item[f0cc11bc-d1ab-49a2-bc51-454fee01863c] received
+[2022-05-11 20:50:13,605: INFO/MainProcess] Task request_item[04d393be-2b1e-4112-ad5d-607e8045f07d] received
+[2022-05-11 20:50:13,606: INFO/MainProcess] Task request_item[f9a56794-5735-4bc1-9afd-b3ef864a93ba] received
+[2022-05-11 20:50:13,607: INFO/MainProcess] Task request_item[6e9a53a0-be30-42b8-9b31-ce61fe4f5295] received
+[2022-05-11 20:50:13,608: INFO/MainProcess] Task request_item[6fba5673-1ea7-4aa0-8801-6217c14e6ca9] received
+[2022-05-11 20:50:13,608: INFO/MainProcess] Task request_item[3d4d588f-e8a3-4c21-be34-93ad305979af] received
+[2022-05-11 20:50:13,609: INFO/MainProcess] Task request_item[f21ffec2-0f1b-4088-a4f5-a3602ed7bcd2] received
+[2022-05-11 20:50:13,610: INFO/MainProcess] Task request_item[44301a22-1905-4ec4-b937-c70e5fc71a14] received
+[2022-05-11 20:50:14,452: WARNING/ForkPoolWorker-4] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:14,456: INFO/ForkPoolWorker-4] Task request_item[1de0a77a-cc5f-4131-9355-9d150cc2fa44] succeeded in 0.8772630449966528s: None
+[2022-05-11 20:50:14,491: WARNING/ForkPoolWorker-8] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:14,494: INFO/ForkPoolWorker-8] Task request_item[1416473b-3cf8-478c-91f2-9e7a3408a269] succeeded in 0.9245823370001744s: None
+[2022-05-11 20:50:14,497: INFO/MainProcess] Task request_item[f2aa5b8f-d603-4b38-87d9-6358ac9a5b15] received
+[2022-05-11 20:50:14,551: WARNING/ForkPoolWorker-6] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:14,554: INFO/ForkPoolWorker-6] Task request_item[5a426f9a-f481-47d6-87e5-b178a83211e0] succeeded in 0.9720714389986824s: None
+[2022-05-11 20:50:14,557: INFO/MainProcess] Task request_item[19b9700a-2f31-47bc-bbe5-5277cb5a71da] received
+[2022-05-11 20:50:14,839: WARNING/ForkPoolWorker-2] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:14,842: INFO/ForkPoolWorker-2] Task request_item[5ef964e5-76f2-4a0a-a7c2-c154a1ac3ec9] succeeded in 1.2677764350009966s: None
+[2022-05-11 20:50:14,844: INFO/MainProcess] Task request_item[5e5cb218-1dd5-40ac-aeac-a449fede3f7e] received
+[2022-05-11 20:50:14,908: WARNING/ForkPoolWorker-5] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:14,909: WARNING/ForkPoolWorker-1] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:14,911: INFO/ForkPoolWorker-5] Task request_item[e62664e3-bd1d-4d04-9302-46550afa3273] succeeded in 1.3321703109977534s: None
+[2022-05-11 20:50:14,911: INFO/ForkPoolWorker-1] Task request_item[ef4a502a-94df-4c92-9b1f-b4394259bbb9] succeeded in 1.3418737430038163s: None
+[2022-05-11 20:50:14,911: ERROR/ForkPoolWorker-7] Task update[2f686b30-1845-43c1-9646-2a988fe0975e] raised unexpected: TypeError("unsupported operand type(s) for -: 'int' and 'NoneType'")
+Traceback (most recent call last):
+  File "/home/steven/Ledingo_challenge/lvenv/lib/python3.10/site-packages/celery/app/trace.py", line 451, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/steven/Ledingo_challenge/lvenv/lib/python3.10/site-packages/celery/app/trace.py", line 734, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/steven/Ledingo_challenge/core/tasks.py", line 90, in update
+    number = max_id - current_db_max_id
+TypeError: unsupported operand type(s) for -: 'int' and 'NoneType'
+[2022-05-11 20:50:14,912: INFO/MainProcess] Task request_item[74b9622b-1b0b-4001-86a3-e9ca9ba19a53] received
+[2022-05-11 20:50:14,915: INFO/MainProcess] Task request_item[b7270d9c-22fa-4797-993c-87c29bde83ff] received
+[2022-05-11 20:50:14,967: WARNING/ForkPoolWorker-3] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:14,969: INFO/ForkPoolWorker-3] Task request_item[b20a43de-f5c9-4153-963a-af55bb31210c] succeeded in 1.3952388260004227s: None
+[2022-05-11 20:50:14,971: INFO/MainProcess] Task request_item[abd0f097-30be-4aa3-8ac9-47cb2eba7614] received
+[2022-05-11 20:50:14,972: INFO/MainProcess] Task request_item[f9b7885b-1b7b-44d9-98b4-bd04b711b75f] received
+[2022-05-11 20:50:15,500: WARNING/ForkPoolWorker-6] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:15,501: INFO/ForkPoolWorker-6] Task request_item[81946ead-e6e6-463e-99fd-d00716edcd23] succeeded in 0.9459356700026547s: None
+[2022-05-11 20:50:15,504: INFO/MainProcess] Task request_item[c6764ed5-738d-4e3d-ac50-067c9e625f35] received
+[2022-05-11 20:50:15,760: WARNING/ForkPoolWorker-2] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:15,761: WARNING/ForkPoolWorker-4] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:15,761: INFO/ForkPoolWorker-2] Task request_item[70015e51-fab8-4b4d-ae43-7c1e7121ba4d] succeeded in 0.9162420010034111s: None
+[2022-05-11 20:50:15,762: INFO/ForkPoolWorker-4] Task request_item[e73c150d-d163-4f56-898e-7bd1f4f7f34c] succeeded in 1.3042165790029685s: None
+[2022-05-11 20:50:15,764: INFO/MainProcess] Task request_item[c44af92e-6089-43d8-b97a-7b0bb15b4a2d] received
+[2022-05-11 20:50:15,771: INFO/MainProcess] Task request_item[bdae528b-481f-4707-99f7-e5f3df039003] received
+[2022-05-11 20:50:15,772: INFO/MainProcess] Task request_item[dc3f494f-05e3-4613-b1aa-beac17dfefdc] received
+[2022-05-11 20:50:15,789: WARNING/ForkPoolWorker-8] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:15,790: INFO/ForkPoolWorker-8] Task request_item[c847015e-b258-47c0-ba9b-12eb4eafb663] succeeded in 1.2943426519996137s: None
+[2022-05-11 20:50:15,800: WARNING/ForkPoolWorker-5] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:15,801: INFO/ForkPoolWorker-5] Task request_item[1f7e7588-6300-4da6-9aec-0453666efd92] succeeded in 0.8886675100002321s: None
+[2022-05-11 20:50:15,804: INFO/MainProcess] Task request_item[37d24afc-5bc5-42f4-b9b3-7db920f595b4] received
+[2022-05-11 20:50:16,203: WARNING/ForkPoolWorker-1] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:16,205: INFO/ForkPoolWorker-1] Task request_item[b8454314-7df4-45d0-9058-fab9b05d88ec] succeeded in 1.2908722439970006s: None
+[2022-05-11 20:50:16,209: INFO/MainProcess] Task request_item[b8097799-3b31-4e75-b79a-e679cf90555e] received
+[2022-05-11 20:50:16,213: WARNING/ForkPoolWorker-7] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:16,214: INFO/ForkPoolWorker-7] Task request_item[7a5216c6-e41e-4de1-a4ce-3b2dbd10c08b] succeeded in 1.3000149439976667s: None
+[2022-05-11 20:50:16,216: INFO/MainProcess] Task request_item[1a25a7b6-f5b5-42d3-8885-f5eaa2ec50a6] received
+[2022-05-11 20:50:16,301: WARNING/ForkPoolWorker-3] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:16,302: INFO/ForkPoolWorker-3] Task request_item[ff391dc2-a5fd-4ecf-940e-2b1c61130718] succeeded in 1.330577186003211s: None
+[2022-05-11 20:50:16,304: INFO/MainProcess] Task request_item[f34b4ff1-b711-4dc4-b120-87f6a2a6aeaf] received
+[2022-05-11 20:50:16,695: WARNING/ForkPoolWorker-8] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:16,697: INFO/ForkPoolWorker-8] Task request_item[2adfd408-cacb-493d-8b96-d9a4411d032f] succeeded in 0.9055942269988009s: None
+[2022-05-11 20:50:16,702: INFO/MainProcess] Task request_item[36d419b5-ae6d-4a73-aed6-5c4fec2eabd0] received
+[2022-05-11 20:50:16,766: INFO/MainProcess] Task request_item[e9423171-820a-49b5-b3b8-67ca13af4f30] received
+[2022-05-11 20:50:16,836: WARNING/ForkPoolWorker-6] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:16,838: INFO/ForkPoolWorker-6] Task request_item[4b9efb33-70d3-467c-bf49-2047adfbb92c] succeeded in 1.3345156780051184s: None
+[2022-05-11 20:50:17,051: WARNING/ForkPoolWorker-4] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:17,052: INFO/ForkPoolWorker-4] Task request_item[6ff340da-943a-464a-96e5-e90c242322ba] succeeded in 1.2894262000045273s: None
+[2022-05-11 20:50:17,054: INFO/MainProcess] Task request_item[d8d8c0c7-06b0-4a96-9c6d-2827785a19ec] received
+[2022-05-11 20:50:17,074: WARNING/ForkPoolWorker-5] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:17,075: INFO/ForkPoolWorker-5] Task request_item[e07ba6ed-acd2-479d-94f6-5b557547566f] succeeded in 1.272079563997977s: None
+[2022-05-11 20:50:17,077: INFO/MainProcess] Task request_item[41f53206-8940-4e3b-bd09-fc4b67a159b8] received
+[2022-05-11 20:50:17,092: WARNING/ForkPoolWorker-1] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:17,093: INFO/ForkPoolWorker-1] Task request_item[45141d51-4eea-475b-9e68-424e6301a718] succeeded in 0.8863915389956674s: None
+[2022-05-11 20:50:17,095: INFO/MainProcess] Task request_item[5fd12980-e121-4e02-b8d0-68d94a624069] received
+[2022-05-11 20:50:17,113: WARNING/ForkPoolWorker-7] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:17,114: INFO/ForkPoolWorker-7] Task request_item[0f034eb5-4cae-4aa3-99f0-ea653a72c2ea] succeeded in 0.8985591590026161s: None
+[2022-05-11 20:50:17,116: INFO/MainProcess] Task request_item[ed4b72c8-9fdb-49bd-a588-dfb6308c348b] received
+[2022-05-11 20:50:17,133: WARNING/ForkPoolWorker-2] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:17,134: INFO/ForkPoolWorker-2] Task request_item[bfedb4c3-372c-40fa-b7f5-f1d8943662ae] succeeded in 1.3712344320010743s: None
+[2022-05-11 20:50:17,135: INFO/MainProcess] Task request_item[c6f5ba7b-14fa-48a0-b290-a195f369dedb] received
+[2022-05-11 20:50:17,219: WARNING/ForkPoolWorker-3] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:17,220: INFO/ForkPoolWorker-3] Task request_item[5be47045-c7b8-4f95-886c-9b2d9f7709f6] succeeded in 0.9164806609987863s: None
+[2022-05-11 20:50:17,222: INFO/MainProcess] Task request_item[e3bd71aa-8e63-413e-ad08-27883bfb2e64] received
+[2022-05-11 20:50:17,647: WARNING/ForkPoolWorker-8] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:17,648: INFO/ForkPoolWorker-8] Task request_item[0ac60d23-c642-466a-b905-eba94c17339c] succeeded in 0.9492265270018834s: None
+[2022-05-11 20:50:17,651: INFO/MainProcess] Task request_item[784620e1-f769-4d9e-8637-19d849a45102] received
+[2022-05-11 20:50:17,768: WARNING/ForkPoolWorker-6] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:17,769: INFO/ForkPoolWorker-6] Task request_item[a33ff4e0-ed14-4e8a-ab47-ff8f06663d71] succeeded in 0.9307954070027336s: None
+[2022-05-11 20:50:17,772: INFO/MainProcess] Task request_item[05928c05-3cca-438c-8423-12c3fd360046] received
+[2022-05-11 20:50:18,146: WARNING/ForkPoolWorker-7] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:18,148: INFO/ForkPoolWorker-7] Task request_item[f4470e51-09fa-4bff-b8c4-891e603f7973] succeeded in 1.032439713999338s: None
+[2022-05-11 20:50:18,150: INFO/MainProcess] Task request_item[238bf5bb-4530-4532-bd2e-3773fcf7f52a] received
+[2022-05-11 20:50:18,164: WARNING/ForkPoolWorker-1] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:18,166: INFO/ForkPoolWorker-1] Task request_item[ec397a1e-00ac-442f-a1ca-1ee9ed7375d0] succeeded in 1.0711090180047904s: None
+[2022-05-11 20:50:18,168: INFO/MainProcess] Task request_item[fee915ad-4d3a-4a80-acc8-a15d90616dc0] received
+[2022-05-11 20:50:18,333: WARNING/ForkPoolWorker-5] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:18,334: INFO/ForkPoolWorker-5] Task request_item[2c431f07-69a3-491a-aaac-7515946a5e7e] succeeded in 1.2582713319934555s: None
+[2022-05-11 20:50:18,336: INFO/MainProcess] Task request_item[cf014c26-79c4-4dbe-81be-58f90d715ff3] received
+[2022-05-11 20:50:18,383: WARNING/ForkPoolWorker-4] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:18,384: INFO/ForkPoolWorker-4] Task request_item[aed990b5-7a92-4cfc-84bc-dda183553d77] succeeded in 1.3308145139963017s: None
+[2022-05-11 20:50:18,386: INFO/MainProcess] Task request_item[29b4273f-a486-48e1-8320-dbe5a6e94687] received
+[2022-05-11 20:50:18,409: WARNING/ForkPoolWorker-2] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:18,410: INFO/ForkPoolWorker-2] Task request_item[00f729b8-bf16-487d-9111-0e6109d9ab0f] succeeded in 1.2752677259995835s: None
+[2022-05-11 20:50:18,413: INFO/MainProcess] Task request_item[3239fb8a-00b7-41fa-a184-8f0f7babc709] received
+[2022-05-11 20:50:18,549: WARNING/ForkPoolWorker-3] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:18,551: INFO/ForkPoolWorker-3] Task request_item[25669324-a902-47c5-990e-09d61f38237f] succeeded in 1.3286772779974854s: None
+[2022-05-11 20:50:18,553: INFO/MainProcess] Task request_item[ce7d5777-3d3c-4342-a41c-b19964ab0374] received
+[2022-05-11 20:50:18,981: WARNING/ForkPoolWorker-8] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:18,982: INFO/ForkPoolWorker-8] Task request_item[f0cc11bc-d1ab-49a2-bc51-454fee01863c] succeeded in 1.3320145510006114s: None
+[2022-05-11 20:50:18,984: INFO/MainProcess] Task request_item[7c281b53-9571-46f8-b58b-288090021094] received
+[2022-05-11 20:50:19,102: WARNING/ForkPoolWorker-6] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:19,103: INFO/ForkPoolWorker-6] Task request_item[04d393be-2b1e-4112-ad5d-607e8045f07d] succeeded in 1.3299674849986332s: None
+[2022-05-11 20:50:19,104: INFO/MainProcess] Task request_item[f574c7f9-2614-4869-8a7a-939d4745b871] received
+[2022-05-11 20:50:19,464: WARNING/ForkPoolWorker-1] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:19,465: INFO/ForkPoolWorker-1] Task request_item[6e9a53a0-be30-42b8-9b31-ce61fe4f5295] succeeded in 1.2967209290000028s: None
+[2022-05-11 20:50:19,467: INFO/MainProcess] Task request_item[fd6e6d3b-202b-4f29-9684-b87c02f0146c] received
+[2022-05-11 20:50:19,533: WARNING/ForkPoolWorker-7] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:19,534: INFO/ForkPoolWorker-7] Task request_item[f9a56794-5735-4bc1-9afd-b3ef864a93ba] succeeded in 1.3850148909987183s: None
+[2022-05-11 20:50:19,536: INFO/MainProcess] Task request_item[59bf0889-90ba-4dfd-93ca-7f2935143e38] received
+[2022-05-11 20:50:19,677: WARNING/ForkPoolWorker-2] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:19,679: INFO/ForkPoolWorker-2] Task request_item[f21ffec2-0f1b-4088-a4f5-a3602ed7bcd2] succeeded in 1.2674221060005948s: None
+[2022-05-11 20:50:19,681: INFO/MainProcess] Task request_item[b0cbbb2a-cb14-4947-8bd7-810c2938d28b] received
+[2022-05-11 20:50:19,699: WARNING/ForkPoolWorker-5] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:19,701: INFO/ForkPoolWorker-5] Task request_item[6fba5673-1ea7-4aa0-8801-6217c14e6ca9] succeeded in 1.3638155879962142s: None
+[2022-05-11 20:50:19,703: INFO/MainProcess] Task request_item[e24d0cf1-03e3-41f4-a10d-f3b59f3d53a9] received
+[2022-05-11 20:50:19,716: WARNING/ForkPoolWorker-4] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:19,717: INFO/ForkPoolWorker-4] Task request_item[3d4d588f-e8a3-4c21-be34-93ad305979af] succeeded in 1.3305191710023792s: None
+[2022-05-11 20:50:19,719: INFO/MainProcess] Task request_item[ed1533d7-e08a-4675-a7af-dc1794505910] received
+[2022-05-11 20:50:19,775: INFO/MainProcess] Task request_item[997f6954-b441-4976-8c44-10a159266c82] received
+[2022-05-11 20:50:19,813: WARNING/ForkPoolWorker-3] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:19,815: INFO/ForkPoolWorker-3] Task request_item[44301a22-1905-4ec4-b937-c70e5fc71a14] succeeded in 1.261147659002745s: None
+[2022-05-11 20:50:19,883: WARNING/ForkPoolWorker-8] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:19,884: INFO/ForkPoolWorker-8] Task request_item[f2aa5b8f-d603-4b38-87d9-6358ac9a5b15] succeeded in 0.9000703350029653s: None
+[2022-05-11 20:50:19,886: INFO/MainProcess] Task request_item[22f0ceba-00e4-43f8-8eac-87d5521452ee] received
+[2022-05-11 20:50:20,335: WARNING/ForkPoolWorker-1] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:20,336: INFO/ForkPoolWorker-1] Task request_item[5e5cb218-1dd5-40ac-aeac-a449fede3f7e] succeeded in 0.86971653499495s: None
+[2022-05-11 20:50:20,338: INFO/MainProcess] Task request_item[99384656-43e2-47e3-9ec1-21942663686a] received
+[2022-05-11 20:50:20,436: WARNING/ForkPoolWorker-6] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:20,437: INFO/ForkPoolWorker-6] Task request_item[19b9700a-2f31-47bc-bbe5-5277cb5a71da] succeeded in 1.3326776910034823s: None
+[2022-05-11 20:50:20,439: INFO/MainProcess] Task request_item[1ad1b32e-924a-4fe5-a964-dfd143aa286e] received
+[2022-05-11 20:50:20,739: WARNING/ForkPoolWorker-3] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:20,739: INFO/ForkPoolWorker-3] Task request_item[c6764ed5-738d-4e3d-ac50-067c9e625f35] succeeded in 0.9236840359953931s: None
+[2022-05-11 20:50:20,740: INFO/MainProcess] Task request_item[e81901a1-752d-4587-ad86-78918922d811] received
+[2022-05-11 20:50:20,773: WARNING/ForkPoolWorker-8] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:20,774: INFO/ForkPoolWorker-8] Task request_item[c44af92e-6089-43d8-b97a-7b0bb15b4a2d] succeeded in 0.8882000529993093s: None
+[2022-05-11 20:50:20,776: INFO/MainProcess] Task request_item[1a21ae92-c984-4d81-b540-ce1992e85f71] received
+[2022-05-11 20:50:20,834: WARNING/ForkPoolWorker-7] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:20,835: INFO/ForkPoolWorker-7] Task request_item[74b9622b-1b0b-4001-86a3-e9ca9ba19a53] succeeded in 1.298043681003037s: None
+[2022-05-11 20:50:20,837: INFO/MainProcess] Task request_item[4b2fc7c8-02f9-4af1-9c61-0136b06d580a] received
+[2022-05-11 20:50:20,978: WARNING/ForkPoolWorker-2] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:20,979: INFO/ForkPoolWorker-2] Task request_item[b7270d9c-22fa-4797-993c-87c29bde83ff] succeeded in 1.2991494550005882s: None
+[2022-05-11 20:50:20,981: INFO/MainProcess] Task request_item[ece1c669-d69b-4692-8eab-aff1daf2a52d] received
+[2022-05-11 20:50:20,989: WARNING/ForkPoolWorker-5] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:20,990: INFO/ForkPoolWorker-5] Task request_item[abd0f097-30be-4aa3-8ac9-47cb2eba7614] succeeded in 1.2876952570004505s: None
+[2022-05-11 20:50:20,992: INFO/MainProcess] Task request_item[369531a7-65b6-44fd-a5ae-16630ffb140f] received
+[2022-05-11 20:50:21,064: WARNING/ForkPoolWorker-4] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:21,065: INFO/ForkPoolWorker-4] Task request_item[f9b7885b-1b7b-44d9-98b4-bd04b711b75f] succeeded in 1.3473878879958647s: None
+[2022-05-11 20:50:21,067: INFO/MainProcess] Task request_item[4332970c-a6a4-4d51-b752-3116c439f65a] received
+[2022-05-11 20:50:21,310: WARNING/ForkPoolWorker-1] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:21,312: INFO/ForkPoolWorker-1] Task request_item[bdae528b-481f-4707-99f7-e5f3df039003] succeeded in 0.9750878739941982s: None
+[2022-05-11 20:50:21,315: INFO/MainProcess] Task request_item[c6390144-6dd9-4a1c-964f-f5e9c6ca3e53] received
+[2022-05-11 20:50:21,678: WARNING/ForkPoolWorker-8] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:21,679: INFO/ForkPoolWorker-8] Task request_item[b8097799-3b31-4e75-b79a-e679cf90555e] succeeded in 0.9023283330025151s: None
+[2022-05-11 20:50:21,681: INFO/MainProcess] Task request_item[08fd33bf-f13d-40f3-964e-daf5db9540d5] received
+[2022-05-11 20:50:21,741: WARNING/ForkPoolWorker-7] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:21,742: INFO/ForkPoolWorker-7] Task request_item[1a25a7b6-f5b5-42d3-8885-f5eaa2ec50a6] succeeded in 0.9043356030015275s: None
+[2022-05-11 20:50:21,744: INFO/MainProcess] Task request_item[e6c96bc8-c4b8-43a5-b284-062fd824cfae] received
+[2022-05-11 20:50:21,768: INFO/MainProcess] Task request_item[44a24478-c922-48db-be7f-8a59b917e4d0] received
+[2022-05-11 20:50:21,802: WARNING/ForkPoolWorker-6] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:21,804: INFO/ForkPoolWorker-6] Task request_item[dc3f494f-05e3-4613-b1aa-beac17dfefdc] succeeded in 1.3644896900004824s: None
+[2022-05-11 20:50:21,901: WARNING/ForkPoolWorker-2] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:21,902: INFO/ForkPoolWorker-2] Task request_item[f34b4ff1-b711-4dc4-b120-87f6a2a6aeaf] succeeded in 0.9206739920045948s: None
+[2022-05-11 20:50:21,906: INFO/MainProcess] Task request_item[130ba521-df22-4e71-8630-0e6b1be20335] received
+[2022-05-11 20:50:21,919: WARNING/ForkPoolWorker-5] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:21,920: INFO/ForkPoolWorker-5] Task request_item[36d419b5-ae6d-4a73-aed6-5c4fec2eabd0] succeeded in 0.9279705049993936s: None
+[2022-05-11 20:50:21,923: INFO/MainProcess] Task request_item[0274d6c7-a18d-4de7-8e6d-9dae35a60fc2] received
+[2022-05-11 20:50:22,048: WARNING/ForkPoolWorker-4] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:22,049: INFO/ForkPoolWorker-4] Task request_item[e9423171-820a-49b5-b3b8-67ca13af4f30] succeeded in 0.9829606630009948s: None
+[2022-05-11 20:50:22,051: INFO/MainProcess] Task request_item[3ce73cb6-c69d-476d-9814-9cbb1a6c1977] received
+[2022-05-11 20:50:22,105: WARNING/ForkPoolWorker-3] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:22,106: INFO/ForkPoolWorker-3] Task request_item[37d24afc-5bc5-42f4-b9b3-7db920f595b4] succeeded in 1.365376355999615s: None
+[2022-05-11 20:50:22,109: INFO/MainProcess] Task request_item[71e66a65-ee09-437a-86db-6ad9d3af711e] received
+[2022-05-11 20:50:22,676: WARNING/ForkPoolWorker-1] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:22,678: INFO/ForkPoolWorker-1] Task request_item[d8d8c0c7-06b0-4a96-9c6d-2827785a19ec] succeeded in 1.3614529450060218s: None
+[2022-05-11 20:50:22,680: INFO/MainProcess] Task request_item[54fadd16-7faf-45e2-a47b-ac43a2dd39ff] received
+[2022-05-11 20:50:22,800: WARNING/ForkPoolWorker-2] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:22,801: INFO/ForkPoolWorker-2] Task request_item[c6f5ba7b-14fa-48a0-b290-a195f369dedb] succeeded in 0.8951078049940406s: None
+[2022-05-11 20:50:22,804: INFO/MainProcess] Task request_item[3bd8cd7d-bfb3-44be-8de1-894fc3165ce4] received
+[2022-05-11 20:50:22,821: WARNING/ForkPoolWorker-5] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:22,823: INFO/ForkPoolWorker-5] Task request_item[e3bd71aa-8e63-413e-ad08-27883bfb2e64] succeeded in 0.8991342139997869s: None
+[2022-05-11 20:50:22,826: INFO/MainProcess] Task request_item[00013ece-1c79-49e0-b988-66550aa09f06] received
+[2022-05-11 20:50:23,053: WARNING/ForkPoolWorker-8] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:23,054: INFO/ForkPoolWorker-8] Task request_item[41f53206-8940-4e3b-bd09-fc4b67a159b8] succeeded in 1.37400669100316s: None
+[2022-05-11 20:50:23,056: INFO/MainProcess] Task request_item[16180479-5178-446b-bb12-8380863ac76f] received
+[2022-05-11 20:50:23,154: WARNING/ForkPoolWorker-7] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:23,155: INFO/ForkPoolWorker-7] Task request_item[5fd12980-e121-4e02-b8d0-68d94a624069] succeeded in 1.411503344999801s: None
+[2022-05-11 20:50:23,156: WARNING/ForkPoolWorker-6] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:23,158: INFO/ForkPoolWorker-6] Task request_item[ed4b72c8-9fdb-49bd-a588-dfb6308c348b] succeeded in 1.351897476000886s: None
+[2022-05-11 20:50:23,158: INFO/MainProcess] Task request_item[12e47c31-3447-4265-a41b-ad9cf9b3b953] received
+[2022-05-11 20:50:23,425: WARNING/ForkPoolWorker-3] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:23,426: INFO/ForkPoolWorker-3] Task request_item[05928c05-3cca-438c-8423-12c3fd360046] succeeded in 1.3159396929986542s: None
+[2022-05-11 20:50:23,442: WARNING/ForkPoolWorker-4] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:23,443: INFO/ForkPoolWorker-4] Task request_item[784620e1-f769-4d9e-8637-19d849a45102] succeeded in 1.3917066220019478s: None
+[2022-05-11 20:50:24,041: WARNING/ForkPoolWorker-1] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:24,043: INFO/ForkPoolWorker-1] Task request_item[238bf5bb-4530-4532-bd2e-3773fcf7f52a] succeeded in 1.3634496000013314s: None
+[2022-05-11 20:50:24,089: WARNING/ForkPoolWorker-2] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:24,090: INFO/ForkPoolWorker-2] Task request_item[fee915ad-4d3a-4a80-acc8-a15d90616dc0] succeeded in 1.2869065100021544s: None
+[2022-05-11 20:50:24,119: WARNING/ForkPoolWorker-6] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:24,120: WARNING/ForkPoolWorker-5] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:24,121: INFO/ForkPoolWorker-6] Task request_item[ce7d5777-3d3c-4342-a41c-b19964ab0374] succeeded in 0.9606190260019503s: None
+[2022-05-11 20:50:24,121: INFO/ForkPoolWorker-5] Task request_item[cf014c26-79c4-4dbe-81be-58f90d715ff3] succeeded in 1.2962570320014493s: None
+[2022-05-11 20:50:24,129: WARNING/ForkPoolWorker-7] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:24,131: INFO/ForkPoolWorker-7] Task request_item[3239fb8a-00b7-41fa-a184-8f0f7babc709] succeeded in 0.9742544589971658s: None
+[2022-05-11 20:50:24,362: WARNING/ForkPoolWorker-8] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:24,364: INFO/ForkPoolWorker-8] Task request_item[29b4273f-a486-48e1-8320-dbe5a6e94687] succeeded in 1.3073827920015901s: None
+[2022-05-11 20:50:24,770: WARNING/ForkPoolWorker-4] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:24,771: INFO/ForkPoolWorker-4] Task request_item[f574c7f9-2614-4869-8a7a-939d4745b871] succeeded in 1.3270218389952788s: None
+[2022-05-11 20:50:24,772: WARNING/ForkPoolWorker-3] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:24,773: INFO/ForkPoolWorker-3] Task request_item[7c281b53-9571-46f8-b58b-288090021094] succeeded in 1.3457256830006372s: None
+[2022-05-11 20:50:25,077: WARNING/ForkPoolWorker-5] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:25,077: WARNING/ForkPoolWorker-7] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:25,078: INFO/ForkPoolWorker-5] Task request_item[b0cbbb2a-cb14-4947-8bd7-810c2938d28b] succeeded in 0.9564272049974534s: None
+[2022-05-11 20:50:25,078: INFO/ForkPoolWorker-7] Task request_item[ed1533d7-e08a-4675-a7af-dc1794505910] succeeded in 0.946476511999208s: None
+[2022-05-11 20:50:25,105: WARNING/ForkPoolWorker-6] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:25,106: INFO/ForkPoolWorker-6] Task request_item[e24d0cf1-03e3-41f4-a10d-f3b59f3d53a9] succeeded in 0.983807815995533s: None
+[2022-05-11 20:50:25,351: WARNING/ForkPoolWorker-1] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:25,352: INFO/ForkPoolWorker-1] Task request_item[fd6e6d3b-202b-4f29-9684-b87c02f0146c] succeeded in 1.3077797790028853s: None
+[2022-05-11 20:50:25,435: WARNING/ForkPoolWorker-2] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:25,437: INFO/ForkPoolWorker-2] Task request_item[59bf0889-90ba-4dfd-93ca-7f2935143e38] succeeded in 1.345369077003852s: None
+[2022-05-11 20:50:25,670: WARNING/ForkPoolWorker-4] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:25,671: INFO/ForkPoolWorker-4] Task request_item[22f0ceba-00e4-43f8-8eac-87d5521452ee] succeeded in 0.8992589720000979s: None
+[2022-05-11 20:50:25,724: WARNING/ForkPoolWorker-8] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:25,726: INFO/ForkPoolWorker-8] Task request_item[997f6954-b441-4976-8c44-10a159266c82] succeeded in 1.360695006995229s: None
+[2022-05-11 20:50:26,060: WARNING/ForkPoolWorker-6] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:26,062: INFO/ForkPoolWorker-6] Task request_item[1a21ae92-c984-4d81-b540-ce1992e85f71] succeeded in 0.9543842210041475s: None
+[2022-05-11 20:50:26,171: WARNING/ForkPoolWorker-3] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:26,173: INFO/ForkPoolWorker-3] Task request_item[99384656-43e2-47e3-9ec1-21942663686a] succeeded in 1.3992570520058507s: None
+[2022-05-11 20:50:26,320: WARNING/ForkPoolWorker-1] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:26,321: INFO/ForkPoolWorker-1] Task request_item[4b2fc7c8-02f9-4af1-9c61-0136b06d580a] succeeded in 0.9664911090003443s: None
+[2022-05-11 20:50:26,375: WARNING/ForkPoolWorker-5] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:26,376: INFO/ForkPoolWorker-5] Task request_item[e81901a1-752d-4587-ad86-78918922d811] succeeded in 1.2962101719967905s: None
+[2022-05-11 20:50:26,405: WARNING/ForkPoolWorker-7] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:26,406: INFO/ForkPoolWorker-7] Task request_item[1ad1b32e-924a-4fe5-a964-dfd143aa286e] succeeded in 1.326287872994726s: None
+[2022-05-11 20:50:26,675: WARNING/ForkPoolWorker-8] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:26,677: INFO/ForkPoolWorker-8] Task request_item[4332970c-a6a4-4d51-b752-3116c439f65a] succeeded in 0.9493765289953444s: None
+[2022-05-11 20:50:26,834: WARNING/ForkPoolWorker-2] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:26,835: INFO/ForkPoolWorker-2] Task request_item[ece1c669-d69b-4692-8eab-aff1daf2a52d] succeeded in 1.3971736489984323s: None
+[2022-05-11 20:50:26,994: WARNING/ForkPoolWorker-4] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:26,995: INFO/ForkPoolWorker-4] Task request_item[369531a7-65b6-44fd-a5ae-16630ffb140f] succeeded in 1.3226103309934842s: None
+[2022-05-11 20:50:27,373: WARNING/ForkPoolWorker-5] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:27,375: INFO/ForkPoolWorker-5] Task request_item[44a24478-c922-48db-be7f-8a59b917e4d0] succeeded in 0.997112584002025s: None
+[2022-05-11 20:50:27,423: WARNING/ForkPoolWorker-6] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:27,424: INFO/ForkPoolWorker-6] Task request_item[c6390144-6dd9-4a1c-964f-f5e9c6ca3e53] succeeded in 1.3600011790040298s: None
+[2022-05-11 20:50:27,461: WARNING/ForkPoolWorker-3] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:27,462: INFO/ForkPoolWorker-3] Task request_item[08fd33bf-f13d-40f3-964e-daf5db9540d5] succeeded in 1.287494953001442s: None
+[2022-05-11 20:50:27,669: WARNING/ForkPoolWorker-1] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:27,671: INFO/ForkPoolWorker-1] Task request_item[e6c96bc8-c4b8-43a5-b284-062fd824cfae] succeeded in 1.3487237690060283s: None
+[2022-05-11 20:50:27,716: WARNING/ForkPoolWorker-2] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:27,718: INFO/ForkPoolWorker-2] Task request_item[3ce73cb6-c69d-476d-9814-9cbb1a6c1977] succeeded in 0.8811117139994167s: None
+[2022-05-11 20:50:27,746: WARNING/ForkPoolWorker-7] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:27,748: INFO/ForkPoolWorker-7] Task request_item[130ba521-df22-4e71-8630-0e6b1be20335] succeeded in 1.3402967270012596s: None
+[2022-05-11 20:50:28,125: WARNING/ForkPoolWorker-8] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:28,127: INFO/ForkPoolWorker-8] Task request_item[0274d6c7-a18d-4de7-8e6d-9dae35a60fc2] succeeded in 1.4480262809956912s: None
+[2022-05-11 20:50:28,366: WARNING/ForkPoolWorker-4] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:28,367: INFO/ForkPoolWorker-4] Task request_item[71e66a65-ee09-437a-86db-6ad9d3af711e] succeeded in 1.370498796000902s: None
+[2022-05-11 20:50:28,372: WARNING/ForkPoolWorker-6] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:28,374: INFO/ForkPoolWorker-6] Task request_item[3bd8cd7d-bfb3-44be-8de1-894fc3165ce4] succeeded in 0.9490580150013557s: None
+[2022-05-11 20:50:28,626: WARNING/ForkPoolWorker-2] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:28,627: INFO/ForkPoolWorker-2] Task request_item[12e47c31-3447-4265-a41b-ad9cf9b3b953] succeeded in 0.9078415320036584s: None
+[2022-05-11 20:50:28,649: WARNING/ForkPoolWorker-5] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:28,651: INFO/ForkPoolWorker-5] Task request_item[54fadd16-7faf-45e2-a47b-ac43a2dd39ff] succeeded in 1.2747119400009979s: None
+[2022-05-11 20:50:28,826: WARNING/ForkPoolWorker-3] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:28,828: INFO/ForkPoolWorker-3] Task request_item[00013ece-1c79-49e0-b988-66550aa09f06] succeeded in 1.3641351090045646s: None
+[2022-05-11 20:50:28,924: WARNING/ForkPoolWorker-1] {'hid': [ErrorDetail(string='This field is required.', code='required')]}
+[2022-05-11 20:50:28,925: INFO/ForkPoolWorker-1] Task request_item[16180479-5178-446b-bb12-8380863ac76f] succeeded in 1.2536222859998816s: None

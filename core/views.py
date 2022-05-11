@@ -23,17 +23,6 @@ class ItemsViewSet(viewsets.ModelViewSet):
     filter_backends = [DjangoFilterBackend] 
     filterset_fields = ['type']
     queryset = Item.objects.all()
-
-    # def get_queryset(self):
-    #     """
-    #     Oviriding get_queryset method to populate the database if it is empty
-    #     """
-    #     items_qs = Item.objects.all()
-
-        
-    #         # populate(100, max_item)
-
-    #     return self.queryset
         
     @action(
         methods=["POST"],
@@ -41,41 +30,11 @@ class ItemsViewSet(viewsets.ModelViewSet):
         url_path="add",
         permission_classes=[AllowAny],
     )
-    def add_item():
-        pass
+    def add_item(self, request):
+        serializer = sz.ItemSerializer(data=request.data)
 
-
-# update.delay()
-
-
-# tl = Timeloop()
-
-# TIMER LOGIC FOR UPDATING DATABASE EVERY 5 MINUTES
-# WAIT_SECONDS = 300
-
-# @tl.job(interval=timedelta(seconds=30))
-# def update():
-#     current_db_max = Item.objects.aggregate(Max('id'))
-#     current_db_max_id = current_db_max["id__max"]
-
-#     try:
-#         response = requests.get(url=url)
-#         max_id = response.json()
-
-#     except requests.ConnectionError:
-#         print("ERROR: COULDN'T GET MAX_ID")
-#         pass
-    
-    # CALCULATES THE DIFFERENCE BETWEEN THE CURRENT MAX_ID AND THE LAST MAX_ID STORED IN DB
-    # number = max_id - current_db_max_id 
-
-    # populate(number, max_id)
-
-    # threading.Timer(WAIT_SECONDS, update).start()
-
-# CONFIRMS THAT DATABASE IS NOT EMPTY BEFORE IT CALLS PERIODICALLY
-# items_qs = Item.objects.all()
-# if items_qs:
-#     tl.start(block=True)
-
-    
+        if serializer.is_valid():
+            item = serializer.save()
+            return Response({"success":True, "data":sz.ItemSerializer(data=item).data}, status=status.HTTP_200_OK)
+        else:
+            return Response({"success":False, "error":serializer.errors, "data":None}, status=status.HTTP_400_BAD_REQUEST)
