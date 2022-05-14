@@ -3,7 +3,8 @@ from django.contrib.postgres.fields import ArrayField
 
 class Item(models.Model):
     # base item
-    id = models.BigIntegerField(primary_key=True)
+    id = models.BigAutoField(primary_key=True)
+    hid = models.BigIntegerField(unique=True, null=True, blank=True)
     by = models.CharField(max_length=256, null=True, blank=True)
     kids = ArrayField(models.IntegerField(), null=True, blank=True)
     score = models.IntegerField(null=True, blank=True)

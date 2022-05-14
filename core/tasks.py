@@ -22,9 +22,42 @@ def request_item(item_id: int):
     serializer = sz.ItemSerializer(data=item)
 
     if serializer.is_valid():
-
         try:
-            item = serializer.save()
+            data = serializer.data
+
+            hid = data.get("id")
+            by = data.get("by")
+            kids = data.get("kids")
+            score = data.get("score")
+            time = data.get("time")
+            type = data.get("type")
+            deleted = data.get("deleted")
+            dead = data.get("dead")  
+            title = data.get("title")
+            descendants = data.get("descendants")
+            url = data.get("url")
+            text = data.get("text")
+            parts = data.get("parts")
+
+            item = Item.objects.create (
+                hid = hid,
+                by = by,
+                kids = kids,
+                score = score,
+                time = time,
+                type = type,
+                deleted = deleted,
+                dead = dead,
+                title = title,
+                descendants = descendants,
+                url = url,
+                text = text,
+                parts = parts,
+            )
+
+            item.save()
+
+            # item = serializer.save()
             print("CREATED SUCCESSFULLY")
 
         except Exception as e:
@@ -75,8 +108,8 @@ def update() -> bool:
     """
 
     init_populate()    
-    current_db_max = Item.objects.aggregate(Max('id'))
-    current_db_max_id = current_db_max["id__max"]
+    current_db_max = Item.objects.aggregate(Max('hid'))
+    current_db_max_id = current_db_max["hid__max"]
 
     try:
         response = requests.get(url=url)
