@@ -1,5 +1,17 @@
-[2022-05-14 21:46:35,811: INFO/MainProcess] beat: Starting...
-[2022-05-14 21:48:57,103: INFO/MainProcess] Scheduler: Sending due task update-five-minutes (update)
-[2022-05-14 21:53:57,191: INFO/MainProcess] Scheduler: Sending due task update-five-minutes (update)
-[2022-05-14 21:58:21,520: INFO/MainProcess] beat: Starting...
-[2022-05-14 21:58:21,553: INFO/MainProcess] Scheduler: Sending due task update-five-minutes (update)
+[2022-05-15 21:48:37,982: INFO/MainProcess] beat: Starting...
+[2022-05-15 21:48:38,014: INFO/MainProcess] Scheduler: Sending due task update-five-minutes (update)
+[2022-05-15 21:53:38,070: INFO/MainProcess] Scheduler: Sending due task update-five-minutes (update)
+[2022-05-15 21:57:08,318: INFO/MainProcess] beat: Starting...
+[2022-05-15 21:57:08,323: ERROR/MainProcess] Removing corrupted schedule file 'celerybeat-schedule': error(11, 'Resource temporarily unavailable')
+Traceback (most recent call last):
+  File "/home/steven/Ledingo_challenge/lvenv/lib/python3.10/site-packages/celery/beat.py", line 533, in setup_schedule
+    self._store = self._open_schedule()
+  File "/home/steven/Ledingo_challenge/lvenv/lib/python3.10/site-packages/celery/beat.py", line 523, in _open_schedule
+    return self.persistence.open(self.schedule_filename, writeback=True)
+  File "/usr/lib/python3.10/shelve.py", line 243, in open
+    return DbfilenameShelf(filename, flag, protocol, writeback)
+  File "/usr/lib/python3.10/shelve.py", line 227, in __init__
+    Shelf.__init__(self, dbm.open(filename, flag), protocol, writeback)
+  File "/usr/lib/python3.10/dbm/__init__.py", line 95, in open
+    return mod.open(file, flag, mode)
+_gdbm.error: [Errno 11] Resource temporarily unavailable: 'celerybeat-schedule'

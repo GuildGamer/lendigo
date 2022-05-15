@@ -66,7 +66,7 @@ def request_item(item_id: int):
     else:
         print(serializer.errors)
 
-def populate(number: int, max: int):
+def populate(number: int, max: int) -> bool:
     """
     Populates database with items based on the param: number
     """
@@ -75,7 +75,9 @@ def populate(number: int, max: int):
 
         # ASYNCHRONOUSLY GET ITEMS OF COUNT "number"
         request_item.delay(item_id)
+
         
+    return True
 
 
 def init_populate() -> bool:
@@ -96,9 +98,9 @@ def init_populate() -> bool:
         
         max_item = response.json()
         print (max_item)
-        populate(100, max_item)
+        is_populated = populate(100, max_item)
 
-
+        return is_populated
 
 @shared_task(name = "update")
 def update() -> bool:
@@ -107,28 +109,31 @@ def update() -> bool:
     UPDATED THE DATABASE BY POPULATING IT WITH THE MOST RECENT ITEMS
     """
 
-    init_populate()    
-    current_db_max = Item.objects.aggregate(Max('hid'))
-    current_db_max_id = current_db_max["hid__max"]
+    is_initialised = init_populate()
 
-    try:
-        response = requests.get(url=url)
-        max_id = response.json()
+    if is_initialised == True:
 
-    except requests.ConnectionError:
-        print("ERROR: COULDN'T GET MAX_ID")
-        return False
-    
-    # CALCULATES THE DIFFERENCE BETWEEN THE CURRENT MAX_ID AND THE LAST MAX_ID STORED IN DB
-    number = max_id - current_db_max_id 
+        current_db_max = Item.objects.aggregate(Max('hid'))
+        current_db_max_id = current_db_max["hid__max"]
 
-    if len(items_qs) >= 100:
-        print("5 MINUTE UPDATE")
-        populate(number, max_id)
+        try:
+            response = requests.get(url=url)
+            max_id = response.json()
 
-    else:
-        print("NOT DONE WITH INITIAL 100")
-        return False
+        except requests.ConnectionError:
+            print("ERROR: COULDN'T GET MAX_ID")
+            return False
+        
+        # CALCULATES THE DIFFERENCE BETWEEN THE CURRENT MAX_ID AND THE LAST MAX_ID STORED IN DB
+        number = max_id - current_db_max_id 
 
-    return True
+        if len(items_qs) >= 100:
+            print("5 MINUTE UPDATE")
+            populate(number, max_id)
+
+        else:
+            print("NOT DONE WITH INITIAL 100")
+            return False
+
+        return True
 # CONFIRMS THAT DATABASE IS NOT EMPTY BEFORE IT CALLS PERIODICALLY

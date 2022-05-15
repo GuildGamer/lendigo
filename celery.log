@@ -1,350 +1,695 @@
-[2022-05-14 21:46:36,681: INFO/MainProcess] Connected to redis://localhost:6379//
-[2022-05-14 21:46:36,685: INFO/MainProcess] mingle: searching for neighbors
-[2022-05-14 21:46:37,695: INFO/MainProcess] mingle: all alone
-[2022-05-14 21:46:37,706: WARNING/MainProcess] /home/steven/Ledingo_challenge/lvenv/lib/python3.10/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+[2022-05-15 21:48:38,786: INFO/MainProcess] Connected to redis://localhost:6379//
+[2022-05-15 21:48:38,789: INFO/MainProcess] mingle: searching for neighbors
+[2022-05-15 21:48:39,798: INFO/MainProcess] mingle: all alone
+[2022-05-15 21:48:39,812: WARNING/MainProcess] /home/steven/Ledingo_challenge/lvenv/lib/python3.10/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
             leak, never use this setting in production environments!
   warnings.warn('''Using settings.DEBUG leads to a memory
 
-[2022-05-14 21:46:37,707: INFO/MainProcess] celery@steven-Latitude-E6430 ready.
-[2022-05-14 21:48:57,128: INFO/MainProcess] Task update[63cc6cc6-0da9-4ad1-b576-12636ea5a235] received
-[2022-05-14 21:48:57,130: WARNING/ForkPoolWorker-7] INITIAL 100
-[2022-05-14 21:48:58,640: ERROR/ForkPoolWorker-7] Task update[63cc6cc6-0da9-4ad1-b576-12636ea5a235] raised unexpected: TypeError("unsupported operand type(s) for -: 'int' and 'NoneType'")
+[2022-05-15 21:48:39,812: INFO/MainProcess] celery@steven-Latitude-E6430 ready.
+[2022-05-15 21:48:39,839: INFO/MainProcess] Task update[539f0258-960d-404a-9a10-12973a016187] received
+[2022-05-15 21:48:39,841: WARNING/ForkPoolWorker-7] INITIAL 100
+[2022-05-15 21:48:41,192: WARNING/ForkPoolWorker-7] 31391475
+[2022-05-15 21:48:41,204: INFO/MainProcess] Task request_item[e033cf50-a039-41fb-b8f0-e3297250a60f] received
+[2022-05-15 21:48:41,207: INFO/MainProcess] Task request_item[5aab25f9-0404-40ed-b29d-e19b7e11aa72] received
+[2022-05-15 21:48:41,208: INFO/MainProcess] Task request_item[c5b18532-ea85-4a7e-bd15-4efc817c2cdf] received
+[2022-05-15 21:48:41,211: INFO/MainProcess] Task request_item[c4a9a904-9ef3-4ccb-a925-22b973994f39] received
+[2022-05-15 21:48:41,213: INFO/MainProcess] Task request_item[fc18cfb1-82f8-4139-9624-5562d482f6bf] received
+[2022-05-15 21:48:41,216: INFO/MainProcess] Task request_item[baf318e5-1b94-4035-81b2-1189c77b5405] received
+[2022-05-15 21:48:41,218: INFO/MainProcess] Task request_item[ea80005e-0308-41a1-bff9-6eab8d5bfd24] received
+[2022-05-15 21:48:41,221: INFO/MainProcess] Task request_item[7796035a-abe1-4ac1-92a4-31933fb27cd7] received
+[2022-05-15 21:48:41,223: INFO/MainProcess] Task request_item[2b79ac9c-5cc9-4d64-8a8e-18395f775286] received
+[2022-05-15 21:48:41,225: INFO/MainProcess] Task request_item[dd6247ed-a2c9-4fad-ab9c-84f3056a098a] received
+[2022-05-15 21:48:41,227: INFO/MainProcess] Task request_item[30227abf-c57f-44ba-9294-6ed46c60fdf6] received
+[2022-05-15 21:48:41,229: INFO/MainProcess] Task request_item[dea757c0-2334-4359-8f87-a5a88b2e2258] received
+[2022-05-15 21:48:41,231: INFO/MainProcess] Task request_item[17bf121c-123c-4eab-8323-7b5415c9d5f8] received
+[2022-05-15 21:48:41,233: INFO/MainProcess] Task request_item[a386687b-5e26-4069-bab4-73e3a4579f44] received
+[2022-05-15 21:48:41,235: INFO/MainProcess] Task request_item[aa351451-1279-4ef8-8490-d036f89f9647] received
+[2022-05-15 21:48:41,237: INFO/MainProcess] Task request_item[5db9c89c-e669-4093-9f67-aa86f82937fb] received
+[2022-05-15 21:48:41,239: INFO/MainProcess] Task request_item[a270d94f-fae5-4726-9b12-a6fe768b8149] received
+[2022-05-15 21:48:41,240: INFO/MainProcess] Task request_item[ccb0ef63-bed1-48a2-b813-63d6aeb6f72b] received
+[2022-05-15 21:48:41,241: INFO/MainProcess] Task request_item[2d46110e-e71a-4fa4-903c-98330013b5e8] received
+[2022-05-15 21:48:41,243: INFO/MainProcess] Task request_item[154d7df6-ed48-430b-8fc1-55d52827fbfc] received
+[2022-05-15 21:48:41,244: INFO/MainProcess] Task request_item[845f09f9-2da8-4f4c-92a8-9cf6f77195af] received
+[2022-05-15 21:48:41,245: INFO/MainProcess] Task request_item[4de33401-75e6-4f76-8097-96d6b9620114] received
+[2022-05-15 21:48:41,246: INFO/MainProcess] Task request_item[a0064448-a82a-4aa2-9a4e-4ee986f85091] received
+[2022-05-15 21:48:41,247: INFO/MainProcess] Task request_item[302d96ae-6de4-464a-a7d6-94b38d0827e8] received
+[2022-05-15 21:48:41,248: INFO/MainProcess] Task request_item[4c1afdbb-ed40-477c-8828-e6953d228f09] received
+[2022-05-15 21:48:41,250: INFO/MainProcess] Task request_item[574b6213-77d0-44e8-9015-7700734d5cb5] received
+[2022-05-15 21:48:41,251: INFO/MainProcess] Task request_item[57e10cba-1cc3-4b71-bc54-bd851b98e6bf] received
+[2022-05-15 21:48:41,252: INFO/MainProcess] Task request_item[c9a8d87a-6dc1-4b1a-9c24-3aa86ad9ed67] received
+[2022-05-15 21:48:41,253: INFO/MainProcess] Task request_item[bb7ef23f-346f-404e-aace-0a0156d3d389] received
+[2022-05-15 21:48:41,254: INFO/MainProcess] Task request_item[f5240402-ecb0-40fb-955e-40a13758c616] received
+[2022-05-15 21:48:41,255: INFO/MainProcess] Task request_item[abf3b48f-02b3-4450-bf5d-46bbd07f2621] received
+[2022-05-15 21:48:41,256: INFO/MainProcess] Task request_item[d09e0f2f-d35b-4c2f-8588-5d2ab6888324] received
+[2022-05-15 21:48:41,257: INFO/MainProcess] Task request_item[0aaac1e7-318d-4cd8-8932-b91a627c7c80] received
+[2022-05-15 21:48:41,259: INFO/MainProcess] Task request_item[05d06777-473a-482c-9750-7fe370dba8ce] received
+[2022-05-15 21:48:41,260: INFO/MainProcess] Task request_item[659e9702-588f-4edc-a4d5-6493720f8af7] received
+[2022-05-15 21:48:41,261: INFO/MainProcess] Task request_item[bdae1e46-cea4-4ccd-bc68-9e2373ba7d0d] received
+[2022-05-15 21:48:41,262: INFO/MainProcess] Task request_item[46f10d78-51cd-47ad-acbb-966276fd1b37] received
+[2022-05-15 21:48:41,263: INFO/MainProcess] Task request_item[8a5562c3-85d3-4499-bf86-8576a66a586c] received
+[2022-05-15 21:48:41,264: INFO/MainProcess] Task request_item[5b2991f3-a165-4e9f-9ff2-6f009344747d] received
+[2022-05-15 21:48:42,182: WARNING/ForkPoolWorker-1] CREATED SUCCESSFULLY
+[2022-05-15 21:48:42,184: WARNING/ForkPoolWorker-5] CREATED SUCCESSFULLY
+[2022-05-15 21:48:42,185: WARNING/ForkPoolWorker-3] CREATED SUCCESSFULLY
+[2022-05-15 21:48:42,185: INFO/ForkPoolWorker-1] Task request_item[5aab25f9-0404-40ed-b29d-e19b7e11aa72] succeeded in 0.977658904999771s: None
+[2022-05-15 21:48:42,186: WARNING/ForkPoolWorker-4] CREATED SUCCESSFULLY
+[2022-05-15 21:48:42,187: INFO/ForkPoolWorker-5] Task request_item[baf318e5-1b94-4035-81b2-1189c77b5405] succeeded in 0.9701672459996189s: None
+[2022-05-15 21:48:42,188: INFO/ForkPoolWorker-3] Task request_item[c4a9a904-9ef3-4ccb-a925-22b973994f39] succeeded in 0.9754731890006951s: None
+[2022-05-15 21:48:42,188: INFO/ForkPoolWorker-4] Task request_item[fc18cfb1-82f8-4139-9624-5562d482f6bf] succeeded in 0.9715992420005932s: None
+[2022-05-15 21:48:42,193: INFO/MainProcess] Task request_item[3125374d-6dae-4169-8b41-af21b1471830] received
+[2022-05-15 21:48:42,197: INFO/MainProcess] Task request_item[6f2cb577-5f5b-460a-a12e-0673076926a4] received
+[2022-05-15 21:48:42,198: INFO/MainProcess] Task request_item[162f0ed7-65e5-4106-94e0-fcb338ec3dfb] received
+[2022-05-15 21:48:42,200: INFO/MainProcess] Task request_item[4394c858-f29e-45e4-aa10-6e8c782fcd23] received
+[2022-05-15 21:48:42,209: WARNING/ForkPoolWorker-2] CREATED SUCCESSFULLY
+[2022-05-15 21:48:42,210: WARNING/ForkPoolWorker-6] CREATED SUCCESSFULLY
+[2022-05-15 21:48:42,211: INFO/ForkPoolWorker-2] Task request_item[c5b18532-ea85-4a7e-bd15-4efc817c2cdf] succeeded in 0.9990632250000999s: None
+[2022-05-15 21:48:42,212: INFO/ForkPoolWorker-6] Task request_item[ea80005e-0308-41a1-bff9-6eab8d5bfd24] succeeded in 0.9897860659993967s: None
+[2022-05-15 21:48:42,215: INFO/MainProcess] Task request_item[66ffaa99-b3af-4c67-af2d-bac4eafb718c] received
+[2022-05-15 21:48:42,230: WARNING/ForkPoolWorker-8] CREATED SUCCESSFULLY
+[2022-05-15 21:48:42,232: INFO/ForkPoolWorker-8] Task request_item[e033cf50-a039-41fb-b8f0-e3297250a60f] succeeded in 1.0247027300001719s: None
+[2022-05-15 21:48:42,234: INFO/MainProcess] Task request_item[da5694ac-8c9a-4389-85de-88cb7945d9bb] received
+[2022-05-15 21:48:42,500: ERROR/ForkPoolWorker-7] Task update[539f0258-960d-404a-9a10-12973a016187] raised unexpected: TypeError("unsupported operand type(s) for -: 'int' and 'NoneType'")
 Traceback (most recent call last):
   File "/home/steven/Ledingo_challenge/lvenv/lib/python3.10/site-packages/celery/app/trace.py", line 451, in trace_task
     R = retval = fun(*args, **kwargs)
   File "/home/steven/Ledingo_challenge/lvenv/lib/python3.10/site-packages/celery/app/trace.py", line 734, in __protected_call__
     return self.run(*args, **kwargs)
-  File "/home/steven/Ledingo_challenge/core/tasks.py", line 123, in update
+  File "/home/steven/Ledingo_challenge/core/tasks.py", line 128, in update
     number = max_id - current_db_max_id
 TypeError: unsupported operand type(s) for -: 'int' and 'NoneType'
-[2022-05-14 21:53:57,196: INFO/MainProcess] Task update[fa8f0707-6321-4e31-be2f-311ba655a269] received
-[2022-05-14 21:53:57,198: WARNING/ForkPoolWorker-7] INITIAL 100
-[2022-05-14 21:53:58,605: ERROR/ForkPoolWorker-7] Task update[fa8f0707-6321-4e31-be2f-311ba655a269] raised unexpected: TypeError("unsupported operand type(s) for -: 'int' and 'NoneType'")
-Traceback (most recent call last):
-  File "/home/steven/Ledingo_challenge/lvenv/lib/python3.10/site-packages/celery/app/trace.py", line 451, in trace_task
-    R = retval = fun(*args, **kwargs)
-  File "/home/steven/Ledingo_challenge/lvenv/lib/python3.10/site-packages/celery/app/trace.py", line 734, in __protected_call__
-    return self.run(*args, **kwargs)
-  File "/home/steven/Ledingo_challenge/core/tasks.py", line 123, in update
-    number = max_id - current_db_max_id
-TypeError: unsupported operand type(s) for -: 'int' and 'NoneType'
-[2022-05-14 21:58:22,322: INFO/MainProcess] Connected to redis://localhost:6379//
-[2022-05-14 21:58:22,326: INFO/MainProcess] mingle: searching for neighbors
-[2022-05-14 21:58:23,334: INFO/MainProcess] mingle: all alone
-[2022-05-14 21:58:23,344: WARNING/MainProcess] /home/steven/Ledingo_challenge/lvenv/lib/python3.10/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+[2022-05-15 21:48:42,503: INFO/MainProcess] Task request_item[35ef2703-fa8f-4355-b787-7f874ae44db9] received
+[2022-05-15 21:48:43,326: WARNING/ForkPoolWorker-1] CREATED SUCCESSFULLY
+[2022-05-15 21:48:43,327: WARNING/ForkPoolWorker-5] CREATED SUCCESSFULLY
+[2022-05-15 21:48:43,327: INFO/ForkPoolWorker-1] Task request_item[7796035a-abe1-4ac1-92a4-31933fb27cd7] succeeded in 1.134222291999322s: None
+[2022-05-15 21:48:43,328: INFO/ForkPoolWorker-5] Task request_item[30227abf-c57f-44ba-9294-6ed46c60fdf6] succeeded in 1.1342924600003244s: None
+[2022-05-15 21:48:43,329: WARNING/ForkPoolWorker-3] CREATED SUCCESSFULLY
+[2022-05-15 21:48:43,330: INFO/MainProcess] Task request_item[cf2a6f6f-27d9-4a22-b3b4-a25a71226342] received
+[2022-05-15 21:48:43,330: INFO/ForkPoolWorker-3] Task request_item[2b79ac9c-5cc9-4d64-8a8e-18395f775286] succeeded in 1.1364842240000144s: None
+[2022-05-15 21:48:43,330: WARNING/ForkPoolWorker-4] CREATED SUCCESSFULLY
+[2022-05-15 21:48:43,332: INFO/ForkPoolWorker-4] Task request_item[dd6247ed-a2c9-4fad-ab9c-84f3056a098a] succeeded in 1.1363660220004022s: None
+[2022-05-15 21:48:43,334: INFO/MainProcess] Task request_item[b1287f6b-6835-4554-83a0-2b17b21eaaaf] received
+[2022-05-15 21:48:43,336: INFO/MainProcess] Task request_item[9cd22a9a-5e98-48a4-9b7b-9b8e94349691] received
+[2022-05-15 21:48:43,337: INFO/MainProcess] Task request_item[d80e57c2-2e47-4b46-bf56-9e7a4d8a92b3] received
+[2022-05-15 21:48:43,338: INFO/MainProcess] Task request_item[0ac85122-6ff8-4a9d-95fa-753346bf5ce1] received
+[2022-05-15 21:48:43,509: WARNING/ForkPoolWorker-8] CREATED SUCCESSFULLY
+[2022-05-15 21:48:43,510: INFO/ForkPoolWorker-8] Task request_item[a386687b-5e26-4069-bab4-73e3a4579f44] succeeded in 1.27542021499994s: None
+[2022-05-15 21:48:43,523: WARNING/ForkPoolWorker-6] CREATED SUCCESSFULLY
+[2022-05-15 21:48:43,524: INFO/ForkPoolWorker-6] Task request_item[17bf121c-123c-4eab-8323-7b5415c9d5f8] succeeded in 1.309615899000164s: None
+[2022-05-15 21:48:43,525: INFO/MainProcess] Task request_item[7f87b4db-7954-4b86-8d5e-02d7baada1ca] received
+[2022-05-15 21:48:43,564: WARNING/ForkPoolWorker-2] CREATED SUCCESSFULLY
+[2022-05-15 21:48:43,565: INFO/ForkPoolWorker-2] Task request_item[dea757c0-2334-4359-8f87-a5a88b2e2258] succeeded in 1.3522004729993569s: None
+[2022-05-15 21:48:43,567: INFO/MainProcess] Task request_item[7fe05a6f-722c-4179-aa59-91a75941118e] received
+[2022-05-15 21:48:43,702: WARNING/ForkPoolWorker-7] CREATED SUCCESSFULLY
+[2022-05-15 21:48:43,703: INFO/ForkPoolWorker-7] Task request_item[aa351451-1279-4ef8-8490-d036f89f9647] succeeded in 1.1992242609994719s: None
+[2022-05-15 21:48:43,705: INFO/MainProcess] Task request_item[7ca3210b-530c-4d0d-be84-49de826ba103] received
+[2022-05-15 21:48:43,814: INFO/MainProcess] Task request_item[f9f66a3d-2323-43b0-9dc5-24b1dd5cb0b2] received
+[2022-05-15 21:48:44,298: WARNING/ForkPoolWorker-1] CREATED SUCCESSFULLY
+[2022-05-15 21:48:44,300: INFO/ForkPoolWorker-1] Task request_item[5db9c89c-e669-4093-9f67-aa86f82937fb] succeeded in 0.9691986439993343s: None
+[2022-05-15 21:48:44,352: WARNING/ForkPoolWorker-5] CREATED SUCCESSFULLY
+[2022-05-15 21:48:44,354: WARNING/ForkPoolWorker-4] CREATED SUCCESSFULLY
+[2022-05-15 21:48:44,354: INFO/ForkPoolWorker-5] Task request_item[a270d94f-fae5-4726-9b12-a6fe768b8149] succeeded in 1.0228624049996142s: None
+[2022-05-15 21:48:44,355: INFO/ForkPoolWorker-4] Task request_item[2d46110e-e71a-4fa4-903c-98330013b5e8] succeeded in 1.0221222559994203s: None
+[2022-05-15 21:48:44,356: INFO/MainProcess] Task request_item[4fec500c-c560-45a9-9eed-405fabff3818] received
+[2022-05-15 21:48:44,357: WARNING/ForkPoolWorker-3] CREATED SUCCESSFULLY
+[2022-05-15 21:48:44,358: INFO/ForkPoolWorker-3] Task request_item[ccb0ef63-bed1-48a2-b813-63d6aeb6f72b] succeeded in 1.0252447679995385s: None
+[2022-05-15 21:48:44,359: INFO/MainProcess] Task request_item[bdbd0ca9-103f-44ed-b38d-a20cb4621f11] received
+[2022-05-15 21:48:44,361: INFO/MainProcess] Task request_item[3af1d669-57fa-413b-b679-07c28166f979] received
+[2022-05-15 21:48:44,461: WARNING/ForkPoolWorker-8] CREATED SUCCESSFULLY
+[2022-05-15 21:48:44,462: INFO/ForkPoolWorker-8] Task request_item[154d7df6-ed48-430b-8fc1-55d52827fbfc] succeeded in 0.9512113430000682s: None
+[2022-05-15 21:48:44,464: INFO/MainProcess] Task request_item[869a5cc7-f86f-4112-bca7-27fb53b22233] received
+[2022-05-15 21:48:44,524: WARNING/ForkPoolWorker-6] CREATED SUCCESSFULLY
+[2022-05-15 21:48:44,525: INFO/ForkPoolWorker-6] Task request_item[845f09f9-2da8-4f4c-92a8-9cf6f77195af] succeeded in 0.9990269139998418s: None
+[2022-05-15 21:48:44,526: WARNING/ForkPoolWorker-2] CREATED SUCCESSFULLY
+[2022-05-15 21:48:44,527: INFO/ForkPoolWorker-2] Task request_item[4de33401-75e6-4f76-8097-96d6b9620114] succeeded in 0.9595517230000041s: None
+[2022-05-15 21:48:44,527: INFO/MainProcess] Task request_item[8af4137e-2924-47b2-b983-6f815d5ff38b] received
+[2022-05-15 21:48:44,529: INFO/MainProcess] Task request_item[07c478da-dee3-4992-9444-29a27d2e8315] received
+[2022-05-15 21:48:44,660: WARNING/ForkPoolWorker-7] CREATED SUCCESSFULLY
+[2022-05-15 21:48:44,661: INFO/ForkPoolWorker-7] Task request_item[a0064448-a82a-4aa2-9a4e-4ee986f85091] succeeded in 0.9553073629995197s: None
+[2022-05-15 21:48:44,662: INFO/MainProcess] Task request_item[b8028dae-25ec-4e97-90ce-aaa9fa65e0a6] received
+[2022-05-15 21:48:44,811: INFO/MainProcess] Task request_item[7bdb4305-7a88-410d-8692-70222c88b651] received
+[2022-05-15 21:48:45,275: WARNING/ForkPoolWorker-3] CREATED SUCCESSFULLY
+[2022-05-15 21:48:45,276: INFO/ForkPoolWorker-3] Task request_item[57e10cba-1cc3-4b71-bc54-bd851b98e6bf] succeeded in 0.9147580090002521s: None
+[2022-05-15 21:48:45,278: WARNING/ForkPoolWorker-1] CREATED SUCCESSFULLY
+[2022-05-15 21:48:45,278: WARNING/ForkPoolWorker-4] CREATED SUCCESSFULLY
+[2022-05-15 21:48:45,279: INFO/ForkPoolWorker-1] Task request_item[302d96ae-6de4-464a-a7d6-94b38d0827e8] succeeded in 0.9769256839999798s: None
+[2022-05-15 21:48:45,279: INFO/ForkPoolWorker-4] Task request_item[574b6213-77d0-44e8-9015-7700734d5cb5] succeeded in 0.9213616400002138s: None
+[2022-05-15 21:48:45,281: INFO/MainProcess] Task request_item[c8b07c55-025c-4bc1-98a8-aca52a2c5356] received
+[2022-05-15 21:48:45,309: WARNING/ForkPoolWorker-5] CREATED SUCCESSFULLY
+[2022-05-15 21:48:45,311: INFO/ForkPoolWorker-5] Task request_item[4c1afdbb-ed40-477c-8828-e6953d228f09] succeeded in 0.9543497340000613s: None
+[2022-05-15 21:48:45,313: INFO/MainProcess] Task request_item[bdb50795-c2b2-4fa5-b1d3-b5c88f8f3d5b] received
+[2022-05-15 21:48:45,315: INFO/MainProcess] Task request_item[79fa0122-4a24-436e-934e-5f9a4306b528] received
+[2022-05-15 21:48:45,387: WARNING/ForkPoolWorker-8] CREATED SUCCESSFULLY
+[2022-05-15 21:48:45,388: INFO/ForkPoolWorker-8] Task request_item[c9a8d87a-6dc1-4b1a-9c24-3aa86ad9ed67] succeeded in 0.923550671999692s: None
+[2022-05-15 21:48:45,390: INFO/MainProcess] Task request_item[20b55c99-76b6-4567-903a-e4f1cd4d3215] received
+[2022-05-15 21:48:45,472: WARNING/ForkPoolWorker-6] CREATED SUCCESSFULLY
+[2022-05-15 21:48:45,473: INFO/ForkPoolWorker-6] Task request_item[bb7ef23f-346f-404e-aace-0a0156d3d389] succeeded in 0.946011033999639s: None
+[2022-05-15 21:48:45,475: INFO/MainProcess] Task request_item[b8b20a5c-d43b-4329-b1fa-dc542660e17a] received
+[2022-05-15 21:48:45,504: WARNING/ForkPoolWorker-2] CREATED SUCCESSFULLY
+[2022-05-15 21:48:45,505: INFO/ForkPoolWorker-2] Task request_item[f5240402-ecb0-40fb-955e-40a13758c616] succeeded in 0.9770392830005221s: None
+[2022-05-15 21:48:45,507: INFO/MainProcess] Task request_item[e8c70679-6148-46c0-adea-57116ee1ea08] received
+[2022-05-15 21:48:45,651: WARNING/ForkPoolWorker-7] CREATED SUCCESSFULLY
+[2022-05-15 21:48:45,652: INFO/ForkPoolWorker-7] Task request_item[abf3b48f-02b3-4450-bf5d-46bbd07f2621] succeeded in 0.9890063809998537s: None
+[2022-05-15 21:48:45,654: INFO/MainProcess] Task request_item[1d5bee58-c3e3-44a1-8a9e-350df9463dd3] received
+[2022-05-15 21:48:45,815: INFO/MainProcess] Task request_item[cf2cda88-1378-471f-aa7f-29bda9d8718c] received
+[2022-05-15 21:48:46,258: WARNING/ForkPoolWorker-1] CREATED SUCCESSFULLY
+[2022-05-15 21:48:46,259: INFO/ForkPoolWorker-1] Task request_item[0aaac1e7-318d-4cd8-8932-b91a627c7c80] succeeded in 0.9773255959999005s: None
+[2022-05-15 21:48:46,282: WARNING/ForkPoolWorker-5] CREATED SUCCESSFULLY
+[2022-05-15 21:48:46,283: INFO/ForkPoolWorker-5] Task request_item[659e9702-588f-4edc-a4d5-6493720f8af7] succeeded in 0.9693935269997382s: None
+[2022-05-15 21:48:46,285: INFO/MainProcess] Task request_item[4e3c29c1-aa87-450f-81a2-181d4e94ae2b] received
+[2022-05-15 21:48:46,296: WARNING/ForkPoolWorker-3] CREATED SUCCESSFULLY
+[2022-05-15 21:48:46,297: INFO/ForkPoolWorker-3] Task request_item[d09e0f2f-d35b-4c2f-8588-5d2ab6888324] succeeded in 1.0198066240000117s: None
+[2022-05-15 21:48:46,299: INFO/MainProcess] Task request_item[0969b497-1db2-4562-be87-e93cf797aafe] received
+[2022-05-15 21:48:46,308: WARNING/ForkPoolWorker-4] CREATED SUCCESSFULLY
+[2022-05-15 21:48:46,309: INFO/ForkPoolWorker-4] Task request_item[05d06777-473a-482c-9750-7fe370dba8ce] succeeded in 1.0275184629999785s: None
+[2022-05-15 21:48:46,312: INFO/MainProcess] Task request_item[f6e59393-9e44-4b09-a48b-7af20a93275b] received
+[2022-05-15 21:48:46,343: WARNING/ForkPoolWorker-8] CREATED SUCCESSFULLY
+[2022-05-15 21:48:46,345: INFO/ForkPoolWorker-8] Task request_item[bdae1e46-cea4-4ccd-bc68-9e2373ba7d0d] succeeded in 0.9542868809994616s: None
+[2022-05-15 21:48:46,347: INFO/MainProcess] Task request_item[0246e6df-b783-40f1-a3e3-c707316d1539] received
+[2022-05-15 21:48:46,480: WARNING/ForkPoolWorker-2] CREATED SUCCESSFULLY
+[2022-05-15 21:48:46,481: INFO/ForkPoolWorker-2] Task request_item[8a5562c3-85d3-4499-bf86-8576a66a586c] succeeded in 0.973145239000587s: None
+[2022-05-15 21:48:46,483: INFO/MainProcess] Task request_item[db053df5-ad93-4f49-836b-3344e9d9113a] received
+[2022-05-15 21:48:46,561: WARNING/ForkPoolWorker-6] CREATED SUCCESSFULLY
+[2022-05-15 21:48:46,562: INFO/ForkPoolWorker-6] Task request_item[46f10d78-51cd-47ad-acbb-966276fd1b37] succeeded in 1.086244353999973s: None
+[2022-05-15 21:48:46,563: INFO/MainProcess] Task request_item[ade3d873-4f17-4f71-a18b-59987a5c074e] received
+[2022-05-15 21:48:46,810: WARNING/ForkPoolWorker-7] CREATED SUCCESSFULLY
+[2022-05-15 21:48:46,812: INFO/ForkPoolWorker-7] Task request_item[5b2991f3-a165-4e9f-9ff2-6f009344747d] succeeded in 1.1577701289998004s: None
+[2022-05-15 21:48:46,814: INFO/MainProcess] Task request_item[52b61542-c903-483d-b096-286fe6acacb3] received
+[2022-05-15 21:48:47,217: WARNING/ForkPoolWorker-1] CREATED SUCCESSFULLY
+[2022-05-15 21:48:47,218: INFO/ForkPoolWorker-1] Task request_item[3125374d-6dae-4169-8b41-af21b1471830] succeeded in 0.9576002309995602s: None
+[2022-05-15 21:48:47,218: WARNING/ForkPoolWorker-5] CREATED SUCCESSFULLY
+[2022-05-15 21:48:47,219: INFO/ForkPoolWorker-5] Task request_item[6f2cb577-5f5b-460a-a12e-0673076926a4] succeeded in 0.9332235310002943s: None
+[2022-05-15 21:48:47,221: INFO/MainProcess] Task request_item[c8ba10bd-2d49-4c8e-ad0b-b5ba3c4cdfc6] received
+[2022-05-15 21:48:47,223: INFO/MainProcess] Task request_item[c81836c5-a1db-4395-a7dc-9df5103d2273] received
+[2022-05-15 21:48:47,246: WARNING/ForkPoolWorker-4] CREATED SUCCESSFULLY
+[2022-05-15 21:48:47,247: WARNING/ForkPoolWorker-3] CREATED SUCCESSFULLY
+[2022-05-15 21:48:47,247: INFO/ForkPoolWorker-4] Task request_item[4394c858-f29e-45e4-aa10-6e8c782fcd23] succeeded in 0.9348499070001708s: None
+[2022-05-15 21:48:47,248: INFO/ForkPoolWorker-3] Task request_item[162f0ed7-65e5-4106-94e0-fcb338ec3dfb] succeeded in 0.9481457080000837s: None
+[2022-05-15 21:48:47,249: INFO/MainProcess] Task request_item[ccb14c42-604a-4b05-a7f6-65b862c6bb2a] received
+[2022-05-15 21:48:47,342: WARNING/ForkPoolWorker-8] CREATED SUCCESSFULLY
+[2022-05-15 21:48:47,343: INFO/ForkPoolWorker-8] Task request_item[66ffaa99-b3af-4c67-af2d-bac4eafb718c] succeeded in 0.9949346599996716s: None
+[2022-05-15 21:48:47,345: INFO/MainProcess] Task request_item[acf6d7f9-43b1-4c25-9152-dcd017e39bf3] received
+[2022-05-15 21:48:47,347: INFO/MainProcess] Task request_item[bc1f1151-ff0e-4027-9530-76dd1358b192] received
+[2022-05-15 21:48:47,424: WARNING/ForkPoolWorker-2] CREATED SUCCESSFULLY
+[2022-05-15 21:48:47,425: INFO/ForkPoolWorker-2] Task request_item[da5694ac-8c9a-4389-85de-88cb7945d9bb] succeeded in 0.941751399000168s: None
+[2022-05-15 21:48:47,427: INFO/MainProcess] Task request_item[62d1e50d-c620-4518-87fb-3441aaca8c17] received
+[2022-05-15 21:48:47,514: WARNING/ForkPoolWorker-6] CREATED SUCCESSFULLY
+[2022-05-15 21:48:47,515: INFO/ForkPoolWorker-6] Task request_item[35ef2703-fa8f-4355-b787-7f874ae44db9] succeeded in 0.9517220090001501s: None
+[2022-05-15 21:48:47,517: INFO/MainProcess] Task request_item[683fe51d-f137-4a89-9307-5b9b7eb891a5] received
+[2022-05-15 21:48:47,792: WARNING/ForkPoolWorker-7] CREATED SUCCESSFULLY
+[2022-05-15 21:48:47,793: INFO/ForkPoolWorker-7] Task request_item[cf2a6f6f-27d9-4a22-b3b4-a25a71226342] succeeded in 0.9777471079996758s: None
+[2022-05-15 21:48:47,795: INFO/MainProcess] Task request_item[2eb1b558-f8e4-4200-830c-10c39e5d2da3] received
+[2022-05-15 21:48:47,818: INFO/MainProcess] Task request_item[1cad531d-1163-4f82-ab18-6b6ea4e3885d] received
+[2022-05-15 21:48:48,157: WARNING/ForkPoolWorker-1] CREATED SUCCESSFULLY
+[2022-05-15 21:48:48,157: WARNING/ForkPoolWorker-5] CREATED SUCCESSFULLY
+[2022-05-15 21:48:48,158: INFO/ForkPoolWorker-1] Task request_item[b1287f6b-6835-4554-83a0-2b17b21eaaaf] succeeded in 0.9365977300003578s: None
+[2022-05-15 21:48:48,158: INFO/ForkPoolWorker-5] Task request_item[9cd22a9a-5e98-48a4-9b7b-9b8e94349691] succeeded in 0.9355126560003555s: None
+[2022-05-15 21:48:48,198: WARNING/ForkPoolWorker-3] CREATED SUCCESSFULLY
+[2022-05-15 21:48:48,199: WARNING/ForkPoolWorker-4] CREATED SUCCESSFULLY
+[2022-05-15 21:48:48,200: INFO/ForkPoolWorker-3] Task request_item[d80e57c2-2e47-4b46-bf56-9e7a4d8a92b3] succeeded in 0.9498460459999478s: None
+[2022-05-15 21:48:48,200: INFO/ForkPoolWorker-4] Task request_item[0ac85122-6ff8-4a9d-95fa-753346bf5ce1] succeeded in 0.950331480999921s: None
+[2022-05-15 21:48:48,201: INFO/MainProcess] Task request_item[4d177f07-2fd0-4c2d-a63b-56c0078a57f2] received
+[2022-05-15 21:48:48,202: INFO/MainProcess] Task request_item[2b9b6ce7-8f1f-4bb6-93f9-96ba6902cee2] received
+[2022-05-15 21:48:48,204: INFO/MainProcess] Task request_item[3a97958c-11f5-4500-9490-a867eeaafab0] received
+[2022-05-15 21:48:48,308: WARNING/ForkPoolWorker-8] CREATED SUCCESSFULLY
+[2022-05-15 21:48:48,309: INFO/ForkPoolWorker-8] Task request_item[7f87b4db-7954-4b86-8d5e-02d7baada1ca] succeeded in 0.9633834500000376s: None
+[2022-05-15 21:48:48,311: INFO/MainProcess] Task request_item[e0c151e6-b92b-47c1-abd4-704470febc6c] received
+[2022-05-15 21:48:48,412: WARNING/ForkPoolWorker-2] CREATED SUCCESSFULLY
+[2022-05-15 21:48:48,414: INFO/ForkPoolWorker-2] Task request_item[7fe05a6f-722c-4179-aa59-91a75941118e] succeeded in 0.9861619160001283s: None
+[2022-05-15 21:48:48,416: INFO/MainProcess] Task request_item[056811a9-f9d9-4860-981c-d6e4c0364b98] received
+[2022-05-15 21:48:48,511: WARNING/ForkPoolWorker-6] CREATED SUCCESSFULLY
+[2022-05-15 21:48:48,512: INFO/ForkPoolWorker-6] Task request_item[7ca3210b-530c-4d0d-be84-49de826ba103] succeeded in 0.994487738999851s: None
+[2022-05-15 21:48:48,514: INFO/MainProcess] Task request_item[0bd3f600-9bbf-40f5-afd6-634ed3524a97] received
+[2022-05-15 21:48:48,728: WARNING/ForkPoolWorker-7] CREATED SUCCESSFULLY
+[2022-05-15 21:48:48,729: INFO/ForkPoolWorker-7] Task request_item[f9f66a3d-2323-43b0-9dc5-24b1dd5cb0b2] succeeded in 0.9339713720000873s: None
+[2022-05-15 21:48:48,731: INFO/MainProcess] Task request_item[7603269c-a4ef-49e5-9045-753f19e66599] received
+[2022-05-15 21:48:48,790: INFO/MainProcess] Task request_item[c28e9bf3-8d39-4e8c-b59e-d5bdd357b5aa] received
+[2022-05-15 21:48:49,086: WARNING/ForkPoolWorker-5] CREATED SUCCESSFULLY
+[2022-05-15 21:48:49,088: INFO/ForkPoolWorker-5] Task request_item[bdbd0ca9-103f-44ed-b38d-a20cb4621f11] succeeded in 0.9287675430005038s: None
+[2022-05-15 21:48:49,169: WARNING/ForkPoolWorker-3] CREATED SUCCESSFULLY
+[2022-05-15 21:48:49,170: INFO/ForkPoolWorker-3] Task request_item[3af1d669-57fa-413b-b679-07c28166f979] succeeded in 0.9679960029998256s: None
+[2022-05-15 21:48:49,170: WARNING/ForkPoolWorker-4] CREATED SUCCESSFULLY
+[2022-05-15 21:48:49,171: INFO/ForkPoolWorker-4] Task request_item[869a5cc7-f86f-4112-bca7-27fb53b22233] succeeded in 0.9673216179999145s: None
+[2022-05-15 21:48:49,172: INFO/MainProcess] Task request_item[4566ac40-562c-43db-9f5d-5f7fe10db928] received
+[2022-05-15 21:48:49,174: INFO/MainProcess] Task request_item[d044b166-5a5a-415b-b1c0-92238b905ca4] received
+[2022-05-15 21:48:49,200: WARNING/ForkPoolWorker-1] CREATED SUCCESSFULLY
+[2022-05-15 21:48:49,201: INFO/ForkPoolWorker-1] Task request_item[4fec500c-c560-45a9-9eed-405fabff3818] succeeded in 1.0420787180000843s: None
+[2022-05-15 21:48:49,203: INFO/MainProcess] Task request_item[c1dd84bf-8993-4e8a-b276-e30e179db895] received
+[2022-05-15 21:48:49,236: WARNING/ForkPoolWorker-8] CREATED SUCCESSFULLY
+[2022-05-15 21:48:49,237: INFO/ForkPoolWorker-8] Task request_item[8af4137e-2924-47b2-b983-6f815d5ff38b] succeeded in 0.9254425999997693s: None
+[2022-05-15 21:48:49,240: INFO/MainProcess] Task request_item[e19f75eb-75f5-4e2f-ab6c-1654d529bbde] received
+[2022-05-15 21:48:49,349: WARNING/ForkPoolWorker-2] CREATED SUCCESSFULLY
+[2022-05-15 21:48:49,350: INFO/ForkPoolWorker-2] Task request_item[07c478da-dee3-4992-9444-29a27d2e8315] succeeded in 0.9336333960000047s: None
+[2022-05-15 21:48:49,353: INFO/MainProcess] Task request_item[a58e8780-dfd9-4115-9418-dcfe611ae24a] received
+[2022-05-15 21:48:49,525: WARNING/ForkPoolWorker-6] CREATED SUCCESSFULLY
+[2022-05-15 21:48:49,527: INFO/ForkPoolWorker-6] Task request_item[b8028dae-25ec-4e97-90ce-aaa9fa65e0a6] succeeded in 1.012713012999484s: None
+[2022-05-15 21:48:49,739: WARNING/ForkPoolWorker-7] CREATED SUCCESSFULLY
+[2022-05-15 21:48:49,740: INFO/ForkPoolWorker-7] Task request_item[7bdb4305-7a88-410d-8692-70222c88b651] succeeded in 1.0085791150004297s: None
+[2022-05-15 21:48:50,083: WARNING/ForkPoolWorker-5] CREATED SUCCESSFULLY
+[2022-05-15 21:48:50,085: INFO/ForkPoolWorker-5] Task request_item[c8b07c55-025c-4bc1-98a8-aca52a2c5356] succeeded in 0.9959589979998782s: None
+[2022-05-15 21:48:50,133: WARNING/ForkPoolWorker-4] CREATED SUCCESSFULLY
+[2022-05-15 21:48:50,134: INFO/ForkPoolWorker-4] Task request_item[79fa0122-4a24-436e-934e-5f9a4306b528] succeeded in 0.9604874900005598s: None
+[2022-05-15 21:48:50,144: WARNING/ForkPoolWorker-8] CREATED SUCCESSFULLY
+[2022-05-15 21:48:50,145: WARNING/ForkPoolWorker-3] CREATED SUCCESSFULLY
+[2022-05-15 21:48:50,145: INFO/ForkPoolWorker-8] Task request_item[b8b20a5c-d43b-4329-b1fa-dc542660e17a] succeeded in 0.9049568110003747s: None
+[2022-05-15 21:48:50,145: INFO/ForkPoolWorker-3] Task request_item[bdb50795-c2b2-4fa5-b1d3-b5c88f8f3d5b] succeeded in 0.9732923909996316s: None
+[2022-05-15 21:48:50,161: WARNING/ForkPoolWorker-1] CREATED SUCCESSFULLY
+[2022-05-15 21:48:50,162: INFO/ForkPoolWorker-1] Task request_item[20b55c99-76b6-4567-903a-e4f1cd4d3215] succeeded in 0.9586760369993499s: None
+[2022-05-15 21:48:50,274: WARNING/ForkPoolWorker-2] CREATED SUCCESSFULLY
+[2022-05-15 21:48:50,275: INFO/ForkPoolWorker-2] Task request_item[e8c70679-6148-46c0-adea-57116ee1ea08] succeeded in 0.9220822400002362s: None
+[2022-05-15 21:48:50,496: WARNING/ForkPoolWorker-6] CREATED SUCCESSFULLY
+[2022-05-15 21:48:50,498: INFO/ForkPoolWorker-6] Task request_item[1d5bee58-c3e3-44a1-8a9e-350df9463dd3] succeeded in 0.9685947429998123s: None
+[2022-05-15 21:48:50,759: WARNING/ForkPoolWorker-7] CREATED SUCCESSFULLY
+[2022-05-15 21:48:50,760: INFO/ForkPoolWorker-7] Task request_item[cf2cda88-1378-471f-aa7f-29bda9d8718c] succeeded in 1.0188647170007243s: None
+[2022-05-15 21:48:51,056: WARNING/ForkPoolWorker-5] CREATED SUCCESSFULLY
+[2022-05-15 21:48:51,057: INFO/ForkPoolWorker-5] Task request_item[4e3c29c1-aa87-450f-81a2-181d4e94ae2b] succeeded in 0.9706717690005462s: None
+[2022-05-15 21:48:51,102: WARNING/ForkPoolWorker-4] CREATED SUCCESSFULLY
+[2022-05-15 21:48:51,104: INFO/ForkPoolWorker-4] Task request_item[0969b497-1db2-4562-be87-e93cf797aafe] succeeded in 0.969188228999883s: None
+[2022-05-15 21:48:51,111: WARNING/ForkPoolWorker-1] CREATED SUCCESSFULLY
+[2022-05-15 21:48:51,112: INFO/ForkPoolWorker-1] Task request_item[db053df5-ad93-4f49-836b-3344e9d9113a] succeeded in 0.9488236999995934s: None
+[2022-05-15 21:48:51,122: WARNING/ForkPoolWorker-3] CREATED SUCCESSFULLY
+[2022-05-15 21:48:51,124: INFO/ForkPoolWorker-3] Task request_item[0246e6df-b783-40f1-a3e3-c707316d1539] succeeded in 0.9757777309996527s: None
+[2022-05-15 21:48:51,160: WARNING/ForkPoolWorker-8] CREATED SUCCESSFULLY
+[2022-05-15 21:48:51,162: INFO/ForkPoolWorker-8] Task request_item[f6e59393-9e44-4b09-a48b-7af20a93275b] succeeded in 1.0156864419996054s: None
+[2022-05-15 21:48:51,211: WARNING/ForkPoolWorker-2] CREATED SUCCESSFULLY
+[2022-05-15 21:48:51,212: INFO/ForkPoolWorker-2] Task request_item[ade3d873-4f17-4f71-a18b-59987a5c074e] succeeded in 0.9355991470001754s: None
+[2022-05-15 21:48:51,451: WARNING/ForkPoolWorker-6] CREATED SUCCESSFULLY
+[2022-05-15 21:48:51,452: INFO/ForkPoolWorker-6] Task request_item[52b61542-c903-483d-b096-286fe6acacb3] succeeded in 0.9528881779997391s: None
+[2022-05-15 21:48:51,771: WARNING/ForkPoolWorker-7] CREATED SUCCESSFULLY
+[2022-05-15 21:48:51,773: INFO/ForkPoolWorker-7] Task request_item[c8ba10bd-2d49-4c8e-ad0b-b5ba3c4cdfc6] succeeded in 1.0109513870002047s: None
+[2022-05-15 21:48:52,071: WARNING/ForkPoolWorker-5] CREATED SUCCESSFULLY
+[2022-05-15 21:48:52,072: INFO/ForkPoolWorker-5] Task request_item[c81836c5-a1db-4395-a7dc-9df5103d2273] succeeded in 1.0139236960003473s: None
+[2022-05-15 21:48:52,200: WARNING/ForkPoolWorker-2] CREATED SUCCESSFULLY
+[2022-05-15 21:48:52,200: WARNING/ForkPoolWorker-1] CREATED SUCCESSFULLY
+[2022-05-15 21:48:52,201: INFO/ForkPoolWorker-2] Task request_item[683fe51d-f137-4a89-9307-5b9b7eb891a5] succeeded in 0.9871824439996999s: None
+[2022-05-15 21:48:52,201: INFO/ForkPoolWorker-1] Task request_item[acf6d7f9-43b1-4c25-9152-dcd017e39bf3] succeeded in 1.087732744999812s: None
+[2022-05-15 21:48:52,247: WARNING/ForkPoolWorker-3] CREATED SUCCESSFULLY
+[2022-05-15 21:48:52,248: INFO/ForkPoolWorker-3] Task request_item[bc1f1151-ff0e-4027-9530-76dd1358b192] succeeded in 1.123372656000356s: None
+[2022-05-15 21:48:52,267: WARNING/ForkPoolWorker-8] CREATED SUCCESSFULLY
+[2022-05-15 21:48:52,267: INFO/ForkPoolWorker-8] Task request_item[62d1e50d-c620-4518-87fb-3441aaca8c17] succeeded in 1.104305044999819s: None
+[2022-05-15 21:48:52,320: WARNING/ForkPoolWorker-4] CREATED SUCCESSFULLY
+[2022-05-15 21:48:52,321: INFO/ForkPoolWorker-4] Task request_item[ccb14c42-604a-4b05-a7f6-65b862c6bb2a] succeeded in 1.2160096090001389s: None
+[2022-05-15 21:48:52,441: WARNING/ForkPoolWorker-6] CREATED SUCCESSFULLY
+[2022-05-15 21:48:52,442: INFO/ForkPoolWorker-6] Task request_item[2eb1b558-f8e4-4200-830c-10c39e5d2da3] succeeded in 0.9886042910002288s: None
+[2022-05-15 21:48:52,761: WARNING/ForkPoolWorker-7] CREATED SUCCESSFULLY
+[2022-05-15 21:48:52,762: INFO/ForkPoolWorker-7] Task request_item[1cad531d-1163-4f82-ab18-6b6ea4e3885d] succeeded in 0.9884153729999525s: None
+[2022-05-15 21:48:53,044: WARNING/ForkPoolWorker-5] CREATED SUCCESSFULLY
+[2022-05-15 21:48:53,046: INFO/ForkPoolWorker-5] Task request_item[4d177f07-2fd0-4c2d-a63b-56c0078a57f2] succeeded in 0.972437512000397s: None
+[2022-05-15 21:48:53,140: WARNING/ForkPoolWorker-1] CREATED SUCCESSFULLY
+[2022-05-15 21:48:53,142: INFO/ForkPoolWorker-1] Task request_item[3a97958c-11f5-4500-9490-a867eeaafab0] succeeded in 0.9383138140001392s: None
+[2022-05-15 21:48:53,154: WARNING/ForkPoolWorker-2] CREATED SUCCESSFULLY
+[2022-05-15 21:48:53,155: INFO/ForkPoolWorker-2] Task request_item[2b9b6ce7-8f1f-4bb6-93f9-96ba6902cee2] succeeded in 0.9532421760004581s: None
+[2022-05-15 21:48:53,164: WARNING/ForkPoolWorker-3] CREATED SUCCESSFULLY
+[2022-05-15 21:48:53,165: INFO/ForkPoolWorker-3] Task request_item[e0c151e6-b92b-47c1-abd4-704470febc6c] succeeded in 0.9159767809996993s: None
+[2022-05-15 21:48:53,202: WARNING/ForkPoolWorker-4] CREATED SUCCESSFULLY
+[2022-05-15 21:48:53,203: WARNING/ForkPoolWorker-8] CREATED SUCCESSFULLY
+[2022-05-15 21:48:53,203: INFO/ForkPoolWorker-4] Task request_item[0bd3f600-9bbf-40f5-afd6-634ed3524a97] succeeded in 0.8806960710007843s: None
+[2022-05-15 21:48:53,204: INFO/ForkPoolWorker-8] Task request_item[056811a9-f9d9-4860-981c-d6e4c0364b98] succeeded in 0.9353784109998742s: None
+[2022-05-15 21:48:53,425: WARNING/ForkPoolWorker-6] CREATED SUCCESSFULLY
+[2022-05-15 21:48:53,427: INFO/ForkPoolWorker-6] Task request_item[7603269c-a4ef-49e5-9045-753f19e66599] succeeded in 0.9836353640002926s: None
+[2022-05-15 21:48:53,684: WARNING/ForkPoolWorker-7] CREATED SUCCESSFULLY
+[2022-05-15 21:48:53,686: INFO/ForkPoolWorker-7] Task request_item[c28e9bf3-8d39-4e8c-b59e-d5bdd357b5aa] succeeded in 0.9220993029994133s: None
+[2022-05-15 21:48:54,024: WARNING/ForkPoolWorker-5] CREATED SUCCESSFULLY
+[2022-05-15 21:48:54,027: INFO/ForkPoolWorker-5] Task request_item[4566ac40-562c-43db-9f5d-5f7fe10db928] succeeded in 0.9790973079998366s: None
+[2022-05-15 21:48:54,153: WARNING/ForkPoolWorker-2] CREATED SUCCESSFULLY
+[2022-05-15 21:48:54,154: INFO/ForkPoolWorker-2] Task request_item[c1dd84bf-8993-4e8a-b276-e30e179db895] succeeded in 0.9976372739993167s: None
+[2022-05-15 21:48:54,166: WARNING/ForkPoolWorker-3] CREATED SUCCESSFULLY
+[2022-05-15 21:48:54,167: INFO/ForkPoolWorker-3] Task request_item[e19f75eb-75f5-4e2f-ab6c-1654d529bbde] succeeded in 1.0006304080006885s: None
+[2022-05-15 21:48:54,180: WARNING/ForkPoolWorker-8] CREATED SUCCESSFULLY
+[2022-05-15 21:48:54,182: INFO/ForkPoolWorker-8] Task request_item[a58e8780-dfd9-4115-9418-dcfe611ae24a] succeeded in 0.9768027509999229s: None
+[2022-05-15 21:48:54,221: WARNING/ForkPoolWorker-1] CREATED SUCCESSFULLY
+[2022-05-15 21:48:54,223: INFO/ForkPoolWorker-1] Task request_item[d044b166-5a5a-415b-b1c0-92238b905ca4] succeeded in 1.0800166469998658s: None
+[2022-05-15 21:53:38,074: INFO/MainProcess] Task update[aaf5a117-37dd-428b-aab8-ef6d1f4a9c0a] received
+[2022-05-15 21:53:38,076: WARNING/ForkPoolWorker-7] INITIAL 100
+[2022-05-15 21:53:39,765: WARNING/ForkPoolWorker-7] 31391513
+[2022-05-15 21:53:39,769: INFO/MainProcess] Task request_item[930fd22d-787e-4ddc-a63f-b7030542579e] received
+[2022-05-15 21:53:39,770: INFO/MainProcess] Task request_item[dafb7f8b-b08a-4673-ae2b-7dcc747fcc1c] received
+[2022-05-15 21:53:39,772: INFO/MainProcess] Task request_item[962ff781-3a80-469f-91e1-7d1fb185e585] received
+[2022-05-15 21:53:39,775: INFO/MainProcess] Task request_item[2fa0dd3f-cdbf-42e8-8868-cc2ae1cabd03] received
+[2022-05-15 21:53:39,776: INFO/MainProcess] Task request_item[74d57aa3-0cf9-4c63-8117-1ee0c13128ec] received
+[2022-05-15 21:53:39,778: INFO/MainProcess] Task request_item[fd4afbac-6b55-4a47-8ff2-e423d3cab674] received
+[2022-05-15 21:53:39,780: INFO/MainProcess] Task request_item[abd088b9-62ce-434b-945c-c7d666d04a0d] received
+[2022-05-15 21:53:39,783: INFO/MainProcess] Task request_item[fdc09e34-0e3a-41b0-b163-d7eef908d54f] received
+[2022-05-15 21:53:39,784: INFO/MainProcess] Task request_item[0ac9ba32-38c9-448c-867e-413f4aad719d] received
+[2022-05-15 21:53:39,786: INFO/MainProcess] Task request_item[2f294337-e1cb-46b1-af2d-f9c45b6f4b01] received
+[2022-05-15 21:53:39,787: INFO/MainProcess] Task request_item[12a8f363-759a-4a91-8784-b95697b405a8] received
+[2022-05-15 21:53:39,788: INFO/MainProcess] Task request_item[4d3a3c72-bbeb-4f7e-8594-5cffa9449db1] received
+[2022-05-15 21:53:39,789: INFO/MainProcess] Task request_item[932b20e4-b3b1-443a-9d91-952aa25e6806] received
+[2022-05-15 21:53:39,790: INFO/MainProcess] Task request_item[1d86e522-8f2d-45e1-944a-7c19431b3eed] received
+[2022-05-15 21:53:39,791: INFO/MainProcess] Task request_item[d831d021-ab58-4998-8d69-f0f8c791e983] received
+[2022-05-15 21:53:39,792: INFO/MainProcess] Task request_item[0c868a95-519c-4809-b758-be22af4fcbc8] received
+[2022-05-15 21:53:39,793: INFO/MainProcess] Task request_item[abdabcaa-1c45-495e-9699-662013a54192] received
+[2022-05-15 21:53:39,794: INFO/MainProcess] Task request_item[c6f540ef-d701-49ae-a3ad-8709ef3b9aa4] received
+[2022-05-15 21:53:39,794: INFO/MainProcess] Task request_item[aca924dd-e415-472e-8593-fe7e7ba79446] received
+[2022-05-15 21:53:39,795: INFO/MainProcess] Task request_item[6af96db8-131d-4f13-9270-6dc1b30a52d3] received
+[2022-05-15 21:53:39,796: INFO/MainProcess] Task request_item[b662f3e1-466f-45df-aa27-74d9dba5749f] received
+[2022-05-15 21:53:39,797: INFO/MainProcess] Task request_item[6b4013a5-97b0-43b3-a9b9-088ab41a2291] received
+[2022-05-15 21:53:39,798: INFO/MainProcess] Task request_item[43b5c1a3-dc84-47b1-b451-136254a6cffb] received
+[2022-05-15 21:53:39,799: INFO/MainProcess] Task request_item[55a74abb-22ee-44f4-a2eb-a8499ee04671] received
+[2022-05-15 21:53:39,800: INFO/MainProcess] Task request_item[bd6d280b-fcf5-429e-8921-c59d19c5767e] received
+[2022-05-15 21:53:39,801: INFO/MainProcess] Task request_item[05467736-2d0f-4c83-a21b-7f7c89dc38eb] received
+[2022-05-15 21:53:39,802: INFO/MainProcess] Task request_item[c3a05341-3fc0-459a-ae59-fae7eafa7e03] received
+[2022-05-15 21:53:39,803: INFO/MainProcess] Task request_item[a9a4518d-c583-488e-998f-5920b38c7add] received
+[2022-05-15 21:53:39,804: INFO/MainProcess] Task request_item[8bdfa29a-3cb2-49f7-8eb6-af7b9ccf706c] received
+[2022-05-15 21:53:39,804: INFO/MainProcess] Task request_item[90ead158-87b7-4f9d-8749-4ed2fc744fb9] received
+[2022-05-15 21:53:39,805: INFO/MainProcess] Task request_item[629b0e5a-4f05-46ec-aaad-a45a728c0e88] received
+[2022-05-15 21:53:39,806: INFO/MainProcess] Task request_item[41cc51ff-d83b-46ec-a965-6392f0fb72c3] received
+[2022-05-15 21:53:39,807: INFO/MainProcess] Task request_item[c263ea7f-f4dc-46aa-b73d-82c2e8260335] received
+[2022-05-15 21:53:39,808: INFO/MainProcess] Task request_item[8ee3c25b-bda6-48e3-9881-9e1fd390fa26] received
+[2022-05-15 21:53:39,809: INFO/MainProcess] Task request_item[b01647d8-767f-40bd-aae6-2e678217ce01] received
+[2022-05-15 21:53:39,810: INFO/MainProcess] Task request_item[1417a737-c238-42e9-8676-e6b8ceaf506e] received
+[2022-05-15 21:53:39,810: INFO/MainProcess] Task request_item[b12fa241-3ee6-477c-a5b4-afb5c6e6ad5e] received
+[2022-05-15 21:53:39,811: INFO/MainProcess] Task request_item[996451cc-b8ad-4c6e-9557-729ed519f43d] received
+[2022-05-15 21:53:39,812: INFO/MainProcess] Task request_item[7d9f9caa-5c5c-406f-9d53-292f6ae2b1ef] received
+[2022-05-15 21:53:40,968: WARNING/ForkPoolWorker-7] NOT DONE WITH INITIAL 100
+[2022-05-15 21:53:40,971: INFO/ForkPoolWorker-7] Task update[aaf5a117-37dd-428b-aab8-ef6d1f4a9c0a] succeeded in 2.894822003999252s: False
+[2022-05-15 21:53:40,989: WARNING/ForkPoolWorker-8] CREATED SUCCESSFULLY
+[2022-05-15 21:53:40,989: WARNING/ForkPoolWorker-3] CREATED SUCCESSFULLY
+[2022-05-15 21:53:40,990: WARNING/ForkPoolWorker-2] CREATED SUCCESSFULLY
+[2022-05-15 21:53:40,990: INFO/ForkPoolWorker-8] Task request_item[930fd22d-787e-4ddc-a63f-b7030542579e] succeeded in 1.2192543279998063s: None
+[2022-05-15 21:53:40,990: INFO/ForkPoolWorker-3] Task request_item[2fa0dd3f-cdbf-42e8-8868-cc2ae1cabd03] succeeded in 1.2147977240001637s: None
+[2022-05-15 21:53:40,992: WARNING/ForkPoolWorker-6] CREATED SUCCESSFULLY
+[2022-05-15 21:53:40,992: INFO/ForkPoolWorker-2] Task request_item[962ff781-3a80-469f-91e1-7d1fb185e585] succeeded in 1.2162602469998092s: None
+[2022-05-15 21:53:40,993: INFO/ForkPoolWorker-6] Task request_item[abd088b9-62ce-434b-945c-c7d666d04a0d] succeeded in 1.2097760610004116s: None
+[2022-05-15 21:53:40,993: INFO/MainProcess] Task request_item[c18ce62b-c5e3-4638-8bb0-6d15acb6aa1f] received
+[2022-05-15 21:53:41,000: INFO/MainProcess] Task request_item[ce463de1-cc11-4a9d-af28-cf643811eba3] received
+[2022-05-15 21:53:41,001: INFO/MainProcess] Task request_item[3fabb499-a693-4a05-866e-58b794c41ff7] received
+[2022-05-15 21:53:41,002: INFO/MainProcess] Task request_item[1dd2636d-9f1a-4dd8-ab87-30468878d0d1] received
+[2022-05-15 21:53:41,003: INFO/MainProcess] Task request_item[98a70bd9-b7c3-4984-9a41-e8b815b3d2f6] received
+[2022-05-15 21:53:41,003: WARNING/ForkPoolWorker-4] CREATED SUCCESSFULLY
+[2022-05-15 21:53:41,004: INFO/ForkPoolWorker-4] Task request_item[74d57aa3-0cf9-4c63-8117-1ee0c13128ec] succeeded in 1.2256189549998453s: None
+[2022-05-15 21:53:41,004: WARNING/ForkPoolWorker-5] CREATED SUCCESSFULLY
+[2022-05-15 21:53:41,005: INFO/ForkPoolWorker-5] Task request_item[fd4afbac-6b55-4a47-8ff2-e423d3cab674] succeeded in 1.2263871850000214s: None
+[2022-05-15 21:53:41,007: INFO/MainProcess] Task request_item[8f4ef395-0ccd-4d57-8c98-4be3e1e58b7a] received
+[2022-05-15 21:53:41,016: WARNING/ForkPoolWorker-1] CREATED SUCCESSFULLY
+[2022-05-15 21:53:41,017: INFO/ForkPoolWorker-1] Task request_item[dafb7f8b-b08a-4673-ae2b-7dcc747fcc1c] succeeded in 1.245811673999924s: None
+[2022-05-15 21:53:41,018: INFO/MainProcess] Task request_item[a1d8aacf-935c-40f3-a01d-ef1972a893ff] received
+[2022-05-15 21:53:42,010: WARNING/ForkPoolWorker-7] CREATED SUCCESSFULLY
+[2022-05-15 21:53:42,011: WARNING/ForkPoolWorker-3] CREATED SUCCESSFULLY
+[2022-05-15 21:53:42,012: INFO/ForkPoolWorker-7] Task request_item[fdc09e34-0e3a-41b0-b163-d7eef908d54f] succeeded in 1.0385404809994725s: None
+[2022-05-15 21:53:42,013: INFO/ForkPoolWorker-3] Task request_item[2f294337-e1cb-46b1-af2d-f9c45b6f4b01] succeeded in 1.018985206999787s: None
+[2022-05-15 21:53:42,014: INFO/MainProcess] Task request_item[663def5c-aa84-4ce4-9813-a3d96b638d20] received
+[2022-05-15 21:53:42,300: INFO/MainProcess] Task request_item[d15a4d66-d9c1-472a-b68a-0b7706523717] received
+[2022-05-15 21:53:42,302: INFO/MainProcess] Task request_item[6e16b6af-8c23-449e-8592-a92794211600] received
+[2022-05-15 21:53:42,303: WARNING/ForkPoolWorker-5] CREATED SUCCESSFULLY
+[2022-05-15 21:53:42,304: WARNING/ForkPoolWorker-4] CREATED SUCCESSFULLY
+[2022-05-15 21:53:42,304: WARNING/ForkPoolWorker-8] CREATED SUCCESSFULLY
+[2022-05-15 21:53:42,304: INFO/ForkPoolWorker-5] Task request_item[1d86e522-8f2d-45e1-944a-7c19431b3eed] succeeded in 1.2969391420001557s: None
+[2022-05-15 21:53:42,304: WARNING/ForkPoolWorker-1] CREATED SUCCESSFULLY
+[2022-05-15 21:53:42,305: WARNING/ForkPoolWorker-2] CREATED SUCCESSFULLY
+[2022-05-15 21:53:42,305: WARNING/ForkPoolWorker-6] CREATED SUCCESSFULLY
+[2022-05-15 21:53:42,306: INFO/ForkPoolWorker-4] Task request_item[932b20e4-b3b1-443a-9d91-952aa25e6806] succeeded in 1.3007100150007318s: None
+[2022-05-15 21:53:42,306: INFO/ForkPoolWorker-8] Task request_item[0ac9ba32-38c9-448c-867e-413f4aad719d] succeeded in 1.3111742060000324s: None
+[2022-05-15 21:53:42,307: INFO/ForkPoolWorker-6] Task request_item[4d3a3c72-bbeb-4f7e-8594-5cffa9449db1] succeeded in 1.3125744799999666s: None
+[2022-05-15 21:53:42,307: INFO/ForkPoolWorker-2] Task request_item[12a8f363-759a-4a91-8784-b95697b405a8] succeeded in 1.3126394869996147s: None
+[2022-05-15 21:53:42,306: INFO/ForkPoolWorker-1] Task request_item[d831d021-ab58-4998-8d69-f0f8c791e983] succeeded in 1.2873304479999206s: None
+[2022-05-15 21:53:42,312: INFO/MainProcess] Task request_item[f8bd911e-aa46-43dd-92c7-933c3170ddd7] received
+[2022-05-15 21:53:42,316: INFO/MainProcess] Task request_item[b7651938-8c93-4afd-80cb-0e5dff18de95] received
+[2022-05-15 21:53:42,317: INFO/MainProcess] Task request_item[912f335e-fbe2-4452-a2e3-2a54cce733fd] received
+[2022-05-15 21:53:42,318: INFO/MainProcess] Task request_item[a6bb48fe-9618-4482-8458-f5415c4a7b72] received
+[2022-05-15 21:53:42,319: INFO/MainProcess] Task request_item[44e5081a-35f1-44bf-af71-d92649a0c920] received
+[2022-05-15 21:53:42,320: INFO/MainProcess] Task request_item[ac486982-0c39-4534-9f75-1b37b729209e] received
+[2022-05-15 21:53:43,638: WARNING/ForkPoolWorker-1] CREATED SUCCESSFULLY
+[2022-05-15 21:53:43,639: INFO/ForkPoolWorker-1] Task request_item[aca924dd-e415-472e-8593-fe7e7ba79446] succeeded in 1.3304297989998304s: None
+[2022-05-15 21:53:43,660: WARNING/ForkPoolWorker-7] CREATED SUCCESSFULLY
+[2022-05-15 21:53:43,660: WARNING/ForkPoolWorker-5] CREATED SUCCESSFULLY
+[2022-05-15 21:53:43,661: INFO/ForkPoolWorker-7] Task request_item[0c868a95-519c-4809-b758-be22af4fcbc8] succeeded in 1.6457477379999546s: None
+[2022-05-15 21:53:43,661: INFO/ForkPoolWorker-5] Task request_item[c6f540ef-d701-49ae-a3ad-8709ef3b9aa4] succeeded in 1.3552071059993978s: None
+[2022-05-15 21:53:43,661: WARNING/ForkPoolWorker-4] CREATED SUCCESSFULLY
+[2022-05-15 21:53:43,662: WARNING/ForkPoolWorker-8] CREATED SUCCESSFULLY
+[2022-05-15 21:53:43,662: WARNING/ForkPoolWorker-2] CREATED SUCCESSFULLY
+[2022-05-15 21:53:43,664: WARNING/ForkPoolWorker-6] CREATED SUCCESSFULLY
+[2022-05-15 21:53:43,664: INFO/ForkPoolWorker-4] Task request_item[b662f3e1-466f-45df-aa27-74d9dba5749f] succeeded in 1.3535279589996208s: None
+[2022-05-15 21:53:43,664: INFO/ForkPoolWorker-8] Task request_item[43b5c1a3-dc84-47b1-b451-136254a6cffb] succeeded in 1.3473143250002977s: None
+[2022-05-15 21:53:43,665: INFO/ForkPoolWorker-2] Task request_item[6af96db8-131d-4f13-9270-6dc1b30a52d3] succeeded in 1.352596020999954s: None
+[2022-05-15 21:53:43,665: INFO/ForkPoolWorker-6] Task request_item[6b4013a5-97b0-43b3-a9b9-088ab41a2291] succeeded in 1.3549527939994732s: None
+[2022-05-15 21:53:43,666: WARNING/ForkPoolWorker-3] CREATED SUCCESSFULLY
+[2022-05-15 21:53:43,666: INFO/MainProcess] Task request_item[a40ad225-b9ac-465d-a55e-3b80bb746a68] received
+[2022-05-15 21:53:43,667: INFO/ForkPoolWorker-3] Task request_item[abdabcaa-1c45-495e-9699-662013a54192] succeeded in 1.6520091330003197s: None
+[2022-05-15 21:53:43,668: INFO/MainProcess] Task request_item[2661c57d-0f19-4208-9f45-03db24bf9d49] received
+[2022-05-15 21:53:43,670: INFO/MainProcess] Task request_item[e879ebbc-23e7-43ea-9b20-c59db3a8c770] received
+[2022-05-15 21:53:43,673: INFO/MainProcess] Task request_item[ba51d0c5-59c2-42d7-94d1-d56a30bd37d0] received
+[2022-05-15 21:53:43,674: INFO/MainProcess] Task request_item[cf802abc-2317-4011-b184-eb8d8e7629c3] received
+[2022-05-15 21:53:43,675: INFO/MainProcess] Task request_item[6067ef2d-5e09-4840-bda7-5a45738e340a] received
+[2022-05-15 21:53:43,676: INFO/MainProcess] Task request_item[4823679c-670a-4ee2-9a53-1a43a831706b] received
+[2022-05-15 21:53:43,677: INFO/MainProcess] Task request_item[0efa2867-2737-46a8-8d7b-c564fcd491c1] received
+[2022-05-15 21:53:44,784: WARNING/ForkPoolWorker-6] CREATED SUCCESSFULLY
+[2022-05-15 21:53:44,785: INFO/ForkPoolWorker-6] Task request_item[90ead158-87b7-4f9d-8749-4ed2fc744fb9] succeeded in 1.116685101999792s: None
+[2022-05-15 21:53:44,803: WARNING/ForkPoolWorker-8] CREATED SUCCESSFULLY
+[2022-05-15 21:53:44,804: INFO/ForkPoolWorker-8] Task request_item[c3a05341-3fc0-459a-ae59-fae7eafa7e03] succeeded in 1.1356319959995744s: None
+[2022-05-15 21:53:44,805: WARNING/ForkPoolWorker-5] CREATED SUCCESSFULLY
+[2022-05-15 21:53:44,806: INFO/ForkPoolWorker-5] Task request_item[05467736-2d0f-4c83-a21b-7f7c89dc38eb] succeeded in 1.1432577379991926s: None
+[2022-05-15 21:53:44,806: WARNING/ForkPoolWorker-7] CREATED SUCCESSFULLY
+[2022-05-15 21:53:44,807: INFO/MainProcess] Task request_item[6f1f4169-aca3-4800-956d-08c8bf4a5f04] received
+[2022-05-15 21:53:44,807: WARNING/ForkPoolWorker-4] CREATED SUCCESSFULLY
+[2022-05-15 21:53:44,808: INFO/ForkPoolWorker-4] Task request_item[8bdfa29a-3cb2-49f7-8eb6-af7b9ccf706c] succeeded in 1.1394195550001314s: None
+[2022-05-15 21:53:44,808: INFO/ForkPoolWorker-7] Task request_item[bd6d280b-fcf5-429e-8921-c59d19c5767e] succeeded in 1.1455238010003086s: None
+[2022-05-15 21:53:44,811: INFO/MainProcess] Task request_item[10e9eec6-8a97-40b7-8cdd-7c1450779424] received
+[2022-05-15 21:53:44,812: INFO/MainProcess] Task request_item[2f28eedd-2408-4f67-9540-07eb0ca8c35c] received
+[2022-05-15 21:53:44,825: WARNING/ForkPoolWorker-1] CREATED SUCCESSFULLY
+[2022-05-15 21:53:44,826: INFO/ForkPoolWorker-1] Task request_item[55a74abb-22ee-44f4-a2eb-a8499ee04671] succeeded in 1.1838460560002204s: None
+[2022-05-15 21:53:44,828: INFO/MainProcess] Task request_item[fb547992-1513-4e87-8e7d-e5ddac832d71] received
+[2022-05-15 21:53:44,829: INFO/MainProcess] Task request_item[5b3d57eb-5354-44da-8d5e-ea14852fda42] received
+[2022-05-15 21:53:44,856: WARNING/ForkPoolWorker-3] CREATED SUCCESSFULLY
+[2022-05-15 21:53:44,857: INFO/ForkPoolWorker-3] Task request_item[629b0e5a-4f05-46ec-aaad-a45a728c0e88] succeeded in 1.1840265110004111s: None
+[2022-05-15 21:53:44,858: INFO/MainProcess] Task request_item[5580f09e-16c3-4da9-a9ea-ced4bc2a36f5] received
+[2022-05-15 21:53:44,866: WARNING/ForkPoolWorker-2] CREATED SUCCESSFULLY
+[2022-05-15 21:53:44,867: INFO/ForkPoolWorker-2] Task request_item[a9a4518d-c583-488e-998f-5920b38c7add] succeeded in 1.1981104410006083s: None
+[2022-05-15 21:53:44,869: INFO/MainProcess] Task request_item[f0930112-3154-4bee-ad8e-37c49c8147eb] received
+[2022-05-15 21:53:44,907: INFO/MainProcess] Task request_item[cb9665e2-f2d8-4eb8-9a46-6547129af69c] received
+[2022-05-15 21:53:45,727: WARNING/ForkPoolWorker-5] CREATED SUCCESSFULLY
+[2022-05-15 21:53:45,729: INFO/ForkPoolWorker-5] Task request_item[8ee3c25b-bda6-48e3-9881-9e1fd390fa26] succeeded in 0.9201889349997145s: None
+[2022-05-15 21:53:45,781: WARNING/ForkPoolWorker-4] CREATED SUCCESSFULLY
+[2022-05-15 21:53:45,783: INFO/ForkPoolWorker-4] Task request_item[1417a737-c238-42e9-8676-e6b8ceaf506e] succeeded in 0.9698683440001332s: None
+[2022-05-15 21:53:45,785: INFO/MainProcess] Task request_item[2924c789-826a-4fcd-b142-9c65de6c4085] received
+[2022-05-15 21:53:45,796: WARNING/ForkPoolWorker-8] CREATED SUCCESSFULLY
+[2022-05-15 21:53:45,797: WARNING/ForkPoolWorker-6] CREATED SUCCESSFULLY
+[2022-05-15 21:53:45,797: INFO/ForkPoolWorker-8] Task request_item[c263ea7f-f4dc-46aa-b73d-82c2e8260335] succeeded in 0.9900083040001846s: None
+[2022-05-15 21:53:45,798: INFO/ForkPoolWorker-6] Task request_item[41cc51ff-d83b-46ec-a965-6392f0fb72c3] succeeded in 1.01093152500016s: None
+[2022-05-15 21:53:45,799: INFO/MainProcess] Task request_item[3dd6a22e-1ab0-4cff-9d23-69d06af9fee2] received
+[2022-05-15 21:53:45,801: WARNING/ForkPoolWorker-7] CREATED SUCCESSFULLY
+[2022-05-15 21:53:45,802: INFO/MainProcess] Task request_item[7e033174-748d-4bb4-b74c-844ba96309d4] received
+[2022-05-15 21:53:45,803: INFO/ForkPoolWorker-7] Task request_item[b01647d8-767f-40bd-aae6-2e678217ce01] succeeded in 0.9898233300000356s: None
+[2022-05-15 21:53:45,804: INFO/MainProcess] Task request_item[42598567-965b-49ae-b7af-8cd20ae9ee43] received
+[2022-05-15 21:53:45,850: WARNING/ForkPoolWorker-1] CREATED SUCCESSFULLY
+[2022-05-15 21:53:45,851: INFO/ForkPoolWorker-1] Task request_item[b12fa241-3ee6-477c-a5b4-afb5c6e6ad5e] succeeded in 1.0226670289994217s: None
+[2022-05-15 21:53:45,852: INFO/MainProcess] Task request_item[07c160f9-ac67-4293-8b03-43582e17c8a5] received
+[2022-05-15 21:53:45,858: WARNING/ForkPoolWorker-3] CREATED SUCCESSFULLY
+[2022-05-15 21:53:45,859: INFO/ForkPoolWorker-3] Task request_item[996451cc-b8ad-4c6e-9557-729ed519f43d] succeeded in 1.000617544999841s: None
+[2022-05-15 21:53:45,862: INFO/MainProcess] Task request_item[e3fdc4f1-3f58-4678-a6ae-43214b651225] received
+[2022-05-15 21:53:45,899: WARNING/ForkPoolWorker-2] ERROR duplicate key value violates unique constraint "core_item_hid_key"
+DETAIL:  Key (hid)=(31391475) already exists.
+[2022-05-15 21:53:45,899: INFO/ForkPoolWorker-2] Task request_item[7d9f9caa-5c5c-406f-9d53-292f6ae2b1ef] succeeded in 1.0302986529995906s: None
+[2022-05-15 21:53:45,901: INFO/MainProcess] Task request_item[6d53baa4-9212-4b35-933d-81d91b955129] received
+[2022-05-15 21:53:46,308: INFO/MainProcess] Task request_item[15e98ece-7ef6-4d9c-b966-f75d9d0fc531] received
+[2022-05-15 21:53:46,695: WARNING/ForkPoolWorker-5] ERROR duplicate key value violates unique constraint "core_item_hid_key"
+DETAIL:  Key (hid)=(31391474) already exists.
+[2022-05-15 21:53:46,697: INFO/ForkPoolWorker-5] Task request_item[c18ce62b-c5e3-4638-8bb0-6d15acb6aa1f] succeeded in 0.9664151670003776s: None
+[2022-05-15 21:53:46,746: WARNING/ForkPoolWorker-4] ERROR duplicate key value violates unique constraint "core_item_hid_key"
+DETAIL:  Key (hid)=(31391473) already exists.
+[2022-05-15 21:53:46,747: INFO/ForkPoolWorker-4] Task request_item[ce463de1-cc11-4a9d-af28-cf643811eba3] succeeded in 0.9617215120006222s: None
+[2022-05-15 21:53:46,749: INFO/MainProcess] Task request_item[15b6e9e1-1ed5-4c16-9278-341c0a8808c7] received
+[2022-05-15 21:53:46,768: WARNING/ForkPoolWorker-6] ERROR duplicate key value violates unique constraint "core_item_hid_key"
+DETAIL:  Key (hid)=(31391471) already exists.
+[2022-05-15 21:53:46,769: INFO/ForkPoolWorker-6] Task request_item[1dd2636d-9f1a-4dd8-ab87-30468878d0d1] succeeded in 0.9677485090005575s: None
+[2022-05-15 21:53:46,771: INFO/MainProcess] Task request_item[4779bbe8-6101-4be3-aeb8-c9c1059ff849] received
+[2022-05-15 21:53:46,829: WARNING/ForkPoolWorker-8] ERROR duplicate key value violates unique constraint "core_item_hid_key"
+DETAIL:  Key (hid)=(31391472) already exists.
+[2022-05-15 21:53:46,830: INFO/ForkPoolWorker-8] Task request_item[3fabb499-a693-4a05-866e-58b794c41ff7] succeeded in 1.0309034199999587s: None
+[2022-05-15 21:53:46,832: INFO/MainProcess] Task request_item[4df85273-530d-4dc4-8e0d-bc9ceb78169f] received
+[2022-05-15 21:53:46,875: WARNING/ForkPoolWorker-7] ERROR duplicate key value violates unique constraint "core_item_hid_key"
+DETAIL:  Key (hid)=(31391470) already exists.
+[2022-05-15 21:53:46,875: WARNING/ForkPoolWorker-3] ERROR duplicate key value violates unique constraint "core_item_hid_key"
+DETAIL:  Key (hid)=(31391468) already exists.
+[2022-05-15 21:53:46,876: INFO/ForkPoolWorker-3] Task request_item[a1d8aacf-935c-40f3-a01d-ef1972a893ff] succeeded in 1.0141233469994404s: None
+[2022-05-15 21:53:46,876: INFO/ForkPoolWorker-7] Task request_item[98a70bd9-b7c3-4984-9a41-e8b815b3d2f6] succeeded in 1.0714446230003887s: None
+[2022-05-15 21:53:46,879: INFO/MainProcess] Task request_item[9999fd29-38a5-4d33-8f94-04a57fae502a] received
+[2022-05-15 21:53:46,887: WARNING/ForkPoolWorker-1] ERROR duplicate key value violates unique constraint "core_item_hid_key"
+DETAIL:  Key (hid)=(31391469) already exists.
+[2022-05-15 21:53:46,888: INFO/ForkPoolWorker-1] Task request_item[8f4ef395-0ccd-4d57-8c98-4be3e1e58b7a] succeeded in 1.0347030720004113s: None
+[2022-05-15 21:53:46,889: INFO/MainProcess] Task request_item[415eda71-f972-4a1b-b934-ee6958490745] received
+[2022-05-15 21:53:46,891: INFO/MainProcess] Task request_item[593d6efd-b857-460f-82ee-562f7f0fef08] received
+[2022-05-15 21:53:46,923: WARNING/ForkPoolWorker-2] ERROR duplicate key value violates unique constraint "core_item_hid_key"
+DETAIL:  Key (hid)=(31391467) already exists.
+[2022-05-15 21:53:46,924: INFO/ForkPoolWorker-2] Task request_item[663def5c-aa84-4ce4-9813-a3d96b638d20] succeeded in 1.02231444500012s: None
+[2022-05-15 21:53:46,926: INFO/MainProcess] Task request_item[d18d765f-ff50-4f56-8dd1-fe06029aab2e] received
+[2022-05-15 21:53:47,682: WARNING/ForkPoolWorker-5] ERROR duplicate key value violates unique constraint "core_item_hid_key"
+DETAIL:  Key (hid)=(31391466) already exists.
+[2022-05-15 21:53:47,683: INFO/ForkPoolWorker-5] Task request_item[d15a4d66-d9c1-472a-b68a-0b7706523717] succeeded in 0.9846463989997574s: None
+[2022-05-15 21:53:47,685: INFO/MainProcess] Task request_item[f6b42061-2009-451b-8805-c40a4761d5d5] received
+[2022-05-15 21:53:47,732: WARNING/ForkPoolWorker-6] ERROR duplicate key value violates unique constraint "core_item_hid_key"
+DETAIL:  Key (hid)=(31391464) already exists.
+[2022-05-15 21:53:47,733: INFO/ForkPoolWorker-6] Task request_item[f8bd911e-aa46-43dd-92c7-933c3170ddd7] succeeded in 0.9615016289999403s: None
+[2022-05-15 21:53:47,735: INFO/MainProcess] Task request_item[31a08c88-797b-4a68-ac4f-677b647e3b73] received
+[2022-05-15 21:53:47,752: WARNING/ForkPoolWorker-4] ERROR duplicate key value violates unique constraint "core_item_hid_key"
+DETAIL:  Key (hid)=(31391465) already exists.
+[2022-05-15 21:53:47,754: INFO/ForkPoolWorker-4] Task request_item[6e16b6af-8c23-449e-8592-a92794211600] succeeded in 1.0037376740001491s: None
+[2022-05-15 21:53:47,756: INFO/MainProcess] Task request_item[8e6e8834-f9e1-4b53-b21d-ea3641b231de] received
+[2022-05-15 21:53:47,839: WARNING/ForkPoolWorker-8] ERROR duplicate key value violates unique constraint "core_item_hid_key"
+DETAIL:  Key (hid)=(31391463) already exists.
+[2022-05-15 21:53:47,840: INFO/ForkPoolWorker-8] Task request_item[b7651938-8c93-4afd-80cb-0e5dff18de95] succeeded in 1.0069923480004945s: None
+[2022-05-15 21:53:47,842: INFO/MainProcess] Task request_item[45a26098-f0bc-4c62-bc1b-7629b6bd2ea7] received
+[2022-05-15 21:53:47,915: WARNING/ForkPoolWorker-7] ERROR duplicate key value violates unique constraint "core_item_hid_key"
+DETAIL:  Key (hid)=(31391462) already exists.
+[2022-05-15 21:53:47,915: INFO/ForkPoolWorker-7] Task request_item[912f335e-fbe2-4452-a2e3-2a54cce733fd] succeeded in 1.036323175000689s: None
+[2022-05-15 21:53:47,918: INFO/MainProcess] Task request_item[229b3e73-1dac-4947-a212-ad13931009b5] received
+[2022-05-15 21:53:47,918: WARNING/ForkPoolWorker-2] ERROR duplicate key value violates unique constraint "core_item_hid_key"
+DETAIL:  Key (hid)=(31391459) already exists.
+[2022-05-15 21:53:47,919: INFO/ForkPoolWorker-2] Task request_item[ac486982-0c39-4534-9f75-1b37b729209e] succeeded in 0.993086557999959s: None
+[2022-05-15 21:53:47,920: WARNING/ForkPoolWorker-1] ERROR duplicate key value violates unique constraint "core_item_hid_key"
+DETAIL:  Key (hid)=(31391460) already exists.
+[2022-05-15 21:53:47,921: INFO/ForkPoolWorker-1] Task request_item[44e5081a-35f1-44bf-af71-d92649a0c920] succeeded in 1.031515163000222s: None
+[2022-05-15 21:53:47,922: INFO/MainProcess] Task request_item[b5b8e59d-7027-4ab1-b831-e0b9da8b9edc] received
+[2022-05-15 21:53:47,923: WARNING/ForkPoolWorker-3] ERROR duplicate key value violates unique constraint "core_item_hid_key"
+DETAIL:  Key (hid)=(31391461) already exists.
+[2022-05-15 21:53:47,924: INFO/ForkPoolWorker-3] Task request_item[a6bb48fe-9618-4482-8458-f5415c4a7b72] succeeded in 1.0446440140003688s: None
+[2022-05-15 21:53:47,925: INFO/MainProcess] Task request_item[9842742d-d339-4f7f-9914-6da906db83c8] received
+[2022-05-15 21:53:47,927: INFO/MainProcess] Task request_item[033e63b4-dae2-4058-a08b-bf731822863b] received
+[2022-05-15 21:53:48,311: INFO/MainProcess] Task request_item[c6b1fae0-ebe7-4a2b-951f-bab257272eec] received
+[2022-05-15 21:53:48,620: WARNING/ForkPoolWorker-5] ERROR duplicate key value violates unique constraint "core_item_hid_key"
+DETAIL:  Key (hid)=(31391458) already exists.
+[2022-05-15 21:53:48,622: INFO/ForkPoolWorker-5] Task request_item[a40ad225-b9ac-465d-a55e-3b80bb746a68] succeeded in 0.9363327099999879s: None
+[2022-05-15 21:53:48,653: WARNING/ForkPoolWorker-6] ERROR duplicate key value violates unique constraint "core_item_hid_key"
+DETAIL:  Key (hid)=(31391457) already exists.
+[2022-05-15 21:53:48,654: INFO/ForkPoolWorker-6] Task request_item[2661c57d-0f19-4208-9f45-03db24bf9d49] succeeded in 0.9182004269996469s: None
+[2022-05-15 21:53:48,656: INFO/MainProcess] Task request_item[624439c8-14db-4b5e-84e3-49ae36afce93] received
+[2022-05-15 21:53:48,696: WARNING/ForkPoolWorker-4] ERROR duplicate key value violates unique constraint "core_item_hid_key"
+DETAIL:  Key (hid)=(31391456) already exists.
+[2022-05-15 21:53:48,698: INFO/ForkPoolWorker-4] Task request_item[e879ebbc-23e7-43ea-9b20-c59db3a8c770] succeeded in 0.9413638070000161s: None
+[2022-05-15 21:53:48,700: INFO/MainProcess] Task request_item[8ffe936b-259a-4686-b435-75bc8af3d457] received
+[2022-05-15 21:53:48,834: WARNING/ForkPoolWorker-8] ERROR duplicate key value violates unique constraint "core_item_hid_key"
+DETAIL:  Key (hid)=(31391455) already exists.
+[2022-05-15 21:53:48,835: INFO/ForkPoolWorker-8] Task request_item[ba51d0c5-59c2-42d7-94d1-d56a30bd37d0] succeeded in 0.9925878169997304s: None
+[2022-05-15 21:53:48,837: INFO/MainProcess] Task request_item[7cb47e13-0164-4380-87ba-676b437472a1] received
+[2022-05-15 21:53:48,841: INFO/MainProcess] Task request_item[23baee22-d288-49f2-b059-9c739650d850] received
+[2022-05-15 21:53:48,893: WARNING/ForkPoolWorker-1] ERROR duplicate key value violates unique constraint "core_item_hid_key"
+DETAIL:  Key (hid)=(31391452) already exists.
+[2022-05-15 21:53:48,894: INFO/ForkPoolWorker-1] Task request_item[4823679c-670a-4ee2-9a53-1a43a831706b] succeeded in 0.9706162600004973s: None
+[2022-05-15 21:53:48,903: WARNING/ForkPoolWorker-7] ERROR duplicate key value violates unique constraint "core_item_hid_key"
+DETAIL:  Key (hid)=(31391454) already exists.
+[2022-05-15 21:53:48,904: INFO/ForkPoolWorker-7] Task request_item[cf802abc-2317-4011-b184-eb8d8e7629c3] succeeded in 0.9860944520005432s: None
+[2022-05-15 21:53:48,906: INFO/MainProcess] Task request_item[f7dfe247-6629-42fe-9f15-8cbcfcfe556b] received
+[2022-05-15 21:53:48,909: WARNING/ForkPoolWorker-3] ERROR duplicate key value violates unique constraint "core_item_hid_key"
+DETAIL:  Key (hid)=(31391451) already exists.
+[2022-05-15 21:53:48,910: INFO/ForkPoolWorker-3] Task request_item[0efa2867-2737-46a8-8d7b-c564fcd491c1] succeeded in 0.9826633230004518s: None
+[2022-05-15 21:53:48,977: WARNING/ForkPoolWorker-2] ERROR duplicate key value violates unique constraint "core_item_hid_key"
+DETAIL:  Key (hid)=(31391453) already exists.
+[2022-05-15 21:53:48,978: INFO/ForkPoolWorker-2] Task request_item[6067ef2d-5e09-4840-bda7-5a45738e340a] succeeded in 1.0557859370001097s: None
+[2022-05-15 21:53:49,678: WARNING/ForkPoolWorker-6] ERROR duplicate key value violates unique constraint "core_item_hid_key"
+DETAIL:  Key (hid)=(31391449) already exists.
+[2022-05-15 21:53:49,678: WARNING/ForkPoolWorker-5] ERROR duplicate key value violates unique constraint "core_item_hid_key"
+DETAIL:  Key (hid)=(31391450) already exists.
+[2022-05-15 21:53:49,680: INFO/ForkPoolWorker-6] Task request_item[10e9eec6-8a97-40b7-8cdd-7c1450779424] succeeded in 1.0227037839995319s: None
+[2022-05-15 21:53:49,680: INFO/ForkPoolWorker-5] Task request_item[6f1f4169-aca3-4800-956d-08c8bf4a5f04] succeeded in 1.0560882529998707s: None
+[2022-05-15 21:53:49,723: WARNING/ForkPoolWorker-4] ERROR duplicate key value violates unique constraint "core_item_hid_key"
+DETAIL:  Key (hid)=(31391448) already exists.
+[2022-05-15 21:53:49,725: INFO/ForkPoolWorker-4] Task request_item[2f28eedd-2408-4f67-9540-07eb0ca8c35c] succeeded in 1.0239192089993594s: None
+[2022-05-15 21:53:49,935: WARNING/ForkPoolWorker-7] ERROR duplicate key value violates unique constraint "core_item_hid_key"
+DETAIL:  Key (hid)=(31391445) already exists.
+[2022-05-15 21:53:49,936: WARNING/ForkPoolWorker-3] ERROR duplicate key value violates unique constraint "core_item_hid_key"
+DETAIL:  Key (hid)=(31391444) already exists.
+[2022-05-15 21:53:49,937: INFO/ForkPoolWorker-7] Task request_item[5580f09e-16c3-4da9-a9ea-ced4bc2a36f5] succeeded in 1.0301231109997389s: None
+[2022-05-15 21:53:49,937: INFO/ForkPoolWorker-3] Task request_item[f0930112-3154-4bee-ad8e-37c49c8147eb] succeeded in 1.0253262060005s: None
+[2022-05-15 21:53:50,091: WARNING/ForkPoolWorker-1] ERROR duplicate key value violates unique constraint "core_item_hid_key"
+DETAIL:  Key (hid)=(31391446) already exists.
+[2022-05-15 21:53:50,092: INFO/ForkPoolWorker-1] Task request_item[5b3d57eb-5354-44da-8d5e-ea14852fda42] succeeded in 1.1969548990000476s: None
+[2022-05-15 21:53:50,093: WARNING/ForkPoolWorker-8] ERROR duplicate key value violates unique constraint "core_item_hid_key"
+DETAIL:  Key (hid)=(31391447) already exists.
+[2022-05-15 21:53:50,095: INFO/ForkPoolWorker-8] Task request_item[fb547992-1513-4e87-8e7d-e5ddac832d71] succeeded in 1.2574358979991302s: None
+[2022-05-15 21:53:50,095: WARNING/ForkPoolWorker-2] ERROR duplicate key value violates unique constraint "core_item_hid_key"
+DETAIL:  Key (hid)=(31391443) already exists.
+[2022-05-15 21:53:50,098: INFO/ForkPoolWorker-2] Task request_item[cb9665e2-f2d8-4eb8-9a46-6547129af69c] succeeded in 1.118473104000259s: None
+[2022-05-15 21:53:50,987: WARNING/ForkPoolWorker-4] ERROR duplicate key value violates unique constraint "core_item_hid_key"
+DETAIL:  Key (hid)=(31391440) already exists.
+[2022-05-15 21:53:50,987: WARNING/ForkPoolWorker-6] ERROR duplicate key value violates unique constraint "core_item_hid_key"
+DETAIL:  Key (hid)=(31391441) already exists.
+[2022-05-15 21:53:50,988: INFO/ForkPoolWorker-4] Task request_item[7e033174-748d-4bb4-b74c-844ba96309d4] succeeded in 1.261802398999862s: None
+[2022-05-15 21:53:50,988: INFO/ForkPoolWorker-6] Task request_item[3dd6a22e-1ab0-4cff-9d23-69d06af9fee2] succeeded in 1.3071379200000592s: None
+[2022-05-15 21:53:51,009: WARNING/ForkPoolWorker-5] ERROR duplicate key value violates unique constraint "core_item_hid_key"
+DETAIL:  Key (hid)=(31391442) already exists.
+[2022-05-15 21:53:51,011: INFO/ForkPoolWorker-5] Task request_item[2924c789-826a-4fcd-b142-9c65de6c4085] succeeded in 1.3298970460000419s: None
+[2022-05-15 21:53:51,114: WARNING/ForkPoolWorker-7] ERROR duplicate key value violates unique constraint "core_item_hid_key"
+DETAIL:  Key (hid)=(31391439) already exists.
+[2022-05-15 21:53:51,115: INFO/ForkPoolWorker-7] Task request_item[42598567-965b-49ae-b7af-8cd20ae9ee43] succeeded in 1.1762526880002042s: None
+[2022-05-15 21:53:51,149: WARNING/ForkPoolWorker-1] ERROR duplicate key value violates unique constraint "core_item_hid_key"
+DETAIL:  Key (hid)=(31391437) already exists.
+[2022-05-15 21:53:51,149: INFO/ForkPoolWorker-1] Task request_item[e3fdc4f1-3f58-4678-a6ae-43214b651225] succeeded in 1.0557624900002338s: None
+[2022-05-15 21:53:51,154: WARNING/ForkPoolWorker-3] ERROR duplicate key value violates unique constraint "core_item_hid_key"
+DETAIL:  Key (hid)=(31391438) already exists.
+[2022-05-15 21:53:51,155: INFO/ForkPoolWorker-3] Task request_item[07c160f9-ac67-4293-8b03-43582e17c8a5] succeeded in 1.2163828479997392s: None
+[2022-05-15 21:53:51,273: WARNING/ForkPoolWorker-8] ERROR duplicate key value violates unique constraint "core_item_hid_key"
+DETAIL:  Key (hid)=(31391436) already exists.
+[2022-05-15 21:53:51,274: INFO/ForkPoolWorker-8] Task request_item[6d53baa4-9212-4b35-933d-81d91b955129] succeeded in 1.1779730930002188s: None
+[2022-05-15 21:53:51,332: WARNING/ForkPoolWorker-2] ERROR duplicate key value violates unique constraint "core_item_hid_key"
+DETAIL:  Key (hid)=(31391435) already exists.
+[2022-05-15 21:53:51,334: INFO/ForkPoolWorker-2] Task request_item[15e98ece-7ef6-4d9c-b966-f75d9d0fc531] succeeded in 1.2352051660000143s: None
+[2022-05-15 21:53:51,994: WARNING/ForkPoolWorker-6] ERROR duplicate key value violates unique constraint "core_item_hid_key"
+DETAIL:  Key (hid)=(31391433) already exists.
+[2022-05-15 21:53:51,996: INFO/ForkPoolWorker-6] Task request_item[4779bbe8-6101-4be3-aeb8-c9c1059ff849] succeeded in 1.0058717920001072s: None
+[2022-05-15 21:53:51,999: WARNING/ForkPoolWorker-5] ERROR duplicate key value violates unique constraint "core_item_hid_key"
+DETAIL:  Key (hid)=(31391432) already exists.
+[2022-05-15 21:53:52,000: INFO/ForkPoolWorker-5] Task request_item[4df85273-530d-4dc4-8e0d-bc9ceb78169f] succeeded in 0.9881250890002775s: None
+[2022-05-15 21:53:52,008: WARNING/ForkPoolWorker-4] ERROR duplicate key value violates unique constraint "core_item_hid_key"
+DETAIL:  Key (hid)=(31391434) already exists.
+[2022-05-15 21:53:52,009: INFO/ForkPoolWorker-4] Task request_item[15b6e9e1-1ed5-4c16-9278-341c0a8808c7] succeeded in 1.0193192209999324s: None
+[2022-05-15 21:53:52,098: WARNING/ForkPoolWorker-1] ERROR duplicate key value violates unique constraint "core_item_hid_key"
+DETAIL:  Key (hid)=(31391430) already exists.
+[2022-05-15 21:53:52,099: INFO/ForkPoolWorker-1] Task request_item[415eda71-f972-4a1b-b934-ee6958490745] succeeded in 0.9478238900001088s: None
+[2022-05-15 21:53:52,111: WARNING/ForkPoolWorker-7] ERROR duplicate key value violates unique constraint "core_item_hid_key"
+DETAIL:  Key (hid)=(31391431) already exists.
+[2022-05-15 21:53:52,112: INFO/ForkPoolWorker-7] Task request_item[9999fd29-38a5-4d33-8f94-04a57fae502a] succeeded in 0.9964030830005868s: None
+[2022-05-15 21:53:52,159: WARNING/ForkPoolWorker-3] ERROR duplicate key value violates unique constraint "core_item_hid_key"
+DETAIL:  Key (hid)=(31391429) already exists.
+[2022-05-15 21:53:52,160: INFO/ForkPoolWorker-3] Task request_item[593d6efd-b857-460f-82ee-562f7f0fef08] succeeded in 1.003778753000006s: None
+[2022-05-15 21:53:52,244: WARNING/ForkPoolWorker-8] ERROR duplicate key value violates unique constraint "core_item_hid_key"
+DETAIL:  Key (hid)=(31391428) already exists.
+[2022-05-15 21:53:52,245: INFO/ForkPoolWorker-8] Task request_item[d18d765f-ff50-4f56-8dd1-fe06029aab2e] succeeded in 0.9700671979999242s: None
+[2022-05-15 21:53:52,321: WARNING/ForkPoolWorker-2] ERROR duplicate key value violates unique constraint "core_item_hid_key"
+DETAIL:  Key (hid)=(31391427) already exists.
+[2022-05-15 21:53:52,322: INFO/ForkPoolWorker-2] Task request_item[f6b42061-2009-451b-8805-c40a4761d5d5] succeeded in 0.9866188480000346s: None
+[2022-05-15 21:53:52,994: WARNING/ForkPoolWorker-6] ERROR duplicate key value violates unique constraint "core_item_hid_key"
+DETAIL:  Key (hid)=(31391426) already exists.
+[2022-05-15 21:53:52,996: INFO/ForkPoolWorker-6] Task request_item[31a08c88-797b-4a68-ac4f-677b647e3b73] succeeded in 0.9990092759999243s: None
+[2022-05-15 21:53:53,029: WARNING/ForkPoolWorker-1] ERROR duplicate key value violates unique constraint "core_item_hid_key"
+DETAIL:  Key (hid)=(31391423) already exists.
+[2022-05-15 21:53:53,031: INFO/ForkPoolWorker-1] Task request_item[229b3e73-1dac-4947-a212-ad13931009b5] succeeded in 0.9308957249995728s: None
+[2022-05-15 21:53:53,044: WARNING/ForkPoolWorker-7] ERROR duplicate key value violates unique constraint "core_item_hid_key"
+DETAIL:  Key (hid)=(31391422) already exists.
+[2022-05-15 21:53:53,045: INFO/ForkPoolWorker-7] Task request_item[b5b8e59d-7027-4ab1-b831-e0b9da8b9edc] succeeded in 0.9311017510008242s: None
+[2022-05-15 21:53:53,046: WARNING/ForkPoolWorker-5] ERROR duplicate key value violates unique constraint "core_item_hid_key"
+DETAIL:  Key (hid)=(31391425) already exists.
+[2022-05-15 21:53:53,047: INFO/ForkPoolWorker-5] Task request_item[8e6e8834-f9e1-4b53-b21d-ea3641b231de] succeeded in 1.0460358800000904s: None
+[2022-05-15 21:53:53,070: WARNING/ForkPoolWorker-4] ERROR duplicate key value violates unique constraint "core_item_hid_key"
+DETAIL:  Key (hid)=(31391424) already exists.
+[2022-05-15 21:53:53,071: INFO/ForkPoolWorker-4] Task request_item[45a26098-f0bc-4c62-bc1b-7629b6bd2ea7] succeeded in 1.0609164839997902s: None
+[2022-05-15 21:53:53,159: WARNING/ForkPoolWorker-3] ERROR duplicate key value violates unique constraint "core_item_hid_key"
+DETAIL:  Key (hid)=(31391421) already exists.
+[2022-05-15 21:53:53,160: INFO/ForkPoolWorker-3] Task request_item[9842742d-d339-4f7f-9914-6da906db83c8] succeeded in 0.9993706060004115s: None
+[2022-05-15 21:53:53,192: WARNING/ForkPoolWorker-8] ERROR duplicate key value violates unique constraint "core_item_hid_key"
+DETAIL:  Key (hid)=(31391420) already exists.
+[2022-05-15 21:53:53,193: INFO/ForkPoolWorker-8] Task request_item[033e63b4-dae2-4058-a08b-bf731822863b] succeeded in 0.9467920540000705s: None
+[2022-05-15 21:53:53,371: WARNING/ForkPoolWorker-2] ERROR duplicate key value violates unique constraint "core_item_hid_key"
+DETAIL:  Key (hid)=(31391419) already exists.
+[2022-05-15 21:53:53,373: INFO/ForkPoolWorker-2] Task request_item[c6b1fae0-ebe7-4a2b-951f-bab257272eec] succeeded in 1.0499386080000477s: None
+[2022-05-15 21:53:54,025: WARNING/ForkPoolWorker-6] ERROR duplicate key value violates unique constraint "core_item_hid_key"
+DETAIL:  Key (hid)=(31391418) already exists.
+[2022-05-15 21:53:54,027: INFO/ForkPoolWorker-6] Task request_item[624439c8-14db-4b5e-84e3-49ae36afce93] succeeded in 1.0296063890000369s: None
+[2022-05-15 21:53:54,049: WARNING/ForkPoolWorker-5] ERROR duplicate key value violates unique constraint "core_item_hid_key"
+DETAIL:  Key (hid)=(31391415) already exists.
+[2022-05-15 21:53:54,051: INFO/ForkPoolWorker-5] Task request_item[23baee22-d288-49f2-b059-9c739650d850] succeeded in 1.002021402000537s: None
+[2022-05-15 21:53:54,081: WARNING/ForkPoolWorker-1] ERROR duplicate key value violates unique constraint "core_item_hid_key"
+DETAIL:  Key (hid)=(31391417) already exists.
+[2022-05-15 21:53:54,083: INFO/ForkPoolWorker-1] Task request_item[8ffe936b-259a-4686-b435-75bc8af3d457] succeeded in 1.0501912099998663s: None
+[2022-05-15 21:53:54,113: WARNING/ForkPoolWorker-7] ERROR duplicate key value violates unique constraint "core_item_hid_key"
+DETAIL:  Key (hid)=(31391416) already exists.
+[2022-05-15 21:53:54,115: INFO/ForkPoolWorker-7] Task request_item[7cb47e13-0164-4380-87ba-676b437472a1] succeeded in 1.0683309629994255s: None
+[2022-05-15 21:53:54,115: WARNING/ForkPoolWorker-4] ERROR duplicate key value violates unique constraint "core_item_hid_key"
+DETAIL:  Key (hid)=(31391414) already exists.
+[2022-05-15 21:53:54,117: INFO/ForkPoolWorker-4] Task request_item[f7dfe247-6629-42fe-9f15-8cbcfcfe556b] succeeded in 1.044287284999882s: None
+[2022-05-15 21:57:09,092: INFO/MainProcess] Connected to redis://localhost:6379//
+[2022-05-15 21:57:09,094: INFO/MainProcess] mingle: searching for neighbors
+[2022-05-15 21:57:10,103: INFO/MainProcess] mingle: all alone
+[2022-05-15 21:57:10,116: WARNING/MainProcess] /home/steven/Ledingo_challenge/lvenv/lib/python3.10/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
             leak, never use this setting in production environments!
   warnings.warn('''Using settings.DEBUG leads to a memory
 
-[2022-05-14 21:58:23,344: INFO/MainProcess] celery@steven-Latitude-E6430 ready.
-[2022-05-14 21:58:23,364: INFO/MainProcess] Task update[47a0a54e-8c8a-4a96-8bb8-372948183a72] received
-[2022-05-14 21:58:23,366: WARNING/ForkPoolWorker-7] INITIAL 100
-[2022-05-14 21:58:25,011: WARNING/ForkPoolWorker-7] 31383015
-[2022-05-14 21:58:25,018: INFO/MainProcess] Task request_item[212d6213-37a0-49f0-8f21-b8fe34ed09e9] received
-[2022-05-14 21:58:25,019: INFO/MainProcess] Task request_item[5c178380-b536-4e61-af94-1d8ca0d0b9eb] received
-[2022-05-14 21:58:25,020: INFO/MainProcess] Task request_item[5c36e160-b711-4652-ac3e-30442de54101] received
-[2022-05-14 21:58:25,022: INFO/MainProcess] Task request_item[ce05864a-caa5-4c28-938c-5bd072d82cde] received
-[2022-05-14 21:58:25,024: INFO/MainProcess] Task request_item[db36feb5-b79a-4258-99df-e35c6d823f75] received
-[2022-05-14 21:58:25,027: INFO/MainProcess] Task request_item[be699f85-e624-448d-8ecc-a2c61360f42d] received
-[2022-05-14 21:58:25,030: INFO/MainProcess] Task request_item[e93386d4-2bbd-40ae-bbe7-7e5574434ebc] received
-[2022-05-14 21:58:25,033: INFO/MainProcess] Task request_item[3fbf2cd0-ad39-4227-aa3e-eefce6a0e4d9] received
-[2022-05-14 21:58:25,034: INFO/MainProcess] Task request_item[7fda2775-3882-44e5-8f47-3c2fdbb5cb99] received
-[2022-05-14 21:58:25,036: INFO/MainProcess] Task request_item[f1f594b9-3640-43bd-bcfe-3ad415de89ba] received
-[2022-05-14 21:58:25,037: INFO/MainProcess] Task request_item[4441a60e-7d49-42ad-9ad8-7f179749e099] received
-[2022-05-14 21:58:25,038: INFO/MainProcess] Task request_item[94067663-32fc-461b-ac60-37c8a5e9e308] received
-[2022-05-14 21:58:25,038: INFO/MainProcess] Task request_item[8b08de3e-001b-467d-9031-c7de91e3a53c] received
-[2022-05-14 21:58:25,039: INFO/MainProcess] Task request_item[b5347cff-04be-478c-893b-0ad9a56e3973] received
-[2022-05-14 21:58:25,040: INFO/MainProcess] Task request_item[da984b06-b054-4a9f-b2a1-00f38f61b3de] received
-[2022-05-14 21:58:25,041: INFO/MainProcess] Task request_item[6ae22e55-1cf8-46e0-b0a7-d2dea5a036b4] received
-[2022-05-14 21:58:25,042: INFO/MainProcess] Task request_item[309c124a-ab5d-481a-8233-5a12aa004ade] received
-[2022-05-14 21:58:25,043: INFO/MainProcess] Task request_item[698417d8-4c40-4a06-a8da-9939b35aa427] received
-[2022-05-14 21:58:25,044: INFO/MainProcess] Task request_item[699ef41a-2a9d-4d3b-82e7-0ff05960cd53] received
-[2022-05-14 21:58:25,044: INFO/MainProcess] Task request_item[f27bf11b-5f97-4af6-9db3-96317afdf72d] received
-[2022-05-14 21:58:25,045: INFO/MainProcess] Task request_item[8bfb6153-97f6-4f80-a28c-1fca24740ca6] received
-[2022-05-14 21:58:25,046: INFO/MainProcess] Task request_item[e5782823-a27c-4d29-9e37-f7491d5fd7d0] received
-[2022-05-14 21:58:25,047: INFO/MainProcess] Task request_item[aaf14027-1723-4e31-a32b-be167f688c2b] received
-[2022-05-14 21:58:25,048: INFO/MainProcess] Task request_item[ace59f9e-ce16-46b7-9b2c-00dc48d00c03] received
-[2022-05-14 21:58:25,049: INFO/MainProcess] Task request_item[72f686f0-75c2-4d91-ae99-faa1347b6e47] received
-[2022-05-14 21:58:25,050: INFO/MainProcess] Task request_item[3e26363c-9f37-404c-9689-f7519bf76ac7] received
-[2022-05-14 21:58:25,050: INFO/MainProcess] Task request_item[5b6a6f33-f0e0-44de-bfce-4efbac9f7aeb] received
-[2022-05-14 21:58:25,051: INFO/MainProcess] Task request_item[ffb6b4f2-a016-4853-a12e-549dac56c476] received
-[2022-05-14 21:58:25,052: INFO/MainProcess] Task request_item[73900265-7cff-4074-a4db-73b4df74dadd] received
-[2022-05-14 21:58:25,053: INFO/MainProcess] Task request_item[bba18ce1-9f89-4bbc-94da-d7cd6c4c5718] received
-[2022-05-14 21:58:25,054: INFO/MainProcess] Task request_item[402d8e5d-12ce-4289-81bd-fd90216f4b39] received
-[2022-05-14 21:58:25,055: INFO/MainProcess] Task request_item[19da3060-9f34-4545-9b56-f57babb1ba80] received
-[2022-05-14 21:58:25,056: INFO/MainProcess] Task request_item[4b5d9f70-c968-46a0-9f1c-b496b1dd1dfa] received
-[2022-05-14 21:58:25,056: INFO/MainProcess] Task request_item[ed4c2d2c-2db0-4c48-9ed3-90dd558ae7f3] received
-[2022-05-14 21:58:25,057: INFO/MainProcess] Task request_item[e3cf0a20-3b32-4812-9d2b-7edd6266b4fd] received
-[2022-05-14 21:58:25,058: INFO/MainProcess] Task request_item[f30529f6-5b68-4c11-bea6-4a18fb4c8248] received
-[2022-05-14 21:58:25,059: INFO/MainProcess] Task request_item[c4cccbc8-b46a-434d-a24b-869c8af46209] received
-[2022-05-14 21:58:25,060: INFO/MainProcess] Task request_item[e4a2fc41-3136-4efb-99df-6f6eb4311ea3] received
-[2022-05-14 21:58:25,060: INFO/MainProcess] Task request_item[8195c0d6-f31f-4e23-8896-674f4a82df96] received
-[2022-05-14 21:58:26,029: WARNING/ForkPoolWorker-6] CREATED SUCCESSFULLY
-[2022-05-14 21:58:26,030: WARNING/ForkPoolWorker-4] CREATED SUCCESSFULLY
-[2022-05-14 21:58:26,032: INFO/ForkPoolWorker-6] Task request_item[e93386d4-2bbd-40ae-bbe7-7e5574434ebc] succeeded in 0.9982573469969793s: None
-[2022-05-14 21:58:26,034: INFO/ForkPoolWorker-4] Task request_item[db36feb5-b79a-4258-99df-e35c6d823f75] succeeded in 1.0066288520029048s: None
-[2022-05-14 21:58:26,040: INFO/MainProcess] Task request_item[d128441e-7327-4dea-aea5-2de13b90c3d9] received
-[2022-05-14 21:58:26,042: INFO/MainProcess] Task request_item[e2b169d6-36b7-4f71-925d-7b6148652c86] received
-[2022-05-14 21:58:26,043: WARNING/ForkPoolWorker-3] CREATED SUCCESSFULLY
-[2022-05-14 21:58:26,043: WARNING/ForkPoolWorker-2] CREATED SUCCESSFULLY
-[2022-05-14 21:58:26,048: INFO/ForkPoolWorker-3] Task request_item[ce05864a-caa5-4c28-938c-5bd072d82cde] succeeded in 1.024713034996239s: None
-[2022-05-14 21:58:26,048: INFO/ForkPoolWorker-2] Task request_item[5c36e160-b711-4652-ac3e-30442de54101] succeeded in 1.0251071969978511s: None
-[2022-05-14 21:58:26,052: WARNING/ForkPoolWorker-5] CREATED SUCCESSFULLY
-[2022-05-14 21:58:26,055: INFO/ForkPoolWorker-5] Task request_item[be699f85-e624-448d-8ecc-a2c61360f42d] succeeded in 1.0267065399966668s: None
-[2022-05-14 21:58:26,055: INFO/MainProcess] Task request_item[c43a9866-6eb8-413d-8984-8e29c22b1b35] received
-[2022-05-14 21:58:26,056: INFO/MainProcess] Task request_item[6447b7fb-3b9b-4b8f-836e-fe522c4069c9] received
-[2022-05-14 21:58:26,075: WARNING/ForkPoolWorker-1] CREATED SUCCESSFULLY
-[2022-05-14 21:58:26,077: INFO/ForkPoolWorker-1] Task request_item[5c178380-b536-4e61-af94-1d8ca0d0b9eb] succeeded in 1.0570721290059737s: None
-[2022-05-14 21:58:26,077: WARNING/ForkPoolWorker-8] CREATED SUCCESSFULLY
-[2022-05-14 21:58:26,079: INFO/MainProcess] Task request_item[e8f52c57-2e85-4416-9294-300b9151ee76] received
-[2022-05-14 21:58:26,079: INFO/ForkPoolWorker-8] Task request_item[212d6213-37a0-49f0-8f21-b8fe34ed09e9] succeeded in 1.0592322009979398s: None
-[2022-05-14 21:58:26,079: ERROR/ForkPoolWorker-7] Task update[47a0a54e-8c8a-4a96-8bb8-372948183a72] raised unexpected: TypeError("unsupported operand type(s) for -: 'int' and 'NoneType'")
-Traceback (most recent call last):
-  File "/home/steven/Ledingo_challenge/lvenv/lib/python3.10/site-packages/celery/app/trace.py", line 451, in trace_task
-    R = retval = fun(*args, **kwargs)
-  File "/home/steven/Ledingo_challenge/lvenv/lib/python3.10/site-packages/celery/app/trace.py", line 734, in __protected_call__
-    return self.run(*args, **kwargs)
-  File "/home/steven/Ledingo_challenge/core/tasks.py", line 123, in update
-    number = max_id - current_db_max_id
-TypeError: unsupported operand type(s) for -: 'int' and 'NoneType'
-[2022-05-14 21:58:26,082: INFO/MainProcess] Task request_item[06bf76bc-de71-4893-a117-9b8f9256aa38] received
-[2022-05-14 21:58:26,334: INFO/MainProcess] Task request_item[aeb7f63f-c576-4f21-94a3-b8ec47cd06c8] received
-[2022-05-14 21:58:26,335: INFO/MainProcess] Task request_item[0a025905-9b4e-4ab8-9b99-6594b480ece8] received
-[2022-05-14 21:58:26,994: WARNING/ForkPoolWorker-2] CREATED SUCCESSFULLY
-[2022-05-14 21:58:26,995: INFO/ForkPoolWorker-2] Task request_item[f1f594b9-3640-43bd-bcfe-3ad415de89ba] succeeded in 0.942769319000945s: None
-[2022-05-14 21:58:27,007: WARNING/ForkPoolWorker-5] CREATED SUCCESSFULLY
-[2022-05-14 21:58:27,008: INFO/ForkPoolWorker-5] Task request_item[94067663-32fc-461b-ac60-37c8a5e9e308] succeeded in 0.9504704330029199s: None
-[2022-05-14 21:58:27,011: INFO/MainProcess] Task request_item[a4bc7030-214e-4e7c-9a43-15b3fe6d653f] received
-[2022-05-14 21:58:27,012: WARNING/ForkPoolWorker-6] CREATED SUCCESSFULLY
-[2022-05-14 21:58:27,013: INFO/ForkPoolWorker-6] Task request_item[3fbf2cd0-ad39-4227-aa3e-eefce6a0e4d9] succeeded in 0.9773199549963465s: None
-[2022-05-14 21:58:27,015: INFO/MainProcess] Task request_item[8f58c99b-b2bc-4b36-a21c-b1410f0821ee] received
-[2022-05-14 21:58:27,021: WARNING/ForkPoolWorker-3] CREATED SUCCESSFULLY
-[2022-05-14 21:58:27,022: INFO/ForkPoolWorker-3] Task request_item[4441a60e-7d49-42ad-9ad8-7f179749e099] succeeded in 0.9717428420044598s: None
-[2022-05-14 21:58:27,024: INFO/MainProcess] Task request_item[f8974515-71f8-4547-80ae-bf4af12d6897] received
-[2022-05-14 21:58:27,050: WARNING/ForkPoolWorker-1] CREATED SUCCESSFULLY
-[2022-05-14 21:58:27,051: INFO/ForkPoolWorker-1] Task request_item[8b08de3e-001b-467d-9031-c7de91e3a53c] succeeded in 0.9719421729969326s: None
-[2022-05-14 21:58:27,053: INFO/MainProcess] Task request_item[13f6ae86-c662-4353-9f70-25d59fc2681d] received
-[2022-05-14 21:58:27,057: WARNING/ForkPoolWorker-4] CREATED SUCCESSFULLY
-[2022-05-14 21:58:27,058: INFO/ForkPoolWorker-4] Task request_item[7fda2775-3882-44e5-8f47-3c2fdbb5cb99] succeeded in 1.0207517090020701s: None
-[2022-05-14 21:58:27,060: INFO/MainProcess] Task request_item[5387a054-e0aa-4f15-944f-82a367ad164d] received
-[2022-05-14 21:58:27,104: WARNING/ForkPoolWorker-8] CREATED SUCCESSFULLY
-[2022-05-14 21:58:27,105: INFO/ForkPoolWorker-8] Task request_item[da984b06-b054-4a9f-b2a1-00f38f61b3de] succeeded in 1.0227859080041526s: None
-[2022-05-14 21:58:27,108: INFO/MainProcess] Task request_item[9a9d9687-982b-4478-b0fb-0bab24b5ee77] received
-[2022-05-14 21:58:27,109: WARNING/ForkPoolWorker-7] CREATED SUCCESSFULLY
-[2022-05-14 21:58:27,110: INFO/ForkPoolWorker-7] Task request_item[b5347cff-04be-478c-893b-0ad9a56e3973] succeeded in 1.0273180320000392s: None
-[2022-05-14 21:58:27,112: INFO/MainProcess] Task request_item[c3505057-97c3-4630-97c4-be0a20bed3b9] received
-[2022-05-14 21:58:27,963: WARNING/ForkPoolWorker-2] CREATED SUCCESSFULLY
-[2022-05-14 21:58:27,964: INFO/ForkPoolWorker-2] Task request_item[6ae22e55-1cf8-46e0-b0a7-d2dea5a036b4] succeeded in 0.9677560440031812s: None
-[2022-05-14 21:58:27,966: INFO/MainProcess] Task request_item[3d3e57c5-96c0-490a-bcaa-d71eb2fdc447] received
-[2022-05-14 21:58:27,986: WARNING/ForkPoolWorker-4] CREATED SUCCESSFULLY
-[2022-05-14 21:58:27,988: INFO/ForkPoolWorker-4] Task request_item[8bfb6153-97f6-4f80-a28c-1fca24740ca6] succeeded in 0.927616034001403s: None
-[2022-05-14 21:58:27,989: INFO/MainProcess] Task request_item[95f08515-c4ca-43dc-ad5f-7d67bfa30f7c] received
-[2022-05-14 21:58:28,002: WARNING/ForkPoolWorker-5] CREATED SUCCESSFULLY
-[2022-05-14 21:58:28,002: INFO/ForkPoolWorker-5] Task request_item[309c124a-ab5d-481a-8233-5a12aa004ade] succeeded in 0.9912387390068034s: None
-[2022-05-14 21:58:28,005: INFO/MainProcess] Task request_item[d7562125-2ab9-4a83-ba53-2a6d023b64fc] received
-[2022-05-14 21:58:28,019: WARNING/ForkPoolWorker-3] CREATED SUCCESSFULLY
-[2022-05-14 21:58:28,021: INFO/ForkPoolWorker-3] Task request_item[699ef41a-2a9d-4d3b-82e7-0ff05960cd53] succeeded in 0.9958449280020432s: None
-[2022-05-14 21:58:28,023: INFO/MainProcess] Task request_item[a09dbc8d-3574-4f47-93ee-88483cc68f65] received
-[2022-05-14 21:58:28,043: WARNING/ForkPoolWorker-7] CREATED SUCCESSFULLY
-[2022-05-14 21:58:28,044: INFO/ForkPoolWorker-7] Task request_item[aaf14027-1723-4e31-a32b-be167f688c2b] succeeded in 0.9313626900038798s: None
-[2022-05-14 21:58:28,046: INFO/MainProcess] Task request_item[4aaa3497-04ce-458b-89bd-a0caaf3bda70] received
-[2022-05-14 21:58:28,055: WARNING/ForkPoolWorker-6] CREATED SUCCESSFULLY
-[2022-05-14 21:58:28,056: INFO/ForkPoolWorker-6] Task request_item[698417d8-4c40-4a06-a8da-9939b35aa427] succeeded in 1.041126586998871s: None
-[2022-05-14 21:58:28,058: INFO/MainProcess] Task request_item[10358686-e133-4352-a02f-14a90dafc361] received
-[2022-05-14 21:58:28,070: WARNING/ForkPoolWorker-1] CREATED SUCCESSFULLY
-[2022-05-14 21:58:28,071: INFO/ForkPoolWorker-1] Task request_item[f27bf11b-5f97-4af6-9db3-96317afdf72d] succeeded in 1.016872861997399s: None
-[2022-05-14 21:58:28,073: INFO/MainProcess] Task request_item[90e1c4d2-12d4-44d1-acb0-653ebeb07d2f] received
-[2022-05-14 21:58:28,098: WARNING/ForkPoolWorker-8] CREATED SUCCESSFULLY
-[2022-05-14 21:58:28,099: INFO/ForkPoolWorker-8] Task request_item[e5782823-a27c-4d29-9e37-f7491d5fd7d0] succeeded in 0.9902824359960505s: None
-[2022-05-14 21:58:28,101: INFO/MainProcess] Task request_item[500633ba-fc3c-44be-a236-b1ba79882173] received
-[2022-05-14 21:58:28,338: INFO/MainProcess] Task request_item[b7a7db01-ea15-4133-b66d-9cef9f3dd6f7] received
-[2022-05-14 21:58:28,900: WARNING/ForkPoolWorker-2] CREATED SUCCESSFULLY
-[2022-05-14 21:58:28,901: INFO/ForkPoolWorker-2] Task request_item[ace59f9e-ce16-46b7-9b2c-00dc48d00c03] succeeded in 0.9345151870002155s: None
-[2022-05-14 21:58:28,906: WARNING/ForkPoolWorker-4] CREATED SUCCESSFULLY
-[2022-05-14 21:58:28,908: INFO/ForkPoolWorker-4] Task request_item[72f686f0-75c2-4d91-ae99-faa1347b6e47] succeeded in 0.9176657060015714s: None
-[2022-05-14 21:58:28,910: INFO/MainProcess] Task request_item[f4bf58f5-49d2-4c92-840e-85c1f3ed3782] received
-[2022-05-14 21:58:28,969: WARNING/ForkPoolWorker-5] CREATED SUCCESSFULLY
-[2022-05-14 21:58:28,971: INFO/ForkPoolWorker-5] Task request_item[3e26363c-9f37-404c-9689-f7519bf76ac7] succeeded in 0.9650997959979577s: None
-[2022-05-14 21:58:28,973: INFO/MainProcess] Task request_item[d977619b-7635-4251-bc1e-114c092e39fb] received
-[2022-05-14 21:58:29,001: WARNING/ForkPoolWorker-3] CREATED SUCCESSFULLY
-[2022-05-14 21:58:29,002: INFO/ForkPoolWorker-3] Task request_item[5b6a6f33-f0e0-44de-bfce-4efbac9f7aeb] succeeded in 0.9786834620026639s: None
-[2022-05-14 21:58:29,005: INFO/MainProcess] Task request_item[91283817-cf18-4a4b-83e2-f6b2128cfee2] received
-[2022-05-14 21:58:29,018: WARNING/ForkPoolWorker-6] CREATED SUCCESSFULLY
-[2022-05-14 21:58:29,019: INFO/ForkPoolWorker-6] Task request_item[73900265-7cff-4074-a4db-73b4df74dadd] succeeded in 0.9599389579962008s: None
-[2022-05-14 21:58:29,021: WARNING/ForkPoolWorker-7] CREATED SUCCESSFULLY
-[2022-05-14 21:58:29,021: INFO/MainProcess] Task request_item[7027f509-fc4c-490d-9bcb-3076507919b4] received
-[2022-05-14 21:58:29,022: INFO/ForkPoolWorker-7] Task request_item[ffb6b4f2-a016-4853-a12e-549dac56c476] succeeded in 0.9758205940015614s: None
-[2022-05-14 21:58:29,024: INFO/MainProcess] Task request_item[ef23c74e-6762-4fbd-8049-4947b3ef8615] received
-[2022-05-14 21:58:29,034: WARNING/ForkPoolWorker-1] CREATED SUCCESSFULLY
-[2022-05-14 21:58:29,035: INFO/ForkPoolWorker-1] Task request_item[bba18ce1-9f89-4bbc-94da-d7cd6c4c5718] succeeded in 0.9621212480051327s: None
-[2022-05-14 21:58:29,037: INFO/MainProcess] Task request_item[d828349e-0d89-4c22-9e91-33a8d66e91a1] received
-[2022-05-14 21:58:29,071: WARNING/ForkPoolWorker-8] CREATED SUCCESSFULLY
-[2022-05-14 21:58:29,072: INFO/ForkPoolWorker-8] Task request_item[402d8e5d-12ce-4289-81bd-fd90216f4b39] succeeded in 0.9698922769966885s: None
-[2022-05-14 21:58:29,074: INFO/MainProcess] Task request_item[825dec4b-13ee-46d5-a384-33b5fe41c641] received
-[2022-05-14 21:58:29,905: WARNING/ForkPoolWorker-4] CREATED SUCCESSFULLY
-[2022-05-14 21:58:29,907: INFO/ForkPoolWorker-4] Task request_item[4b5d9f70-c968-46a0-9f1c-b496b1dd1dfa] succeeded in 0.9964201339971623s: None
-[2022-05-14 21:58:29,909: INFO/MainProcess] Task request_item[1067c4e8-dbbb-471a-ae87-64268b2c8aec] received
-[2022-05-14 21:58:29,914: WARNING/ForkPoolWorker-2] CREATED SUCCESSFULLY
-[2022-05-14 21:58:29,916: INFO/ForkPoolWorker-2] Task request_item[19da3060-9f34-4545-9b56-f57babb1ba80] succeeded in 1.0134431030019186s: None
-[2022-05-14 21:58:29,919: INFO/MainProcess] Task request_item[ab25d273-3c7a-4d28-aacf-20b3c66296eb] received
-[2022-05-14 21:58:30,090: WARNING/ForkPoolWorker-5] CREATED SUCCESSFULLY
-[2022-05-14 21:58:30,091: INFO/ForkPoolWorker-5] Task request_item[ed4c2d2c-2db0-4c48-9ed3-90dd558ae7f3] succeeded in 1.117586948996177s: None
-[2022-05-14 21:58:30,093: INFO/MainProcess] Task request_item[d8b8aa60-4734-4359-b95a-e90024d16a28] received
-[2022-05-14 21:58:30,105: WARNING/ForkPoolWorker-1] CREATED SUCCESSFULLY
-[2022-05-14 21:58:30,106: INFO/ForkPoolWorker-1] Task request_item[e4a2fc41-3136-4efb-99df-6f6eb4311ea3] succeeded in 1.0684026410017395s: None
-[2022-05-14 21:58:30,108: INFO/MainProcess] Task request_item[a8ddc6de-d9d0-44eb-9b2a-238017364796] received
-[2022-05-14 21:58:30,119: WARNING/ForkPoolWorker-3] CREATED SUCCESSFULLY
-[2022-05-14 21:58:30,120: WARNING/ForkPoolWorker-6] CREATED SUCCESSFULLY
-[2022-05-14 21:58:30,120: INFO/ForkPoolWorker-3] Task request_item[e3cf0a20-3b32-4812-9d2b-7edd6266b4fd] succeeded in 1.1150774959969567s: None
-[2022-05-14 21:58:30,121: WARNING/ForkPoolWorker-8] CREATED SUCCESSFULLY
-[2022-05-14 21:58:30,121: INFO/ForkPoolWorker-6] Task request_item[f30529f6-5b68-4c11-bea6-4a18fb4c8248] succeeded in 1.0995182729966473s: None
-[2022-05-14 21:58:30,122: INFO/ForkPoolWorker-8] Task request_item[8195c0d6-f31f-4e23-8896-674f4a82df96] succeeded in 1.0478383340014261s: None
-[2022-05-14 21:58:30,122: INFO/MainProcess] Task request_item[7b007494-3f8a-44be-9c5f-35de4e7ff38e] received
-[2022-05-14 21:58:30,126: INFO/MainProcess] Task request_item[328599b7-83df-4292-b45b-9fc72cb3d06f] received
-[2022-05-14 21:58:30,140: WARNING/ForkPoolWorker-7] CREATED SUCCESSFULLY
-[2022-05-14 21:58:30,141: INFO/ForkPoolWorker-7] Task request_item[c4cccbc8-b46a-434d-a24b-869c8af46209] succeeded in 1.1165927909969469s: None
-[2022-05-14 21:58:30,143: INFO/MainProcess] Task request_item[32c967fd-791f-4214-8ed9-64c82062a5a9] received
-[2022-05-14 21:58:30,145: INFO/MainProcess] Task request_item[cd1921d3-7bac-44c4-ac9e-e479343ece59] received
-[2022-05-14 21:58:30,341: INFO/MainProcess] Task request_item[2af1e468-a979-4f12-ba35-2e079a97917c] received
-[2022-05-14 21:58:30,924: WARNING/ForkPoolWorker-4] CREATED SUCCESSFULLY
-[2022-05-14 21:58:30,925: INFO/ForkPoolWorker-4] Task request_item[d128441e-7327-4dea-aea5-2de13b90c3d9] succeeded in 1.0156429060007213s: None
-[2022-05-14 21:58:30,937: WARNING/ForkPoolWorker-2] CREATED SUCCESSFULLY
-[2022-05-14 21:58:30,939: INFO/ForkPoolWorker-2] Task request_item[e2b169d6-36b7-4f71-925d-7b6148652c86] succeeded in 1.0194114960031584s: None
-[2022-05-14 21:58:30,941: INFO/MainProcess] Task request_item[30ca9109-bd5d-4c2d-96c4-ad536a8dd8e0] received
-[2022-05-14 21:58:31,052: WARNING/ForkPoolWorker-1] CREATED SUCCESSFULLY
-[2022-05-14 21:58:31,053: WARNING/ForkPoolWorker-5] CREATED SUCCESSFULLY
-[2022-05-14 21:58:31,053: INFO/ForkPoolWorker-1] Task request_item[6447b7fb-3b9b-4b8f-836e-fe522c4069c9] succeeded in 0.9448310450025019s: None
-[2022-05-14 21:58:31,054: INFO/ForkPoolWorker-5] Task request_item[c43a9866-6eb8-413d-8984-8e29c22b1b35] succeeded in 0.9603516940042027s: None
-[2022-05-14 21:58:31,056: INFO/MainProcess] Task request_item[6b95d77d-d792-4c2f-9396-e165e7c48ad0] received
-[2022-05-14 21:58:31,109: WARNING/ForkPoolWorker-6] CREATED SUCCESSFULLY
-[2022-05-14 21:58:31,110: INFO/ForkPoolWorker-6] Task request_item[aeb7f63f-c576-4f21-94a3-b8ec47cd06c8] succeeded in 0.9854110849992139s: None
-[2022-05-14 21:58:31,112: INFO/MainProcess] Task request_item[a1e8ca89-51c1-4c89-8dbc-8b769777695e] received
-[2022-05-14 21:58:31,112: WARNING/ForkPoolWorker-7] CREATED SUCCESSFULLY
-[2022-05-14 21:58:31,113: INFO/ForkPoolWorker-7] Task request_item[0a025905-9b4e-4ab8-9b99-6594b480ece8] succeeded in 0.9689025199986645s: None
-[2022-05-14 21:58:31,113: INFO/MainProcess] Task request_item[3db28755-5df3-4aa3-ad6e-6aacc3b666b3] received
-[2022-05-14 21:58:31,116: INFO/MainProcess] Task request_item[5832979a-07d6-4c99-85ea-aeefce384415] received
-[2022-05-14 21:58:31,127: WARNING/ForkPoolWorker-3] CREATED SUCCESSFULLY
-[2022-05-14 21:58:31,128: INFO/ForkPoolWorker-3] Task request_item[e8f52c57-2e85-4416-9294-300b9151ee76] succeeded in 1.0052752819974557s: None
-[2022-05-14 21:58:31,130: INFO/MainProcess] Task request_item[dc8373ea-93cd-4370-8b90-3689aa1be7f1] received
-[2022-05-14 21:58:31,151: WARNING/ForkPoolWorker-8] CREATED SUCCESSFULLY
-[2022-05-14 21:58:31,152: INFO/ForkPoolWorker-8] Task request_item[06bf76bc-de71-4893-a117-9b8f9256aa38] succeeded in 1.0271236150001641s: None
-[2022-05-14 21:58:31,153: INFO/MainProcess] Task request_item[96286caa-e0ae-481b-82e0-b2f3d7b0658e] received
-[2022-05-14 21:58:31,885: WARNING/ForkPoolWorker-2] CREATED SUCCESSFULLY
-[2022-05-14 21:58:31,886: INFO/ForkPoolWorker-2] Task request_item[8f58c99b-b2bc-4b36-a21c-b1410f0821ee] succeeded in 0.944709065995994s: None
-[2022-05-14 21:58:31,889: INFO/MainProcess] Task request_item[811f5f7f-d697-4a69-bc1c-ab65ef96c9f6] received
-[2022-05-14 21:58:31,893: WARNING/ForkPoolWorker-4] CREATED SUCCESSFULLY
-[2022-05-14 21:58:31,894: INFO/ForkPoolWorker-4] Task request_item[a4bc7030-214e-4e7c-9a43-15b3fe6d653f] succeeded in 0.967069703998277s: None
-[2022-05-14 21:58:31,896: INFO/MainProcess] Task request_item[a0524453-854f-42cf-af2d-1f70997d21a7] received
-[2022-05-14 21:58:32,008: WARNING/ForkPoolWorker-5] CREATED SUCCESSFULLY
-[2022-05-14 21:58:32,009: INFO/ForkPoolWorker-5] Task request_item[13f6ae86-c662-4353-9f70-25d59fc2681d] succeeded in 0.9524058789975243s: None
-[2022-05-14 21:58:32,012: INFO/MainProcess] Task request_item[57b90ef2-e5c5-48d9-88e4-c01fa11d6924] received
-[2022-05-14 21:58:32,045: WARNING/ForkPoolWorker-7] CREATED SUCCESSFULLY
-[2022-05-14 21:58:32,045: WARNING/ForkPoolWorker-1] CREATED SUCCESSFULLY
-[2022-05-14 21:58:32,046: INFO/ForkPoolWorker-7] Task request_item[9a9d9687-982b-4478-b0fb-0bab24b5ee77] succeeded in 0.9292468089988688s: None
-[2022-05-14 21:58:32,046: INFO/ForkPoolWorker-1] Task request_item[f8974515-71f8-4547-80ae-bf4af12d6897] succeeded in 0.9897221409992198s: None
-[2022-05-14 21:58:32,048: INFO/MainProcess] Task request_item[47c01e05-5c72-43e6-bf1a-78e8e5ae4bbe] received
-[2022-05-14 21:58:32,072: WARNING/ForkPoolWorker-6] CREATED SUCCESSFULLY
-[2022-05-14 21:58:32,073: INFO/ForkPoolWorker-6] Task request_item[5387a054-e0aa-4f15-944f-82a367ad164d] succeeded in 0.9611545059960918s: None
-[2022-05-14 21:58:32,076: INFO/MainProcess] Task request_item[4a91d756-fca6-4eae-846b-1315c0513990] received
-[2022-05-14 21:58:32,077: INFO/MainProcess] Task request_item[8091e134-d7ed-4d24-adcf-c56b8a248ce1] received
-[2022-05-14 21:58:32,117: WARNING/ForkPoolWorker-8] CREATED SUCCESSFULLY
-[2022-05-14 21:58:32,118: INFO/ForkPoolWorker-8] Task request_item[3d3e57c5-96c0-490a-bcaa-d71eb2fdc447] succeeded in 0.9643084950002958s: None
-[2022-05-14 21:58:32,121: INFO/MainProcess] Task request_item[2b1f6837-5364-4934-8e60-e2864062384a] received
-[2022-05-14 21:58:32,158: WARNING/ForkPoolWorker-3] CREATED SUCCESSFULLY
-[2022-05-14 21:58:32,159: INFO/ForkPoolWorker-3] Task request_item[c3505057-97c3-4630-97c4-be0a20bed3b9] succeeded in 1.0290860850000172s: None
-[2022-05-14 21:58:32,162: INFO/MainProcess] Task request_item[bec8b428-dee8-4464-b75f-ee8cf44f3112] received
-[2022-05-14 21:58:32,325: INFO/MainProcess] Task request_item[6893f9a3-a50b-4ec5-bfd3-cb47dbde7f12] received
-[2022-05-14 21:58:32,843: WARNING/ForkPoolWorker-2] CREATED SUCCESSFULLY
-[2022-05-14 21:58:32,845: INFO/ForkPoolWorker-2] Task request_item[95f08515-c4ca-43dc-ad5f-7d67bfa30f7c] succeeded in 0.9560349640014465s: None
-[2022-05-14 21:58:32,947: WARNING/ForkPoolWorker-4] CREATED SUCCESSFULLY
-[2022-05-14 21:58:32,949: INFO/ForkPoolWorker-4] Task request_item[d7562125-2ab9-4a83-ba53-2a6d023b64fc] succeeded in 1.0523113630042644s: None
-[2022-05-14 21:58:32,951: INFO/MainProcess] Task request_item[9cdcfe98-43ea-44e1-8375-6eb977c12b72] received
-[2022-05-14 21:58:32,970: WARNING/ForkPoolWorker-5] CREATED SUCCESSFULLY
-[2022-05-14 21:58:32,971: INFO/ForkPoolWorker-5] Task request_item[a09dbc8d-3574-4f47-93ee-88483cc68f65] succeeded in 0.9586175300064497s: None
-[2022-05-14 21:58:32,973: INFO/MainProcess] Task request_item[e098e26c-45c2-4557-8e32-5d780fd56b64] received
-[2022-05-14 21:58:33,011: WARNING/ForkPoolWorker-7] CREATED SUCCESSFULLY
-[2022-05-14 21:58:33,012: WARNING/ForkPoolWorker-8] CREATED SUCCESSFULLY
-[2022-05-14 21:58:33,012: INFO/ForkPoolWorker-7] Task request_item[4aaa3497-04ce-458b-89bd-a0caaf3bda70] succeeded in 0.9637755169969751s: None
-[2022-05-14 21:58:33,013: INFO/ForkPoolWorker-8] Task request_item[500633ba-fc3c-44be-a236-b1ba79882173] succeeded in 0.8916348769998876s: None
-[2022-05-14 21:58:33,015: INFO/MainProcess] Task request_item[67be305b-c9d7-4b50-9560-11359ffcdd84] received
-[2022-05-14 21:58:33,019: WARNING/ForkPoolWorker-1] CREATED SUCCESSFULLY
-[2022-05-14 21:58:33,020: INFO/ForkPoolWorker-1] Task request_item[10358686-e133-4352-a02f-14a90dafc361] succeeded in 0.9709329630059074s: None
-[2022-05-14 21:58:33,020: WARNING/ForkPoolWorker-6] CREATED SUCCESSFULLY
-[2022-05-14 21:58:33,021: INFO/ForkPoolWorker-6] Task request_item[90e1c4d2-12d4-44d1-acb0-653ebeb07d2f] succeeded in 0.9445641950005665s: None
-[2022-05-14 21:58:33,021: INFO/MainProcess] Task request_item[93202f2a-346d-4981-8d8f-0e35d49cd853] received
-[2022-05-14 21:58:33,023: INFO/MainProcess] Task request_item[15a82eca-1822-4f15-ac04-70e58b58aa68] received
-[2022-05-14 21:58:33,093: WARNING/ForkPoolWorker-3] CREATED SUCCESSFULLY
-[2022-05-14 21:58:33,094: INFO/ForkPoolWorker-3] Task request_item[b7a7db01-ea15-4133-b66d-9cef9f3dd6f7] succeeded in 0.9320355020026909s: None
-[2022-05-14 21:58:33,817: WARNING/ForkPoolWorker-2] CREATED SUCCESSFULLY
-[2022-05-14 21:58:33,818: INFO/ForkPoolWorker-2] Task request_item[f4bf58f5-49d2-4c92-840e-85c1f3ed3782] succeeded in 0.9716986420025933s: None
-[2022-05-14 21:58:33,936: WARNING/ForkPoolWorker-4] CREATED SUCCESSFULLY
-[2022-05-14 21:58:33,937: INFO/ForkPoolWorker-4] Task request_item[d977619b-7635-4251-bc1e-114c092e39fb] succeeded in 0.985476417998143s: None
-[2022-05-14 21:58:33,957: WARNING/ForkPoolWorker-1] CREATED SUCCESSFULLY
-[2022-05-14 21:58:33,958: INFO/ForkPoolWorker-1] Task request_item[d828349e-0d89-4c22-9e91-33a8d66e91a1] succeeded in 0.936446033003449s: None
-[2022-05-14 21:58:33,972: WARNING/ForkPoolWorker-6] CREATED SUCCESSFULLY
-[2022-05-14 21:58:33,972: INFO/ForkPoolWorker-6] Task request_item[825dec4b-13ee-46d5-a384-33b5fe41c641] succeeded in 0.9480957440027851s: None
-[2022-05-14 21:58:33,997: WARNING/ForkPoolWorker-8] CREATED SUCCESSFULLY
-[2022-05-14 21:58:33,998: INFO/ForkPoolWorker-8] Task request_item[ef23c74e-6762-4fbd-8049-4947b3ef8615] succeeded in 0.9821847939965664s: None
-[2022-05-14 21:58:34,002: WARNING/ForkPoolWorker-7] CREATED SUCCESSFULLY
-[2022-05-14 21:58:34,003: INFO/ForkPoolWorker-7] Task request_item[7027f509-fc4c-490d-9bcb-3076507919b4] succeeded in 0.9875086390020442s: None
-[2022-05-14 21:58:34,018: WARNING/ForkPoolWorker-5] CREATED SUCCESSFULLY
-[2022-05-14 21:58:34,019: INFO/ForkPoolWorker-5] Task request_item[91283817-cf18-4a4b-83e2-f6b2128cfee2] succeeded in 1.0454008109954884s: None
-[2022-05-14 21:58:34,024: WARNING/ForkPoolWorker-3] CREATED SUCCESSFULLY
-[2022-05-14 21:58:34,025: INFO/ForkPoolWorker-3] Task request_item[1067c4e8-dbbb-471a-ae87-64268b2c8aec] succeeded in 0.9290687649991014s: None
-[2022-05-14 21:58:34,804: WARNING/ForkPoolWorker-2] CREATED SUCCESSFULLY
-[2022-05-14 21:58:34,806: INFO/ForkPoolWorker-2] Task request_item[ab25d273-3c7a-4d28-aacf-20b3c66296eb] succeeded in 0.9864755100061302s: None
-[2022-05-14 21:58:34,901: WARNING/ForkPoolWorker-6] CREATED SUCCESSFULLY
-[2022-05-14 21:58:34,902: INFO/ForkPoolWorker-6] Task request_item[7b007494-3f8a-44be-9c5f-35de4e7ff38e] succeeded in 0.9287930370046524s: None
-[2022-05-14 21:58:34,916: WARNING/ForkPoolWorker-4] CREATED SUCCESSFULLY
-[2022-05-14 21:58:34,916: WARNING/ForkPoolWorker-7] CREATED SUCCESSFULLY
-[2022-05-14 21:58:34,917: INFO/ForkPoolWorker-4] Task request_item[d8b8aa60-4734-4359-b95a-e90024d16a28] succeeded in 0.9789545480016386s: None
-[2022-05-14 21:58:34,917: INFO/ForkPoolWorker-7] Task request_item[32c967fd-791f-4214-8ed9-64c82062a5a9] succeeded in 0.91324266599986s: None
-[2022-05-14 21:58:34,946: WARNING/ForkPoolWorker-3] CREATED SUCCESSFULLY
-[2022-05-14 21:58:34,946: WARNING/ForkPoolWorker-5] CREATED SUCCESSFULLY
-[2022-05-14 21:58:34,947: INFO/ForkPoolWorker-3] Task request_item[2af1e468-a979-4f12-ba35-2e079a97917c] succeeded in 0.9203714989998844s: None
-[2022-05-14 21:58:34,947: INFO/ForkPoolWorker-5] Task request_item[cd1921d3-7bac-44c4-ac9e-e479343ece59] succeeded in 0.9272078810026869s: None
-[2022-05-14 21:58:34,971: WARNING/ForkPoolWorker-1] CREATED SUCCESSFULLY
-[2022-05-14 21:58:34,972: INFO/ForkPoolWorker-1] Task request_item[a8ddc6de-d9d0-44eb-9b2a-238017364796] succeeded in 1.012220412005263s: None
-[2022-05-14 21:58:34,986: WARNING/ForkPoolWorker-8] CREATED SUCCESSFULLY
-[2022-05-14 21:58:34,987: INFO/ForkPoolWorker-8] Task request_item[328599b7-83df-4292-b45b-9fc72cb3d06f] succeeded in 0.9886229680050747s: None
-[2022-05-14 21:58:35,873: WARNING/ForkPoolWorker-2] CREATED SUCCESSFULLY
-[2022-05-14 21:58:35,874: INFO/ForkPoolWorker-2] Task request_item[30ca9109-bd5d-4c2d-96c4-ad536a8dd8e0] succeeded in 1.066472785998485s: None
-[2022-05-14 21:58:36,118: WARNING/ForkPoolWorker-8] CREATED SUCCESSFULLY
-[2022-05-14 21:58:36,119: INFO/ForkPoolWorker-8] Task request_item[811f5f7f-d697-4a69-bc1c-ab65ef96c9f6] succeeded in 1.1303980610027793s: None
-[2022-05-14 21:58:36,128: WARNING/ForkPoolWorker-1] CREATED SUCCESSFULLY
-[2022-05-14 21:58:36,128: WARNING/ForkPoolWorker-4] CREATED SUCCESSFULLY
-[2022-05-14 21:58:36,129: INFO/ForkPoolWorker-1] Task request_item[96286caa-e0ae-481b-82e0-b2f3d7b0658e] succeeded in 1.1558406660042237s: None
-[2022-05-14 21:58:36,129: WARNING/ForkPoolWorker-3] CREATED SUCCESSFULLY
-[2022-05-14 21:58:36,129: INFO/ForkPoolWorker-4] Task request_item[3db28755-5df3-4aa3-ad6e-6aacc3b666b3] succeeded in 1.210392895998666s: None
-[2022-05-14 21:58:36,130: INFO/ForkPoolWorker-3] Task request_item[5832979a-07d6-4c99-85ea-aeefce384415] succeeded in 1.1810984580006334s: None
-[2022-05-14 21:58:36,132: WARNING/ForkPoolWorker-7] CREATED SUCCESSFULLY
-[2022-05-14 21:58:36,134: INFO/ForkPoolWorker-7] Task request_item[a1e8ca89-51c1-4c89-8dbc-8b769777695e] succeeded in 1.2156668810057454s: None
-[2022-05-14 21:58:36,137: WARNING/ForkPoolWorker-6] CREATED SUCCESSFULLY
-[2022-05-14 21:58:36,138: INFO/ForkPoolWorker-6] Task request_item[6b95d77d-d792-4c2f-9396-e165e7c48ad0] succeeded in 1.2339824410009896s: None
-[2022-05-14 21:58:36,151: WARNING/ForkPoolWorker-5] CREATED SUCCESSFULLY
-[2022-05-14 21:58:36,152: INFO/ForkPoolWorker-5] Task request_item[dc8373ea-93cd-4370-8b90-3689aa1be7f1] succeeded in 1.2030384129975573s: None
-[2022-05-14 21:58:37,007: WARNING/ForkPoolWorker-2] CREATED SUCCESSFULLY
-[2022-05-14 21:58:37,009: INFO/ForkPoolWorker-2] Task request_item[a0524453-854f-42cf-af2d-1f70997d21a7] succeeded in 1.1329308490021504s: None
-[2022-05-14 21:58:37,230: WARNING/ForkPoolWorker-8] CREATED SUCCESSFULLY
-[2022-05-14 21:58:37,231: WARNING/ForkPoolWorker-3] CREATED SUCCESSFULLY
-[2022-05-14 21:58:37,231: INFO/ForkPoolWorker-8] Task request_item[57b90ef2-e5c5-48d9-88e4-c01fa11d6924] succeeded in 1.1107307830025093s: None
-[2022-05-14 21:58:37,232: INFO/ForkPoolWorker-3] Task request_item[8091e134-d7ed-4d24-adcf-c56b8a248ce1] succeeded in 1.0992063340017921s: None
-[2022-05-14 21:58:37,232: WARNING/ForkPoolWorker-6] CREATED SUCCESSFULLY
-[2022-05-14 21:58:37,232: WARNING/ForkPoolWorker-5] CREATED SUCCESSFULLY
-[2022-05-14 21:58:37,234: INFO/ForkPoolWorker-6] Task request_item[bec8b428-dee8-4464-b75f-ee8cf44f3112] succeeded in 1.094554123999842s: None
-[2022-05-14 21:58:37,234: INFO/ForkPoolWorker-5] Task request_item[6893f9a3-a50b-4ec5-bfd3-cb47dbde7f12] succeeded in 1.080563584000629s: None
-[2022-05-14 21:58:37,236: WARNING/ForkPoolWorker-1] CREATED SUCCESSFULLY
-[2022-05-14 21:58:37,237: INFO/ForkPoolWorker-1] Task request_item[47c01e05-5c72-43e6-bf1a-78e8e5ae4bbe] succeeded in 1.105493593000574s: None
-[2022-05-14 21:58:37,238: WARNING/ForkPoolWorker-4] CREATED SUCCESSFULLY
-[2022-05-14 21:58:37,239: INFO/ForkPoolWorker-4] Task request_item[4a91d756-fca6-4eae-846b-1315c0513990] succeeded in 1.1082446930013248s: None
-[2022-05-14 21:58:37,242: WARNING/ForkPoolWorker-7] CREATED SUCCESSFULLY
-[2022-05-14 21:58:37,243: INFO/ForkPoolWorker-7] Task request_item[2b1f6837-5364-4934-8e60-e2864062384a] succeeded in 1.1070752270024968s: None
-[2022-05-14 21:58:37,952: WARNING/ForkPoolWorker-2] CREATED SUCCESSFULLY
-[2022-05-14 21:58:37,954: INFO/ForkPoolWorker-2] Task request_item[9cdcfe98-43ea-44e1-8375-6eb977c12b72] succeeded in 0.9436289020013646s: None
-[2022-05-14 21:58:38,125: WARNING/ForkPoolWorker-8] CREATED SUCCESSFULLY
-[2022-05-14 21:58:38,127: INFO/ForkPoolWorker-8] Task request_item[e098e26c-45c2-4557-8e32-5d780fd56b64] succeeded in 0.8909161490009865s: None
-[2022-05-14 21:58:38,143: WARNING/ForkPoolWorker-3] CREATED SUCCESSFULLY
-[2022-05-14 21:58:38,144: INFO/ForkPoolWorker-3] Task request_item[67be305b-c9d7-4b50-9560-11359ffcdd84] succeeded in 0.9088722140004393s: None
-[2022-05-14 21:58:38,173: WARNING/ForkPoolWorker-5] CREATED SUCCESSFULLY
-[2022-05-14 21:58:38,174: INFO/ForkPoolWorker-5] Task request_item[93202f2a-346d-4981-8d8f-0e35d49cd853] succeeded in 0.9360942760031321s: None
-[2022-05-14 21:58:38,210: WARNING/ForkPoolWorker-6] CREATED SUCCESSFULLY
-[2022-05-14 21:58:38,212: INFO/ForkPoolWorker-6] Task request_item[15a82eca-1822-4f15-ac04-70e58b58aa68] succeeded in 0.9732523630009382s: None
+[2022-05-15 21:57:10,117: INFO/MainProcess] celery@steven-Latitude-E6430 ready.
