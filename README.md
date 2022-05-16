@@ -6,6 +6,12 @@
 *Documentation*:
 - [Documetation](https://documenter.getpostman.com/view/16607098/UyxgJo8n)
 
+**ACTIVATE VIRTUAL ENVIROMENT:**
+source lvenv/bin/activate
+
+**INSTALL REQUIREMENTS:**
+pip install -r requirements.txt
+
 **TO START SERVER:**
 chmod a+x start.sh
 bash start.sh
