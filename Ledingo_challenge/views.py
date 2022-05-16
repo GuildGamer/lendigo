@@ -8,9 +8,9 @@ from decouple import config
 BASE_URL = config("BASE_URL")
 
 def index(request):
-    # return HttpResponse(f"Hello, world. You're at the Lendigo News API index. {datetime.now()}")
+    return HttpResponse(f"Hello, world. You're at the Lendigo News API index. {datetime.now()}")
 
-    return render(request, 'index.html', {})
+    # return render(request, 'index.html', {})
 
 def search_items(request):
     if request.method == "POST":
