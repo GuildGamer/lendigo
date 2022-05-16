@@ -6,8 +6,11 @@
 *Documentation*:
 - [Documetation](https://documenter.getpostman.com/view/16607098/UyxgJo8n)
 
-**ACTIVATE VIRTUAL ENVIROMENT:**
-source lvenv/bin/activate
+**Setting Up The Environment: **
+- Create a virtual environment(python3 -m venv virtualenvname)
+- activate the virtual environment 
+- install requirements (pip install -r requirements.txt)
+
 
 **INSTALL REQUIREMENTS:**
 pip install -r requirements.txt
