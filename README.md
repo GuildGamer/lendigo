@@ -6,7 +6,7 @@
 *Documentation*:
 - [Documetation](https://documenter.getpostman.com/view/16607098/UyxgJo8n)
 
-**Setting Up The Environment: **
+**Setting Up The Environment:**
 - Create a virtual environment(python3 -m venv virtualenvname)
 - activate the virtual environment 
 - install requirements (pip install -r requirements.txt)
