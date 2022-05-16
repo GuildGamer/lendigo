@@ -693,3 +693,80 @@ DETAIL:  Key (hid)=(31391414) already exists.
   warnings.warn('''Using settings.DEBUG leads to a memory
 
 [2022-05-15 21:57:10,117: INFO/MainProcess] celery@steven-Latitude-E6430 ready.
+[2022-05-16 13:59:19,746: INFO/MainProcess] Connected to redis://localhost:6379//
+[2022-05-16 13:59:19,750: INFO/MainProcess] mingle: searching for neighbors
+[2022-05-16 13:59:20,757: INFO/MainProcess] mingle: all alone
+[2022-05-16 13:59:20,770: WARNING/MainProcess] /home/steven/Ledingo_challenge/lvenv/lib/python3.10/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2022-05-16 13:59:20,770: INFO/MainProcess] celery@steven-Latitude-E6430 ready.
+[2022-05-16 13:59:20,790: INFO/MainProcess] Task update[3f74ca65-1f0d-4318-baae-9cb332469c59] received
+[2022-05-16 13:59:20,791: WARNING/ForkPoolWorker-7] INITIAL 100
+[2022-05-16 13:59:20,822: INFO/ForkPoolWorker-7] Task update[3f74ca65-1f0d-4318-baae-9cb332469c59] succeeded in 0.031138468999415636s: None
+[2022-05-16 14:04:19,103: INFO/MainProcess] Task update[c31638ae-98e5-4a08-8b19-3b05c33cbd46] received
+[2022-05-16 14:04:19,105: WARNING/ForkPoolWorker-7] INITIAL 100
+[2022-05-16 14:04:19,107: INFO/ForkPoolWorker-7] Task update[c31638ae-98e5-4a08-8b19-3b05c33cbd46] succeeded in 0.0022190620002220385s: None
+[2022-05-16 14:09:19,142: INFO/MainProcess] Task update[f45499c7-5b6d-4a60-bd21-5703ba37784b] received
+[2022-05-16 14:09:19,144: WARNING/ForkPoolWorker-7] INITIAL 100
+[2022-05-16 14:09:19,146: INFO/ForkPoolWorker-7] Task update[f45499c7-5b6d-4a60-bd21-5703ba37784b] succeeded in 0.0022857570002088323s: None
+[2022-05-16 14:14:19,207: INFO/MainProcess] Task update[321f6e5d-8580-4e99-9396-2565f41fdcd2] received
+[2022-05-16 14:14:19,208: WARNING/ForkPoolWorker-7] INITIAL 100
+[2022-05-16 14:14:19,210: INFO/ForkPoolWorker-7] Task update[321f6e5d-8580-4e99-9396-2565f41fdcd2] succeeded in 0.0019738049995794427s: None
+[2022-05-16 14:19:19,225: INFO/MainProcess] Task update[8af865da-a42e-4323-a691-bad424e31260] received
+[2022-05-16 14:19:19,226: WARNING/ForkPoolWorker-7] INITIAL 100
+[2022-05-16 14:19:19,228: INFO/ForkPoolWorker-7] Task update[8af865da-a42e-4323-a691-bad424e31260] succeeded in 0.0014915539995854488s: None
+[2022-05-16 14:24:19,287: INFO/MainProcess] Task update[42693895-6756-45f1-8772-fc7bdd0bbb0b] received
+[2022-05-16 14:24:19,288: WARNING/ForkPoolWorker-7] INITIAL 100
+[2022-05-16 14:24:19,290: INFO/ForkPoolWorker-7] Task update[42693895-6756-45f1-8772-fc7bdd0bbb0b] succeeded in 0.0021953359992039623s: None
+[2022-05-16 14:29:19,287: INFO/MainProcess] Task update[8f66dffa-f552-419f-93b8-a9db8b44480d] received
+[2022-05-16 14:29:19,288: WARNING/ForkPoolWorker-7] INITIAL 100
+[2022-05-16 14:29:19,289: INFO/ForkPoolWorker-7] Task update[8f66dffa-f552-419f-93b8-a9db8b44480d] succeeded in 0.0013225809998402838s: None
+[2022-05-16 14:34:19,288: INFO/MainProcess] Task update[3e785b13-c1ea-4b37-82eb-2b333826231b] received
+[2022-05-16 14:34:19,290: WARNING/ForkPoolWorker-7] INITIAL 100
+[2022-05-16 14:34:19,291: INFO/ForkPoolWorker-7] Task update[3e785b13-c1ea-4b37-82eb-2b333826231b] succeeded in 0.0018852560006052954s: None
+[2022-05-16 14:39:19,363: INFO/MainProcess] Task update[d18cde9c-4069-4a2e-aeee-6bf5d6e22de4] received
+[2022-05-16 14:39:19,365: WARNING/ForkPoolWorker-7] INITIAL 100
+[2022-05-16 14:39:19,367: INFO/ForkPoolWorker-7] Task update[d18cde9c-4069-4a2e-aeee-6bf5d6e22de4] succeeded in 0.0020964900013495935s: None
+[2022-05-16 14:44:19,367: INFO/MainProcess] Task update[ab0980e6-486b-4b5d-ae49-ec4c8619dd04] received
+[2022-05-16 14:44:19,368: WARNING/ForkPoolWorker-7] INITIAL 100
+[2022-05-16 14:44:19,370: INFO/ForkPoolWorker-7] Task update[ab0980e6-486b-4b5d-ae49-ec4c8619dd04] succeeded in 0.002107577000060701s: None
+[2022-05-16 14:49:19,458: INFO/MainProcess] Task update[88a27abc-84fd-4cfa-bd2b-83e60f86f7c2] received
+[2022-05-16 14:49:19,460: WARNING/ForkPoolWorker-7] INITIAL 100
+[2022-05-16 14:49:19,462: INFO/ForkPoolWorker-7] Task update[88a27abc-84fd-4cfa-bd2b-83e60f86f7c2] succeeded in 0.0021707570012949873s: None
+[2022-05-16 14:54:19,545: INFO/MainProcess] Task update[7166b8bc-0a3b-4d53-9121-d6cc043e338f] received
+[2022-05-16 14:54:19,547: WARNING/ForkPoolWorker-7] INITIAL 100
+[2022-05-16 14:54:19,548: INFO/ForkPoolWorker-7] Task update[7166b8bc-0a3b-4d53-9121-d6cc043e338f] succeeded in 0.001989323000088916s: None
+[2022-05-16 14:59:19,633: INFO/MainProcess] Task update[da3dccd5-bcf1-4377-96dd-e8d811926ed3] received
+[2022-05-16 14:59:19,635: WARNING/ForkPoolWorker-7] INITIAL 100
+[2022-05-16 14:59:19,637: INFO/ForkPoolWorker-7] Task update[da3dccd5-bcf1-4377-96dd-e8d811926ed3] succeeded in 0.0016203509985643905s: None
+[2022-05-16 15:04:19,634: INFO/MainProcess] Task update[d0fa064e-fd3f-4fb4-9f16-de5a7da9d876] received
+[2022-05-16 15:04:19,636: WARNING/ForkPoolWorker-7] INITIAL 100
+[2022-05-16 15:04:19,638: INFO/ForkPoolWorker-7] Task update[d0fa064e-fd3f-4fb4-9f16-de5a7da9d876] succeeded in 0.0020916070006933296s: None
+[2022-05-16 15:09:19,723: INFO/MainProcess] Task update[df80872d-fff1-4f9e-9723-970a7c6eed26] received
+[2022-05-16 15:09:19,724: WARNING/ForkPoolWorker-7] INITIAL 100
+[2022-05-16 15:09:19,726: INFO/ForkPoolWorker-7] Task update[df80872d-fff1-4f9e-9723-970a7c6eed26] succeeded in 0.0021771400006400654s: None
+[2022-05-16 15:14:19,813: INFO/MainProcess] Task update[faad71a8-b55a-45e7-9c4f-c78535b6f0f4] received
+[2022-05-16 15:14:19,814: WARNING/ForkPoolWorker-7] INITIAL 100
+[2022-05-16 15:14:19,815: INFO/ForkPoolWorker-7] Task update[faad71a8-b55a-45e7-9c4f-c78535b6f0f4] succeeded in 0.001115244000175153s: None
+[2022-05-16 15:19:19,901: INFO/MainProcess] Task update[af8902bb-9831-4863-884b-36fda513d1b6] received
+[2022-05-16 15:19:19,902: WARNING/ForkPoolWorker-7] INITIAL 100
+[2022-05-16 15:19:19,903: INFO/ForkPoolWorker-7] Task update[af8902bb-9831-4863-884b-36fda513d1b6] succeeded in 0.0017833509991760366s: None
+[2022-05-16 15:24:19,995: INFO/MainProcess] Task update[b79286a2-0db1-4ae9-922b-7fb0fc828625] received
+[2022-05-16 15:24:19,996: WARNING/ForkPoolWorker-7] INITIAL 100
+[2022-05-16 15:24:19,997: INFO/ForkPoolWorker-7] Task update[b79286a2-0db1-4ae9-922b-7fb0fc828625] succeeded in 0.001359501000479213s: None
+[2022-05-16 15:29:20,083: INFO/MainProcess] Task update[e4f44b34-60d5-40b1-b1d9-ec68cd8d46b1] received
+[2022-05-16 15:29:20,084: WARNING/ForkPoolWorker-7] INITIAL 100
+[2022-05-16 15:29:20,085: INFO/ForkPoolWorker-7] Task update[e4f44b34-60d5-40b1-b1d9-ec68cd8d46b1] succeeded in 0.0012596630003827158s: None
+[2022-05-16 15:34:20,177: INFO/MainProcess] Task update[bd3a8e3e-7192-4a83-9f71-4f7c1e4cd2a8] received
+[2022-05-16 15:34:20,178: WARNING/ForkPoolWorker-7] INITIAL 100
+[2022-05-16 15:34:20,179: INFO/ForkPoolWorker-7] Task update[bd3a8e3e-7192-4a83-9f71-4f7c1e4cd2a8] succeeded in 0.0011669550003716722s: None
+[2022-05-16 15:39:20,262: INFO/MainProcess] Task update[17507674-08c6-40ba-8832-6207a018eb13] received
+[2022-05-16 15:39:20,263: WARNING/ForkPoolWorker-7] INITIAL 100
+[2022-05-16 15:39:20,265: INFO/ForkPoolWorker-7] Task update[17507674-08c6-40ba-8832-6207a018eb13] succeeded in 0.001729641000565607s: None
+[2022-05-16 15:44:20,340: INFO/MainProcess] Task update[9452f5ba-8d97-4371-9023-726da7377573] received
+[2022-05-16 15:44:20,342: WARNING/ForkPoolWorker-7] INITIAL 100
+[2022-05-16 15:44:20,343: INFO/ForkPoolWorker-7] Task update[9452f5ba-8d97-4371-9023-726da7377573] succeeded in 0.0019282690009276848s: None
+[2022-05-16 15:49:20,404: INFO/MainProcess] Task update[37d274c4-316d-4516-8edc-edc7753eb622] received
+[2022-05-16 15:49:20,405: WARNING/ForkPoolWorker-7] INITIAL 100
+[2022-05-16 15:49:20,407: INFO/ForkPoolWorker-7] Task update[37d274c4-316d-4516-8edc-edc7753eb622] succeeded in 0.0021255339997878764s: None
