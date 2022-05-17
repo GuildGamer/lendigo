@@ -15,6 +15,9 @@
 **INSTALL REQUIREMENTS:**
 pip install -r requirements.txt
 
+*OTHER DEPENDENCIES:*
+- Redis
+
 **TO START SERVER:**
 chmod a+x start.sh
 bash start.sh
