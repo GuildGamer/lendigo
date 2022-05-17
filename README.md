@@ -2,6 +2,8 @@
 
 *Lendigo backend api for*:
 - retrieving the most recent news using [HackerNews](https://news.ycombinator.com/) API
+- creating your own news Item and saving to database
+- searching(by type) the database for news items
 
 *Documentation*:
 - [Documetation](https://documenter.getpostman.com/view/16607098/UyxgJo8n)
